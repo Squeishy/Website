@@ -1,0 +1,59 @@
+#game-shelf {
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+}
+
+.game-container {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 250px;
+    min-height: 400px;
+    max-width: 250px;
+    max-height: 400px;
+}
+
+.game-container h3
+{
+    font-size: 24px;
+}
+
+.game-container p
+{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.game-container img {
+    aspect-ratio: 1/1;
+    width: 100%;
+    object-fit: cover;
+}
+
+.game-container button {
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: lime;
+    border: none;
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 375px;
+}
+
+.game-container button:active {
+    background-color: #1e1e1e;
+    color: whitesmoke;
+}

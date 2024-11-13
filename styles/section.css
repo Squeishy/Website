@@ -1,0 +1,119 @@
+/* Section */
+
+#main-presentation h1{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#main-presentation h2{
+    font-weight: bold;
+    font-family: "Bungee", serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2f2f2f;
+}
+
+h3
+{
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: "Bungee", serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#main-presentation {
+    margin-top: 150px;
+    background-color: #ffeeed;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-shadow: 
+        0 -1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25),
+        0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+#main-presentation p
+{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#main-presentation ul
+{
+    margin-top: 20px;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-presentation ul li a{
+    font-family: "Itim", cursive;
+    font-weight: 24;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+#my-games-tab, #myself-tab
+{
+    margin-top: 3%;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: flex-start; 
+    padding: 20px;
+    gap: 20px;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+#my-games-tab {
+    margin-left: 3%;
+}
+
+#myself-tab
+{
+    flex-direction: row-reverse;
+    margin-right: 3%;
+    margin-left: auto;
+}
+
+.text-content {
+    width: 60%;
+    color: black;
+}
+
+.text-content h1, .text-content h2 {
+    margin: 10px 0;
+}
+
+p{
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.text-content a {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: #141414;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+}
