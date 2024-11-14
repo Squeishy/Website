@@ -4,25 +4,17 @@
     padding-top: 10px;
     font-weight: bold;
     font-size: 50px;
-    font-family: "Bungee", serif;
-    font-weight: 400;
-    font-style: normal;
 }
 
 #main-presentation h2{
-    font-weight: bold;
-    font-family: "Bungee", serif;
-    font-weight: bold;
     font-size: 30px;
+    font-weight: bold;
     color: #2f2f2f;
 }
 
 h3
 {
     padding-top: 30px;
-    font-weight: bold;
-    font-family: "Bungee", serif;
-    font-weight: bold;
     font-size: 40px;
 }
 
@@ -39,9 +31,6 @@ h3
 
 #main-presentation p
 {
-    font-family: "Itim", cursive;
-    font-weight: 400;
-    font-style: normal;
     margin-top: 30px;
     font-size: 30px;
 }
@@ -56,9 +45,6 @@ h3
 }
 
 #main-presentation ul li a{
-    font-family: "Itim", cursive;
-    font-weight: 24;
-    font-style: normal;
     font-size: 30px;
     padding-bottom: 20px;
     display: block;
@@ -97,18 +83,12 @@ h3
     margin: 10px 0;
 }
 
-p{
-    font-family: "Itim", cursive;
-    font-weight: 400;
-    font-style: normal;
+p {
     font-size: 30px;
     margin-bottom: 50px;
 }
 
 .text-content a {
-    font-family: "Itim", cursive;
-    font-weight: 400;
-    font-style: normal;
     font-size: 24px;
     font-weight: bold;
     text-decoration: underline;

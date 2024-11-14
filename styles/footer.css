@@ -14,18 +14,12 @@ footer
 
 footer p
 {
-    font-family: "Bungee", serif;
-    font-weight: 400;
-    font-style: normal;
     color: whitesmoke;
     margin: 20px;
 }
 
 footer a
 {
-    font-family: "Itim", cursive;
-    font-weight: 400;
-    font-style: normal;
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 20px;
