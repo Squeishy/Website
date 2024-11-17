@@ -1,61 +1,106 @@
-.image-container{
-    
-    width: auto;
-    padding: 2rem;
-}
-
-.slider-wrapper{
-    position:relative;
-    max-width: 48rem;
-    margin: 0 auto;
-}
-
-.slider {
+.year-display {
+    margin-top: 50px;
     display: flex;
-    aspect-ratio: 16 / 9;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    border-radius: 1rem;
-    -webkit-overflow-scrolling: touch;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
 }
 
-.slider::-webkit-scrollbar {
-    display: none;
+.left-line, .right-line {
+    flex: 1;
+    height: 0px;
+    border-top: 8px dashed rgb(255, 255, 255);
 }
 
-.slider img{
-    flex: 1 0 100%;
-    scroll-snap-align: start;
-    object-fit: cover;
-    pointer-events: none;
+.year-display h3 {
+    flex: 0 0 20%;
+    text-align: center;
+    font-size: 40px; 
+    color: whitesmoke;
 }
 
-.slider-nav{
-    display: flex;
-    column-gap: 1rem;
-    position: absolute;
-    bottom: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1;
+.futur-projects-container
+{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
 }
 
-.slider-nav a{
-    width: 0.8rem;
-    height: 0.8rem;
-    border-radius: 50%;
-    background-color: #fff;
-    opacity: 0.5;
-    transition: opacity ease 250ms;
+.futur-project-container
+{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    z-index: 10;
 }
 
-.slider-nav a:hover{
+.hidden-info {
+    position: relative;
+    text-align: center;
+    background-color: rgb(222, 222, 222);
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 25px;
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.hidden-info.visible {
     opacity: 1;
+    height: auto;
+    margin-top: 20px;
 }
 
-.slider-nav a.active {
-    opacity: 1;
-    background-color: #fff;
+.futur-project-container h4
+{
+    padding-top: 15px;
+    margin: 15px;
+    color: black;
+    font-size: 50px;
+}
+
+.futur-projects-container h5
+{
+    padding-top: 15px;
+    margin: 15px;
+    color: #1e1e1e;
+    font-size: 36px;
+}
+
+.futur-projects-container p
+{
+    padding-bottom: 15px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.futur-projects-container img
+{
+    border-radius: 15px;
+    margin-bottom: 30px;
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
+.futur-projects-container button
+{
+    border-radius: 15px;
+    background-color: lime;
+    border: none;
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.futur-projects-container button:active {
+    background-color: #1e1e1e;
+    color: whitesmoke;
 }
