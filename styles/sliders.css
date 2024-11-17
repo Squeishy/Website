@@ -1,11 +1,13 @@
-.image-container{
-    
-    width: auto;
+.image-container {
+    flex: 1;
+    width: 100%;
     padding: 2rem;
+    box-sizing: border-box;
 }
 
-.slider-wrapper{
-    position:relative;
+.slider-wrapper {
+    position: relative;
+    width: 100%;
     max-width: 48rem;
     margin: 0 auto;
 }
@@ -19,6 +21,7 @@
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     border-radius: 1rem;
     -webkit-overflow-scrolling: touch;
+    width: 100%;
 }
 
 .slider::-webkit-scrollbar {

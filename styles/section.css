@@ -50,32 +50,31 @@
     display: block;
 }
 
-#my-games-tab, #myself-tab
+.info-tab-container {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;    /* Centers the content vertically */
+    flex-direction: column; /* Keeps the info tabs in a column layout */
+    margin-top: 20px;
+}
+
+.info-tab
 {
-    margin-top: 3%;
+    width: 100%;
+    margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.4);
-    width: 80%;
     border-radius: 20px;
     display: flex;
     align-items: flex-start; 
     padding: 20px;
-    gap: 20px;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-}
-
-#my-games-tab {
-    margin-left: 3%;
-}
-
-#myself-tab
-{
-    flex-direction: row-reverse;
-    margin-right: 3%;
-    margin-left: auto;
+    flex-wrap: wrap;
 }
 
 .text-content {
-    width: 60%;
+    flex: 1;
     color: black;
 }
 
