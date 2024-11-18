@@ -100,7 +100,8 @@
     margin-bottom: 15px;
 }
 
-.futur-projects-container button:active {
+.futur-projects-container button:hover {
     background-color: #1e1e1e;
     color: whitesmoke;
+    cursor: pointer;
 }

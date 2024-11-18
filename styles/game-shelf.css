@@ -2,11 +2,10 @@
     width: 90%;
     margin-left: 5%;
     padding-top: 25px;
-    display: flex;
-    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .game-container {
@@ -53,7 +52,8 @@
     margin-top: 375px;
 }
 
-.game-container button:active {
+.game-container button:hover {
     background-color: #1e1e1e;
     color: whitesmoke;
+    cursor: pointer;
 }

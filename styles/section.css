@@ -96,3 +96,8 @@ p {
     padding: 10px 10px;
     color: white;
 }
+
+.text-content a:hover{
+    background-color: white;
+    color: #141414;
+}

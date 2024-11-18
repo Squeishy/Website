@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <title>Website</title>
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/pastel-background.css">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/section.css">
     <link rel="stylesheet" href="styles/whats-next.css">
@@ -18,19 +18,50 @@
 <body>
     <header>
         <nav>
-            <a href="index.html">Home Page</a>
-            <a href="our-games.html">Our Games / Experiences</a>
-            <a class = "active" href="whats-next.html">What's next?</a>
-            <a href="">About Us</a>
-            <a href="">Contact Us</a>
+            <a href="index.html" title="Go to the home page">Home Page</a>
+            <a href="our-games.html" title="Explore our games and experiences">Our Games / Experiences</a>
+            <a class="active" href="whats-next.html" title="Learn about what's next">What's next?</a>
+            <a href="about-me.html" title="Find out more about me">About Me</a>
+            <a href="contact-me.html" title="Get in touch with me">Contact Me</a>
         </nav>
     </header> 
     <section>
         <!-- Welcome navigation -->
         <div id="main-presentation">
-            <h1>So, what will I make in the future ?</h1>
+            <h1>So, what will I create in the future?</h1>
         </div>
-        <!-- My games -->
+        <!-- Dashing Krew -->
+        <div class="year-display">
+            <div class="left-line"></div>
+            <h3>2025</h3>
+            <div class="right-line"></div>
+        </div>
+        <div class="futur-projects-container">
+            <div class="futur-project-container">
+                <h4>L'Usine Canard</h4>
+                <img src="dashing-krew.png" alt="Image of Dashing Krew">
+                <h5>Completion planned for 2025</h5>
+                <p>
+                    This company I will establish will manage all my games. Perhaps, in the distant future, I could start hiring people, maybe even you!
+                </p>
+                <button class="learn-more-button" data-target="more-about-canard">Learn more</button>
+            </div>
+            <div id="more-about-canard" class="hidden-info">
+                <h5>Why create a company?</h5>
+                <p>
+                    Well, to avoid tax issues, you need to inform the government about your earnings. That’s the main reason I’m creating this company. Additionally, it will help secure copyrights for my games, and who knows? Maybe, one day, it will grow to be as big as Nintendo (let’s be honest, it probably won’t, but it’s fun to dream)!
+                </p>
+                <h5>Is it hard to start?</h5>
+                <p>
+                    Not really, but also yes. The process itself isn’t difficult, but it takes a lot of time and patience, you have no idea!
+                </p>
+                <h5>Trivia</h5>
+                <p>
+                    Why "Ducky Factory"? Well, I have 132 rubber ducks in my room and love them. Plus, my biggest game is centered around a duck!
+                </p>
+            </div>
+        </div>
+        <!-- Dashing Krew -->
         <div class="year-display">
             <div class="left-line"></div>
             <h3>2026</h3>
@@ -39,38 +70,38 @@
         <div class="futur-projects-container">
             <div class="futur-project-container">
                 <h4>Dashing Krew</h4>
-                <img src="dashing-krew.png" alt="Image de Dashing Krew">
-                <h5>Release date : Around 2025 / 2026</h4>
+                <img src="dashing-krew.png" alt="Image of Dashing Krew">
+                <h5>Release Date: Around 2025/2026</h5>
                 <p>
-                    "Dashing Krew" is a game where a little alien has to find his way back to the mother ship using the abilities of the ufos of his friends, use them at your advantage to make your way through many dangers and, perhaps, go back home !
+                    "Dashing Krew" is a game where a little alien must find his way back to the mothership using the abilities of UFOs from his friends.
                 </p>
-                <button id="learn-more-button">Learn more</button>
+                <button class="learn-more-button" data-target="more-about-dashing-krew">Learn more</button>
             </div>
             <div id="more-about-dashing-krew" class="hidden-info">
-                <h5>For what platform?</h5>
+                <h5>Which platform?</h5>
                 <p>
-                    Unless Apple changes their price, I'll always be an android type of guy, so yeah it'll be out for android!
+                    Unless Apple lowers their prices, I’ll always be an Android kind of person. So yes, it’ll be released on Android!
                 </p>
                 <h5>Progress</h5>
                 <p>
-                    I'd say the game is about 15% done, I still need cutscene, musics, time, more level, more mecahnics, and so on, the list never ends!
+                    I’d say the game is about 15% complete. I still need to work on cutscenes, music, levels, mechanics, and so much more, the list never ends!
                 </p>
                 <h5>Trivia</h5>
                 <p>
-                    You may wonder why I spelled Crew with a "K", the reason behind this is actually because this games take inspiration from the barrels section from Donkey Kong Country Returns, where Donkey Kong needs to hop between barrels to reach the end, like in this game, and you may notice that both the initials of Donkey Kong and Dashing Krew are, welp, "DK".
+                    You might wonder why I spelled "Crew" with a "K." The reason is that this game is inspired by the barrel sections of Donkey Kong Country Returns, where Donkey Kong hops between barrels to progress. Like in this game! Also, both Donkey Kong and Dashing Krew share the initials "DK."
                 </p>
-                <img src="kenny-keny.png" alt="Image of Kenny from south park and an alien from Dashing-Krew">
+                <img src="kenny-keny.png" alt="Image of Kenny from South Park and an alien from Dashing Krew">
                 <p>
-                    You may also noticed that the aliens may look familiar, if you're thinking they look like Kenny from South Park, welp you'd be correct, because that's where I took the inspiration from! (I officialy call him Keny, with only one "n")
+                    You might also notice that the aliens look familiar. If you think they resemble Kenny from South Park, you’re absolutely right! That’s where I got the inspiration. (I officially call him Keny, with only one "n.")
                 </p>
                 <p>
-                    Also, this is not the first game they appear, they wern't 2d at the beginning, but 3D, and they were fighting in a game called HAW, or home appliance war, but I abandonned this project since then!
+                    Also, this isn’t the first game where they’ve appeared. They were initially 3D characters in a game called HAW (Home Appliance War), but I eventually abandoned that project.
                 </p>
             </div>
         </div>
     </section>
     <footer>
-        <p>Couldn't find what you wanted ? Perhaps it's here :</p>
+        <p>Couldn’t find what you were looking for? Maybe it’s here:</p>
         <a href="">Support</a>
         <a href="">Press/Media Kit</a>
     </footer>
