@@ -29,7 +29,7 @@ header nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: whitesmoke;
     text-decoration-line: none;
     text-transform: uppercase;
     padding: 10px 15px; /* Added consistent padding */
@@ -37,7 +37,7 @@ header nav a {
 }
 
 header nav a.active {
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 5px;
     color: #141414;
 }

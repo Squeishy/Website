@@ -9,7 +9,7 @@
 #main-presentation h2{
     font-size: 30px;
     font-weight: bold;
-    color: #2f2f2f;
+    color: #141414;
 }
 
 .text-content h3
@@ -20,7 +20,7 @@
 
 #main-presentation {
     margin-top: 150px;
-    background-color: #ffeeed;
+    background-color: whitesmoke;
     width: 100%;
     height: auto;
     text-align: center;
@@ -75,7 +75,7 @@
 
 .text-content {
     flex: 1;
-    color: black;
+    color: #141414;
 }
 
 .text-content h1, .text-content h2 {
@@ -94,10 +94,10 @@ p {
     background-color: #141414;
     border-radius: 5px;
     padding: 10px 10px;
-    color: white;
+    color: whitesmoke;
 }
 
 .text-content a:hover{
-    background-color: white;
+    background-color: whitesmoke;
     color: #141414;
 }

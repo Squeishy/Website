@@ -10,7 +10,7 @@
 .left-line, .right-line {
     flex: 1;
     height: 0px;
-    border-top: 8px dashed rgb(255, 255, 255);
+    border-top: 8px dashed whitesmoke;
 }
 
 .year-display h3 {
@@ -41,7 +41,7 @@
 .hidden-info {
     position: relative;
     text-align: center;
-    background-color: rgb(222, 222, 222);
+    background-color: whitesmoke;
     width: 90%;
     margin-left: 5%;
     border-radius: 25px;
@@ -62,7 +62,7 @@
 {
     padding-top: 15px;
     margin: 15px;
-    color: black;
+    color: #141414;
     font-size: 50px;
 }
 
@@ -70,7 +70,7 @@
 {
     padding-top: 15px;
     margin: 15px;
-    color: #1e1e1e;
+    color: #141414;
     font-size: 36px;
 }
 
@@ -101,7 +101,7 @@
 }
 
 .futur-projects-container button:hover {
-    background-color: #1e1e1e;
+    background-color: #141414;
     color: whitesmoke;
     cursor: pointer;
 }

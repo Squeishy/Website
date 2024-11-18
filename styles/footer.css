@@ -7,7 +7,7 @@ footer
     width: 100%;
     height: auto;
     background-color: #141414;
-    color: white;
+    color: whitesmoke;
     display: flex;
     flex-direction: column;
 }
@@ -29,6 +29,6 @@ footer a
 }
 
 footer a:hover{
-    color: white;
+    color: whitesmoke;
     text-decoration: underline;
 }
