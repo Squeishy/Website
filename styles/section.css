@@ -44,33 +44,55 @@
     justify-content: space-around;
 }
 
-#main-presentation ul li a{
+#main-presentation ul li a {
     font-size: 30px;
-    padding-bottom: 20px;
+    padding: 15px 20px;
     display: block;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    color: #141414;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
+#main-presentation ul li a:hover {
+    background: #141414;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+
 .info-tab-container {
-    width: 90%;
-    margin-left: 5%;
+    width: 80%;
+    margin-left: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;    /* Centers the content vertically */
-    flex-direction: column; /* Keeps the info tabs in a column layout */
+    align-items: center;
+    flex-direction: column;
     margin-top: 20px;
 }
 
 .info-tab
 {
     width: 100%;
-    margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
     border-radius: 20px;
     display: flex;
     align-items: flex-start; 
     padding: 20px;
     box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
     flex-wrap: wrap;
+    transition: all 0.3s ease;
+}
+
+.info-tab:hover {
+    transform: scale(1.05);
 }
 
 .text-content {
@@ -90,14 +112,18 @@ section p {
 .text-content a {
     font-size: 24px;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #141414;
-    border-radius: 5px;
-    padding: 10px 10px;
+    border-radius: 25px;
+    padding: 12px 20px;
     color: whitesmoke;
+    display: inline-block;
+    transition: all 0.3s ease;
 }
 
-.text-content a:hover{
-    background-color: whitesmoke;
+.text-content a:hover {
+    background-color: #ffffff;
     color: #141414;
+    transform: scale(1.05);
+    text-decoration: none;
 }

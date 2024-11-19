@@ -87,6 +87,7 @@ header nav a.active:hover {
 
     header nav {
         position: fixed;
+        margin-top: 75px;
         top: 0;
         left: -100%;
         width: 100%;
