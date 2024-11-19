@@ -2,7 +2,7 @@
 
 .press-kit-container {
     text-align: center;
-    margin-top: 5%;
+    margin-top: 50px;
     background-color: whitesmoke;
     width: 90%;
     margin-left: 5%;
@@ -11,7 +11,12 @@
     z-index: 10;
     text-align: left;
     padding-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
+}
+
+.press-kit-container a{
+    font-size: 24px;
 }
 
 .press-kit-container h2{
@@ -20,6 +25,90 @@
 }
 
 .press-kit-container h3{
+    margin-bottom: 20px;
     padding-top: 30px;
     font-size: 30px;
+}
+
+.color-info-container
+{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.color-info{
+    background-color: white;
+    border-radius: 25px;
+    width: 300px;
+    height: 200px;
+    box-shadow: 1rem 1.5rem 3rem -0.5rem hsla(0, 0%, 0%, 0.25);
+}
+
+.color-info h4{
+    font-size: 24px;
+    height: 50px;
+    padding: 20px;
+}
+
+.color-info .color-code{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-info .color-code p{
+    margin: 0;
+    padding: 10px;
+}
+
+.color-block{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+button
+{
+    border-radius: 15px;
+    background-color: lime;
+    border: none;
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #141414;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#ff9a9e{
+    background-color: #ff9a9e;
+}
+
+#fad0c4{
+    background-color: #fad0c4;
+}
+
+#a18cd1{
+    background-color: #a18cd1;
+}
+
+#whitesmoke{
+    background-color: #f5f5f5;
+}
+
+#chinese-black{
+    background-color: #141414;
+}
+
+#lime-button{
+    background-color: lime;
 }

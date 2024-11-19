@@ -68,6 +68,11 @@ iframe.fullscreen {
         0 0.1rem 0.5rem -0.2rem hsla(0, 0%, 0%, 0.5);
 }
 
+#game-presentation ul li button:hover {
+    cursor: pointer;
+    background-color: lime;
+}
+
 #game-presentation ul li button img {
     width: 80%;
     height: 80%;

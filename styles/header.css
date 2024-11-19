@@ -32,8 +32,8 @@ header nav a {
     color: whitesmoke;
     text-decoration-line: none;
     text-transform: uppercase;
-    padding: 10px 15px; /* Added consistent padding */
-    box-sizing: border-box; /* Ensures the padding doesn't change dimensions */
+    padding: 10px 15px; 
+    box-sizing: border-box
 }
 
 header nav a.active {
@@ -48,4 +48,27 @@ header nav a:hover {
 
 header nav a.active:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    header{
+        height: auto;
+    }
+
+    header nav 
+    {
+        flex-direction: column;
+        padding: 20px 0;
+        align-items: start;
+    }
+
+    header nav a:last-child {
+        border-bottom: none;
+    }
+
+    header nav a {
+        text-align: left;
+        margin: 20px;
+        justify-content: left;
+    }
 }
