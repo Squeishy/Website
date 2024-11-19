@@ -13,9 +13,9 @@ header
 
 header nav
 {
-    width: 90%;
+    width: 80%;
     height: 100%;
-    margin-left: 5%;
+    margin-left: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -50,16 +50,58 @@ header nav a.active:hover {
     text-decoration: underline;
 }
 
+#toggle-header {
+    display: none;
+    top: 15px;
+    left: 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#mobile-button-container{
+    display: none;
+    background-color: #141414;
+    height: 75px;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
 @media screen and (max-width: 768px) {
-    header{
-        height: auto;
+    #toggle-header {
+        z-index: 101;
+        display: block;
+        width: 75px;
     }
 
-    header nav 
-    {
+    #mobile-button-container{
+        display: flex;
+    }
+
+    header {
+        height: auto;
+        width: 100%;
+    }
+
+    header nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: auto;
+        background-color: #141414;
+        margin-left: 0%;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease-in-out;
+        z-index: 100;
         flex-direction: column;
-        padding: 20px 0;
-        align-items: start;
+        align-items: flex-start;
+    }
+
+    header nav.active {
+        transform: translateX(100%);
     }
 
     header nav a:last-child {
@@ -67,8 +109,9 @@ header nav a.active:hover {
     }
 
     header nav a {
-        text-align: left;
         margin: 20px;
+        width: 200px;
+        text-align: left;
         justify-content: left;
     }
 }

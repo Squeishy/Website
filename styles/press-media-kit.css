@@ -70,7 +70,7 @@
     border-radius: 15px;
 }
 
-button
+.color-info button
 {
     border-radius: 15px;
     background-color: lime;
@@ -83,7 +83,7 @@ button
     margin-top: 10px;
 }
 
-button:hover {
+.color-info button:hover {
     background-color: #141414;
     color: whitesmoke;
     cursor: pointer;
