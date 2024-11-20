@@ -41,6 +41,7 @@
     margin-left: 10%;
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -48,6 +49,7 @@
     font-size: 30px;
     padding: 15px 20px;
     display: block;
+    width: 200px;
     margin-bottom: 15px;
     border-radius: 25px;
     color: #141414;
@@ -65,7 +67,6 @@
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
 }
-
 
 .info-tab-container {
     width: 80%;

@@ -34,11 +34,13 @@
         <div id="main-presentation">
             <h1>Welcome!</h1>
             <h2>How can I make your day better?</h2>
-            <p>Tell me more about...</p>
+            <p>You want to learn more about...</p>
             
-            <ul>
-                <li><a href="#my-games-tab">Your Games</a></li>
-                <li><a href="#myself-tab">Yourself</a></li>
+            <ul id="navigation-links">
+                <li><a href="#my-games-tab">My games</a></li>
+                <li><a href="#whats-next-tab">What's next</a></li>
+                <li><a href="#myself-tab">Myself</a></li>
+                <li><a href="#contact-me-tab">Contact me</a></li>
             </ul>
         </div>
         <div class="info-tab-container">
@@ -65,6 +67,29 @@
                     <a href="our-games.html" title="Discover my games">Play now!</a>
                 </div>
             </div>
+            <!-- What's Next -->
+            <div class="info-tab" id="whats-next-tab">
+                <div class="image-container">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <img id = "whats-next-slide-1" src="images/dashing-krew.png" alt="Screenshot of Dashing Krew, a game with an alien being launched from one ufo to an other">
+                            <img id = "whats-next-slide-2" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "whats-next-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#whats-next-slide-1" data-slide="game-slide-1"></a>
+                            <a href="#whats-next-slide-2" data-slide="game-slide-2"></a>
+                            <a href="#whats-next-slide-3" data-slide="game-slide-3"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <h3>What's Next</h3>
+                    <br>
+                    <p>You liked my games and want more of them? Click the link down below if you want to have a sneak peak of all of my upcomming creation, have fun!</p>
+                    <a href="whats-next.html" title="Discover what's next">Take a look!</a>
+                </div>
+            </div>
             <!-- About me -->
             <div class="info-tab" id="myself-tab">
                 <div class="image-container">
@@ -87,6 +112,29 @@
                     <a href="about-me.html" title="Learn more about me">Learn more about me!</a>
                 </div>
             </div>
+            <!-- Contact Me -->
+            <div class="info-tab" id="contact-me-tab">
+                <div class="image-container">
+                    <div class="slider-wrapper">
+                        <div class="slider">
+                            <img id = "contact-me-slide-1" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "contact-me-slide-2" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                        </div>
+                        <div class="slider-nav">
+                            <a href="#contact-me-slide-1" data-slide="game-slide-1"></a>
+                            <a href="#contact-me-slide-2" data-slide="game-slide-2"></a>
+                            <a href="#contact-me-slide-3" data-slide="game-slide-3"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <h3>Contact me</h3>
+                    <br>
+                    <p>Do you want to share some of your ideas, or report a bug, or just give me suggestions or ask me question? you can do that by clicking the link down bellow</p>
+                    <a href="contact-me.html" title="Contact me">Contact me!</a>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
@@ -96,5 +144,6 @@
     </footer>
     <script src="scripts/slider.js"></script>
     <script src="scripts/toggle-header.js"></script>
+    <script src="scripts/scroll-down.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6, header nav a, footer p
     font-weight: bold;
 }
 
-p, a, li
+p, a, li, button
 {
     font-family: "Itim", cursive;
     font-weight: 400;
