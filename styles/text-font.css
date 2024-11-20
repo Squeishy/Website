@@ -10,3 +10,14 @@ p, a, li, button
     font-weight: 400;
     font-style: normal;
 }
+
+a{
+    position: relative;
+}
+
+a img{
+    margin-left: 5px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+}

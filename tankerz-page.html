@@ -17,8 +17,8 @@
 </head>
 <body>
     <header>
-        <div id = "mobile-button-container">
-            <button id="toggle-header" >☰</button>
+        <div id="mobile-button-container">
+            <button id="toggle-header">☰</button>
         </div>
         <nav>
             <a href="index.html" title="Go to the home page">Home Page</a>
@@ -31,7 +31,7 @@
     <section>
         <div id="game-presentation">
             <h1>Tankerz</h1>
-            <iframe src="https://squeishy.github.io/TankerzWebGame/"></iframe>
+            <div id="game-container"></div>
             <ul>
                 <li>
                     <button onclick="toggleFullscreen()">
@@ -39,6 +39,9 @@
                     </button>
                 </li>
             </ul>
+        </div>
+        <div id="phone-message" style="display:none;">
+            <p>Sorry, phone user! You need to be on a PC to play this game.</p>
         </div>
     </section>
     <footer>
@@ -48,5 +51,6 @@
     </footer>
     <script src="scripts/fullscreen.js"></script>
     <script src="scripts/toggle-header.js"></script>
+    <script src="scripts/hide-iframe-for-phone-user.js"></script>
 </body>
 </html>

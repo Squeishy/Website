@@ -71,3 +71,14 @@
     cursor: pointer;
     transform: scale(1.05);
 }
+
+.game-container button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    transition: all 0.3s ease;
+}
+
+.game-container button:hover img {
+    filter: invert(1);
+}
