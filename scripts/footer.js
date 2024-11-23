@@ -14,11 +14,18 @@ document.addEventListener('DOMContentLoaded', () => {
             footer.classList.remove('shown');
             footer.classList.add('hidden');
         }
+
+        // Always show footer if content is shorter than viewport
+        if (document.documentElement.scrollHeight <= window.innerHeight) {
+            footer.classList.remove('hidden');
+            footer.classList.add('shown');
+        }
     };
 
     // Initial check on page load
     updateFooterVisibility();
 
-    // Add scroll event listener
+    // Add event listeners for scroll and resize (to handle unzoom scenarios)
     document.addEventListener('scroll', updateFooterVisibility);
+    window.addEventListener('resize', updateFooterVisibility);
 });

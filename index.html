@@ -19,15 +19,28 @@
 <body>
     <header>
         <div id = "mobile-button-container">
-            <button id="toggle-header" >☰</button>
+            <button id="toggle-header">☰</button>
+            <button id="toggle-accessibility-mobile"><img src="images/accessibility.png" alt="accessibility icon"></button> <!-- Open and close accessibility-nav and eader-navigation-links-->
         </div>
         <nav>
-            <a class="active" href="index.html" title="Go to the home page">Home Page</a>
-            <a href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
-            <a href="whats-next.html" title="Learn about what's next">What's next?</a>
-            <a href="about-me.html" title="Find out more about me">About Me</a>
-            <a href="contact-me.html" title="Get in touch with me">Contact Me</a>
+            <div id="header-navigation-links">
+                <a class="active" href="index.html" title="Go to the home page">Home Page</a>
+                <a href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
+                <a href="whats-next.html" title="Learn about what's next">What's next?</a>
+                <a href="about-me.html" title="Find out more about me">About Me</a>
+                <a href="contact-me.html" title="Get in touch with me">Contact Me</a>
+            </div>
+            <div id="accessibility-nav">
+                <div id="general-settings">
+                    <p>General:</p>
+                </div>
+                <div id="text-settings">
+                    <p>Text:</p>
+                </div>
+                <h1>accessibility only works here so far, except the website to look a bit wacky</h1>
+            </div>
         </nav>
+        <button id="toggle-accessibility-pc"><img src="images/accessibility.png" alt="accessibility icon"></button> <!-- Open and close accessibility-nav and eader-navigation-links-->
     </header>
     <section>
         <!-- Welcome navigation -->
@@ -49,9 +62,9 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "game-slide-1" src="images/cock.png" alt="Screenshot of Ducky Tales, a game with a rubber ducky">
-                            <img id = "game-slide-2" src="images/cock.png" alt="Screenshot of Tankerz, showing a Tank">
-                            <img id = "game-slide-3" src="images/cock.png" alt="Screenshot of Spiral Maker, showing a Spiral">
+                            <img id = "game-slide-1" src="images/ducky-tales.png" alt="Screenshot of Ducky Tales, a game with a rubber ducky">
+                            <img id = "game-slide-2" src="images/tankerz.png" alt="Screenshot of Tankerz, showing a Tank">
+                            <img id = "game-slide-3" src="images/spiral-maker.png" alt="Screenshot of Spiral Maker, showing a Spiral">
                         </div>
                         <div class="slider-nav">
                             <a href="#game-slide-1" data-slide="game-slide-1"></a>
@@ -72,9 +85,9 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "whats-next-slide-1" src="images/cock.png" alt="Screenshot of Dashing Krew, a game with an alien being launched from one ufo to an other">
-                            <img id = "whats-next-slide-2" src="images/cock.png" alt="MISSING PLEASE REPLACE">
-                            <img id = "whats-next-slide-3" src="images/cock.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "whats-next-slide-1" src="images/dashing-krew.png" alt="Screenshot of Dashing Krew, a game with an alien being launched from one ufo to an other">
+                            <img id = "whats-next-slide-2" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "whats-next-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
                         </div>
                         <div class="slider-nav">
                             <a href="#whats-next-slide-1" data-slide="game-slide-1"></a>
@@ -95,8 +108,8 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "about-me-slide-1" src="images/cock.png" alt="Picture of I, Jordan Septier, in a red coat, at night, in a parking">
-                            <img id = "about-me-slide-2" src="images/cock.png" alt="Same picture but I'm looking on the right, go figure out why">
+                            <img id = "about-me-slide-1" src="images/photo1.png" alt="Picture of I, Jordan Septier, in a red coat, at night, in a parking">
+                            <img id = "about-me-slide-2" src="images/photo2.png" alt="Same picture but I'm looking on the right, go figure out why">
                         </div>
                         <div class="slider-nav">
                             <a href="#about-me-slide-1" data-slide="about-me-slide-1"></a>
@@ -117,9 +130,9 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "contact-me-slide-3" src="images/cock.png" alt="MISSING PLEASE REPLACE">
-                            <img id = "contact-me-slide-3" src="images/cock.png" alt="MISSING PLEASE REPLACE">
-                            <img id = "contact-me-slide-3" src="images/cock.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
                         </div>
                         <div class="slider-nav">
                             <a href="#contact-me-slide-1" data-slide="game-slide-1"></a>
@@ -144,6 +157,7 @@
     <script src="scripts/slider.js"></script>
     <script src="scripts/toggle-header.js"></script>
     <script src="scripts/scroll-down.js"></script>
+    <script src="scripts/show-accessibility.js"></script>
     <script src="scripts/footer.js"></script>
 </body>
 </html>
