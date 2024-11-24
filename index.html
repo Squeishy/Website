@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/section.css">
     <link rel="stylesheet" href="styles/sliders.css">
     <link rel="stylesheet" href="styles/text-font.css">
+    <link rel="stylesheet" id="disable-animations-stylesheet" href="styles/accessibility/disable-animations.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -52,8 +53,12 @@
                                 </label>
                             </div>
                         </div>
-                        <!-- Empty Setting -->
-                        <div class = "setting-tab"></div>
+                        <!-- Setting -->
+                        <div id="contrast-changer-area" class="setting-tab">
+                            <p class="setting-label">Contrast:</p>
+                            <input type="range" id="contrast-slider" min="100" max="300" value="100" step="10"><br>
+                            <span id="contrast-value">100</span>%
+                        </div>
                     </div>
                 </div>
                 <div id="text-settings-container">
@@ -62,7 +67,7 @@
                         <!-- Setting -->
                         <div id="text-size-changer-area" class="setting-tab">
                             <p class="setting-label">Text Size:</p>
-                            <input type="range" id="text-size-slider" min="10" max="50" value="24"><br>
+                            <input type="range" id="text-size-slider" min="20" max="28" value="24" step="2"><br>
                             <span id="text-size-value">24</span>px
                         </div>
                         <!-- Setting -->
@@ -75,13 +80,13 @@
                         <div id="character-spacing-changer-area" class = "setting-tab">
                             <p class="setting-label">Character spacing:</p>
                             <input type="range" id="line-spacing-slider" min="0" max="10" step="0.1" value="0"><br>
-                            <span id="character-spacing-value">0</span>
+                            <span id="character-spacing-value">0</span>px
                         </div>
                     </div>
                 </div>
             </div>                       
         </nav>
-        <button id="toggle-accessibility-pc"><img src="images/accessibility.png" alt="accessibility icon"></button> <!-- Open and close accessibility-nav and eader-navigation-links-->
+        <button id="toggle-accessibility-pc"><img src="images/accessibility.png" alt="accessibility icon"></button>
     </header>
     <section>
         <!-- Welcome navigation -->
@@ -171,8 +176,8 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
-                            <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "contact-me-slide-1" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id = "contact-me-slide-2" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
                             <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
                         </div>
                         <div class="slider-nav">
@@ -202,5 +207,8 @@
     <script src="scripts/accessibility/show-accessibility.js"></script>
     <script src="scripts/accessibility/change-font-size.js"></script>
     <script src="scripts/accessibility/change-letter-spacing.js"></script>
+    <script src="scripts/accessibility/change-font.js"></script>
+    <script src="scripts/accessibility/contrast.js"></script>
+    <script src="scripts/accessibility/cancel-animations.js"></script>
 </body>
 </html>
