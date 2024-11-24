@@ -12,22 +12,22 @@
 }
 
 #about-me-background h1{
-    padding-left: 2.5%;
-    padding-top: 20px;
-    margin-bottom: 20px;
-    font-size: 40px;
+    padding-left: 3%;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 2rem;
 }
 
 .comment{
     padding-top: 20px;
     padding-left: 20px !important;
     color: gray;
-    font-size: 20px !important;
+    font-size: 0.8rem !important;
 }
 
 #about-me-background p{
     width: 90%;
     padding-left: 5%;
-    font-size: 30px;
+    font-size: 1rem;
     margin-bottom: 30px;
 }

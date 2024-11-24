@@ -1,4 +1,11 @@
-h1, h2, h3, h4, h5, h6, header nav a, footer p
+html
+{
+    /* default value, now I need to use rem to modify all the text */
+    font-size: 24px;
+    letter-spacing: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, header nav a, footer p, .section-title
 {
     font-family: "Bungee", serif;
     font-weight: bold;

@@ -16,13 +16,13 @@
 #main-presentation h1{
     width: 90%;
     margin-left: 5%;
-    font-size: 50px;
+    font-size: 2rem;
 }
 
 .year-display h3 {
     flex: 0 0 30%;
     text-align: center;
-    font-size: 40px; 
+    font-size: 1.5rem; 
     color: whitesmoke;
 }
 
@@ -80,7 +80,7 @@
     padding-top: 15px;
     margin: 15px;
     color: #141414;
-    font-size: 50px;
+    font-size: 2rem;
 }
 
 .futur-projects-container h5
@@ -88,7 +88,7 @@
     padding-top: 15px;
     margin: 15px;
     color: #141414;
-    font-size: 36px;
+    font-size: 1.3rem;
 }
 
 .futur-projects-container p
@@ -116,7 +116,7 @@
     font-family: "Itim", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 1rem;
     margin-bottom: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;

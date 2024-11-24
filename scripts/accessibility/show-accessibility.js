@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const togglePCButton = document.getElementById("toggle-accessibility-pc");
 
     // Get the navigation elements
+    const header = document.querySelector("header");
     const headerNavLinks = document.getElementById("header-navigation-links");
     const accessibilityNav = document.getElementById("accessibility-nav");
 
@@ -14,13 +15,15 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to toggle the visibility of the navigation sections
     function toggleNavigation() {
         if (headerNavLinks.style.display === "flex") {
-            // Hide header navigation and show accessibility navigation
+            // Hide header navigation, show accessibility navigation, and expand header
             headerNavLinks.style.display = "none";
             accessibilityNav.style.display = "block";
+            header.classList.add("expand");
         } else {
-            // Hide accessibility navigation and show header navigation
+            // Hide accessibility navigation, show header navigation, and reset header height
             headerNavLinks.style.display = "flex";
             accessibilityNav.style.display = "none";
+            header.classList.remove("expand");
         }
     }
 
