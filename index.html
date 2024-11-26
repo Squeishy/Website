@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- HEAD -->
 <head>
-    <title>Website</title>
+    <title id="website-title">Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/pastel-background.css">
@@ -17,45 +18,51 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&family=Itim&display=swap" rel="stylesheet">
 </head>
+<!-- BODY -->
 <body>
     <header>
         <div id = "mobile-button-container">
-            <button id="toggle-header">☰</button>
-            <button id="toggle-accessibility-mobile"><img src="images/accessibility.png" alt="accessibility icon"></button> <!-- Open and close accessibility-nav and eader-navigation-links-->
+            <button id="toggle-header">
+                <img id="hamburger-icon" src="images/hamburger.png" alt="Menu icon">
+            </button>
+            <button id="toggle-accessibility-mobile">
+                <img id="accessibility-icon" src="images/accessibility.png" alt="Accessibility icon">
+            </button>
         </div>
         <nav>
             <div id="header-navigation-links">
-                <a class="active" href="index.html" title="Go to the home page">Home Page</a>
-                <a href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
-                <a href="whats-next.html" title="Learn about what's next">What's next?</a>
-                <a href="about-me.html" title="Find out more about me">About Me</a>
-                <a href="contact-me.html" title="Get in touch with me">Contact Me</a>
+                <a id="link-to-index" href="index.html" class="active" title="Go to the home page">Home Page</a>
+                <a id="link-to-my-games" href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
+                <a id="link-to-whats-next" href="whats-next.html" title="Learn about what's next">What's next?</a>
+                <a id="link-to-about-me" href="about-me.html" title="Find out more about me">About Me</a>
+                <a id="link-to-contact-me" href="contact-me.html" title="Get in touch with me">Contact Me</a>
             </div>
             <div id="accessibility-nav">
                 <div id="general-settings-container">
-                    <p class="section-title">General:</p>
+                    <p id="general-section-title" class="section-title">General:</p>
                     <div id="general-settings">
-                        <!-- Setting -->
+                        <!-- Language setting -->
                         <div id="language-changer-area" class = "setting-tab">
-                            <p class="setting-label">Language:</p>
+                            <p id="langage-setting-label" class="setting-label">Language :</p>
                             <select id="language-selector">
+                                <!-- Do not change the language name -->
                                 <option value="fr">Français</option>
                                 <option value="en">English</option>
                             </select>
                         </div>
-                        <!-- Setting -->
+                        <!-- Animation setting -->
                         <div id="animation-changer-area" class = "setting-tab">
-                            <p class="setting-label">Animation:</p>
+                            <p id="animation-setting-label" class="setting-label">Animations :</p>
                             <div class="toggle-container">
                                 <label for="animation-toggle">
                                     <input type="checkbox" id="animation-toggle">
-                                    Enable Animation
+                                    <div id="animation-toggle-label" class="checkbox-text">Enable Animations</div>
                                 </label>
                             </div>
                         </div>
-                        <!-- Setting -->
+                        <!-- Contrast setting -->
                         <div id="contrast-changer-area" class="setting-tab">
-                            <p class="setting-label">Contrast:</p>
+                            <p id="contrast-setting-label" class="setting-label">Contrast :</p>
                             <input type="range" id="contrast-slider" min="100" max="300" value="100" step="10"><br>
                             <span id="contrast-value">100</span>%
                         </div>
@@ -64,21 +71,21 @@
                 <div id="text-settings-container">
                     <p class="section-title">Text:</p>
                     <div id="text-settings">
-                        <!-- Setting -->
+                        <!-- Text size setting -->
                         <div id="text-size-changer-area" class="setting-tab">
-                            <p class="setting-label">Text Size:</p>
+                            <p id="text-size-setting-label" class="setting-label">Text Size:</p>
                             <input type="range" id="text-size-slider" min="20" max="28" value="24" step="2"><br>
                             <span id="text-size-value">24</span>px
                         </div>
-                        <!-- Setting -->
+                        <!-- Dislexia setting -->
                         <div id="text-font-changer-area" class = "setting-tab">
-                            <p class="setting-label">Dislexia font:</p>
+                            <p id="dislexia-setting-label" class="setting-label">Dislexia font:</p>
                             <input type="checkbox" id="dislexia-font-toggle">
-                            Enable Dislexia Font
+                            <div id="dislexia-toggle-label" class="checkbox-text">Enable Dislexia Font</div>
                         </div>
-                        <!-- Setting -->
+                        <!-- Character spacing setting -->
                         <div id="character-spacing-changer-area" class = "setting-tab">
-                            <p class="setting-label">Character spacing:</p>
+                            <p id="character-spacing-setting-label" class="setting-label">Character spacing :</p>
                             <input type="range" id="line-spacing-slider" min="0" max="10" step="0.1" value="0"><br>
                             <span id="character-spacing-value">0</span>px
                         </div>
@@ -167,7 +174,7 @@
                     <h3>Myself</h3>
                     <br>
                     <p>Hi! I'm Jordan! Since I was 14, my main hobby was to create games, and guess what! It still is! The only difference now is that YOU, the user, get the chance to play them! But this is not about my games, this is about me, so click on the link down below if you'd like to see how did I got here, and what to do if, like me, you love creating games!</p>
-                    <br><br>
+                    <br>
                     <a href="about-me.html" title="Learn more about me">Learn more about me!</a>
                 </div>
             </div>
@@ -198,7 +205,7 @@
     </section>
     <footer>
         <p>Couldn't find what you wanted? Perhaps it's here:</p>
-        <a href="press-media-kit.html">Press/Media Kit</a>
+        <a href="press-media-kit.html" title="Go to Press / Media Kit">Press/Media Kit</a>
     </footer>
     <script src="scripts/slider.js"></script>
     <script src="scripts/toggle-header.js"></script>
@@ -210,5 +217,6 @@
     <script src="scripts/accessibility/change-font.js"></script>
     <script src="scripts/accessibility/contrast.js"></script>
     <script src="scripts/accessibility/cancel-animations.js"></script>
+    <script src="scripts/accessibility/change-langage.js"></script>
 </body>
 </html>
