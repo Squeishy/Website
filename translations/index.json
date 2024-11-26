@@ -1,0 +1,52 @@
+{
+  "translations": {
+    "text": {
+      "welcome-text": { "en": "Welcome !", "fr": "Bienvenue !" },
+      "sub-welcome-text": { "en": "How can I make your day better ?", "fr": "Comment puis-je améliorer votre journée ?" },
+      "welcome-catch-text": { "en": "You want to learn more about...", "fr": "Vous voulez en savoir plus sur..." },
+      "welcome-section-my-games-link": { "en": "My games", "fr": "Mes jeux" },
+      "welcome-section-whats-next-link": { "en": "What's next", "fr": "Quoi de neuf" },
+      "welcome-section-myself-link": { "en": "Myself", "fr": "Moi-même" },
+      "welcome-section-contact-me-link": { "en": "Contact me", "fr": "Contactez-moi" },
+      "my-games-title": { "en": "My games", "fr": "Mes jeux" },
+      "my-games-description": { 
+        "en": "Want to be a tank ? Or play as a little cute duck ? What about creating a spiral using spiral maker ? The choice is yours my friend ! Click here to discover some of my finest creations !", 
+        "fr": "Vous voulez être un tank ? Ou jouer en tant qu'un petit canard tout mignon ? Ou même pourquoi pas créer votre spirale avec Spiral Maker ? Le choix vous revient de droit ! Cliquez ici pour découvrir mes plus belles créations !" 
+      },
+      "my-games-button": { "en": "Play now !", "fr": "Jouer maintenant !" },
+      "whats-next-title": { "en": "What's Next", "fr": "À venir" },
+      "whats-next-description": { 
+        "en": "You liked my games and want more of them ? Click the link down below if you want to have a sneak peak of all of my upcomming creation, have fun !", 
+        "fr": "Vous avez aimé mes jeux et vous en voulez plus ? Cliquez sur le lien ci-dessous pour avoir un aperçu de mes prochaines créations, amusez-vous bien !" 
+      },
+      "whats-next-button": { "en": "Take a look !", "fr": "Jetez un œil !" },
+      "myself-title": { "en": "Myself", "fr": "Moi-même" },
+      "myself-description": { 
+        "en": "Hi ! I'm Jordan ! Since I was 14, my main hobby was to create games, and guess what ! It still is ! The only difference now is that YOU, the user, get the chance to play them ! But this is not about my games, this is about me, so click on the link down below if you'd like to see how did I got here, and what to do if, like me, you love creating games !", 
+        "fr": "Salut ! Je suis Jordan ! Depuis mes 14 ans, mon passe-temps principal est de créer des jeux, et devinez quoi ? Ça l'est toujours ! La seule différence maintenant, c'est que VOUS, l'utilisateur, avez la chance d'y jouer ! Mais on est pas là pour parlez de mes jeux, alors cliquez sur le lien ci-dessous si vous voulez en savoir plus sur comment j'en suis arrivé à là et quoi faire si, comme moi, vous aimez créer des jeux !" 
+      },
+      "myself-button": { "en": "Learn more about me !", "fr": "En savoir plus sur moi !" },
+      "contact-me-title": { "en": "Contact me", "fr": "Contactez-moi" },
+      "contact-me-description": { 
+        "en": "Do you want to share some of your ideas, or report a bug, or just give me suggestions or ask me questions ? you can do that by clicking the link down below !", 
+        "fr": "Vous voulez partager certaines de vos idées, signaler un bug, ou simplement me donner des suggestions ou me poser des questions ? Vous pouvez le faire en cliquant sur le lien ci-dessous !" 
+      },
+      "contact-me-button": { "en": "Contact me !", "fr": "Contactez-moi !" }
+    },
+    "alt": {
+      "game-slider-1": { "en": "Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment", "fr": "Capture d'écran de Ducky Tales, montrant un canard en plastique dans un environnement de salle de bain" },
+      "game-slider-2": { "en": "Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights", "fr": "Capture d'écran de Tankerz, montrant un tank passant devant des soldats, dont un qui soulève des poids" },
+      "game-slider-3": { "en": "Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker", "fr": "Capture d'écran de Spiral Maker, montrant une spirale colorée créée avec Spiral Maker" },
+      "whats-next-slide-1": { "en": "Screenshot of Dashing Krew, showing an alien being thrown from one ufo to another", "fr": "Capture d'écran de Dashing Krew, montrant un alien lancé d'un ovni à un autre" },
+      "about-me-slide-1": { "en": "Picture of Jordan Septier (or me) facing the camera on a parking at night, wearing a red jacket, a hat and glasses", "fr": "Photo de Jordan Septier (moi) face à la caméra sur un parking la nuit, portant une veste rouge, un chapeau et des lunettes" },
+      "about-me-slide-2": { "en": "Picture of Jordan Septier (or me) looking on the right on a parking at night, wearing a red jacket, a hat and glasses", "fr": "Photo de Jordan Septier (moi) regardant à droite sur un parking la nuit, portant une veste rouge, un chapeau et des lunettes" },
+      "contact-me-slide-1": { "en": "MISSING PLEASE REPLACE", "fr": "MANQUANT, VEUILLEZ REMPLACER" }
+    },
+    "title": {
+      "my-games-button": { "en": "Discover my games", "fr": "Découvrez mes jeux" },
+      "whats-next-button": { "en": "Discover what's next", "fr": "Découvrez ce qui arrive" },
+      "myself-button": { "en": "Learn more about me !", "fr": "En savoir plus sur moi" },
+      "contact-me-button": { "en": "Contact me !", "fr": "Contactez-moi" }
+    }
+  }
+}

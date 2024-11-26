@@ -144,12 +144,16 @@ header nav #header-navigation-links a.active:hover {
 }
 
 .setting-tab {
-    margin: 5px;
+    margin: 4px;
     padding: 10px;
     flex: 1;
     background-color: black;
     border-radius: 15px;
     text-align: center;
+}
+
+.setting-tab > *{
+    margin-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {

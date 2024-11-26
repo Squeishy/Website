@@ -37,6 +37,43 @@ async function TranslateText(jsonFile, context = document) {
             });
         }
     } catch (error) {
-        console.error('Error loading or applying translations:', error);
+        console.error(`Error loading or applying translations for ${jsonFile}:`, error);
     }
 }
+
+async function TranslateAll(context = document) {
+    try {
+        const elements = context.querySelectorAll('[data-json]');
+        const languageSelector = context.querySelector('#language-selector');
+        if (!languageSelector) {
+            console.error('Language selector not found.');
+            return;
+        }
+        const selectedLanguage = languageSelector.value;
+
+        // Loop through all elements with data-json and fetch their respective JSON files
+        for (const element of elements) {
+            const jsonFile = element.getAttribute('data-json');
+            if (jsonFile) {
+                await TranslateText(jsonFile, context);
+            } else {
+                console.error('No JSON file specified in data-json attribute.');
+            }
+        }
+    } catch (error) {
+        console.error('Error translating all elements:', error);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    const languageSelector = document.querySelector('#language-selector');
+    if (languageSelector) {
+        languageSelector.addEventListener('change', () => {
+            TranslateAll();
+            console.log("Language changed to:", languageSelector.value);
+        });
+
+        // Load all translations on page load
+        TranslateAll();
+    }
+});

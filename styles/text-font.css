@@ -1,4 +1,5 @@
 /* Default styles */
+
 html {
     font-size: 24px;
     letter-spacing: 0px;
@@ -10,7 +11,7 @@ h1, h2, h3, h4, h5, h6, header nav a, footer p, .section-title {
     font-weight: bold;
 }
 
-p, a, li, button {
+p, a, li, button, span, select {
     font-family: "Itim", cursive;
     font-weight: 400;
     font-style: normal;
@@ -46,7 +47,9 @@ body.dyslexia-font footer p,
 body.dyslexia-font .section-title,
 body.dyslexia-font p, 
 body.dyslexia-font a, 
-body.dyslexia-font li, 
-body.dyslexia-font button {
+body.dyslexia-font li,
+body.dyslexia-font button,
+body.dyslexia-font select, 
+body.dyslexia-font span {
     font-family: 'OpenDyslexic', sans-serif !important;
 }

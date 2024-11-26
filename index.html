@@ -5,6 +5,7 @@
     <title id="website-title">Home Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/accessibility/inputs.css">
     <link rel="stylesheet" href="styles/pastel-background.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/footer.css">
@@ -15,8 +16,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&family=Itim&display=swap" rel="stylesheet">
+
 </head>
 <!-- BODY -->
 <body>
@@ -46,9 +47,14 @@
                             <p id="langage-setting-label" class="setting-label">Language :</p>
                             <select id="language-selector">
                                 <!-- Do not change the language name -->
-                                <option value="fr">Français</option>
                                 <option value="en">English</option>
+                                <option value="fr">Français</option>
                             </select>
+                            
+                            <!-- What json files are going to be used to translate the page -->
+                            <div data-json="/translations/header.json"></div>
+                            <div data-json="/translations/index.json"></div>
+                            <div data-json="/translations/footer.json"></div>
                         </div>
                         <!-- Animation setting -->
                         <div id="animation-changer-area" class = "setting-tab">
@@ -56,7 +62,7 @@
                             <div class="toggle-container">
                                 <label for="animation-toggle">
                                     <input type="checkbox" id="animation-toggle">
-                                    <div id="animation-toggle-label" class="checkbox-text">Enable Animations</div>
+                                    <span id="animation-toggle-label" class="checkbox-text">Enable Animations</span>
                                 </label>
                             </div>
                         </div>
@@ -64,30 +70,30 @@
                         <div id="contrast-changer-area" class="setting-tab">
                             <p id="contrast-setting-label" class="setting-label">Contrast :</p>
                             <input type="range" id="contrast-slider" min="100" max="300" value="100" step="10"><br>
-                            <span id="contrast-value">100</span>%
+                            <span id="contrast-value">100</span><span>%</span>
                         </div>
                     </div>
                 </div>
                 <div id="text-settings-container">
-                    <p class="section-title">Text:</p>
+                    <p id="text-section-title" class="section-title">Text:</p>
                     <div id="text-settings">
                         <!-- Text size setting -->
                         <div id="text-size-changer-area" class="setting-tab">
                             <p id="text-size-setting-label" class="setting-label">Text Size:</p>
-                            <input type="range" id="text-size-slider" min="20" max="28" value="24" step="2"><br>
-                            <span id="text-size-value">24</span>px
+                            <input type="range" id="text-size-slider" min="20" max="28" value="24" step="0.5"><br>
+                            <span id="text-size-value">24</span><span>px</span>
                         </div>
                         <!-- Dislexia setting -->
                         <div id="text-font-changer-area" class = "setting-tab">
                             <p id="dislexia-setting-label" class="setting-label">Dislexia font:</p>
                             <input type="checkbox" id="dislexia-font-toggle">
-                            <div id="dislexia-toggle-label" class="checkbox-text">Enable Dislexia Font</div>
+                            <span id="dislexia-toggle-label" class="checkbox-text">Enable Dislexia Font</span>
                         </div>
                         <!-- Character spacing setting -->
                         <div id="character-spacing-changer-area" class = "setting-tab">
                             <p id="character-spacing-setting-label" class="setting-label">Character spacing :</p>
                             <input type="range" id="line-spacing-slider" min="0" max="10" step="0.1" value="0"><br>
-                            <span id="character-spacing-value">0</span>px
+                            <span id="character-spacing-value">0</span><span>px</span>
                         </div>
                     </div>
                 </div>
@@ -98,15 +104,15 @@
     <section>
         <!-- Welcome navigation -->
         <div id="main-presentation">
-            <h1>Welcome!</h1>
-            <h2>How can I make your day better?</h2>
-            <p>You want to learn more about...</p>
+            <h1 id="welcome-text">Welcome !</h1>
+            <h2 id="sub-welcome-text">How can I make your day better ?</h2>
+            <p id="welcome-catch-text">You want to learn more about...</p>
             
             <ul id="navigation-links">
-                <li><a href="#my-games-tab">My games</a></li>
-                <li><a href="#whats-next-tab">What's next</a></li>
-                <li><a href="#myself-tab">Myself</a></li>
-                <li><a href="#contact-me-tab">Contact me</a></li>
+                <li><a id="welcome-section-my-games-link" href="#my-games-tab">My games</a></li>
+                <li><a id="welcome-section-whats-next-link" href="#whats-next-tab">What's next</a></li>
+                <li><a id="welcome-section-myself-link" href="#myself-tab">Myself</a></li>
+                <li><a id="welcome-section-contact-me-link" href="#contact-me-tab">Contact me</a></li>
             </ul>
         </div>
         <div class="info-tab-container">
@@ -115,9 +121,9 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "game-slide-1" src="images/ducky-tales.png" alt="Screenshot of Ducky Tales, a game with a rubber ducky">
-                            <img id = "game-slide-2" src="images/tankerz.png" alt="Screenshot of Tankerz, showing a Tank">
-                            <img id = "game-slide-3" src="images/spiral-maker.png" alt="Screenshot of Spiral Maker, showing a Spiral">
+                            <img id = "game-slide-1" src="images/ducky-tales.png" loading="lazy" alt="Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment">
+                            <img id = "game-slide-2" src="images/tankerz.png" loading="lazy" alt="Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights">
+                            <img id = "game-slide-3" src="images/spiral-maker.png" loading="lazy" alt="Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker">
                         </div>
                         <div class="slider-nav">
                             <a href="#game-slide-1" data-slide="game-slide-1"></a>
@@ -127,10 +133,10 @@
                     </div>
                 </div>
                 <div class="text-content">
-                    <h3>My games</h3>
+                    <h3 id="my-games-title">My games</h3>
                     <br>
-                    <p>Want to be a tank? Or play as a little cute duck? What about creating a spiral using spiral maker? The choice is yours my friend! Click here to discover some of our finest creation!</p>
-                    <a href="my-games.html" title="Discover my games">Play now!</a>
+                    <p id="my-games-description">Want to be a tank ? Or play as a little cute duck ? What about creating a spiral using spiral maker ? The choice is yours my friend ! Click here to discover some of my finest creation !</p>
+                    <a id="my-games-button" href="my-games.html" title="Discover my games">Play now !</a>
                 </div>
             </div>
             <!-- What's Next -->
@@ -138,22 +144,18 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "whats-next-slide-1" src="images/dashing-krew.png" alt="Screenshot of Dashing Krew, a game with an alien being launched from one ufo to an other">
-                            <img id = "whats-next-slide-2" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
-                            <img id = "whats-next-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id="whats-next-slide-1" src="images/dashing-krew.png" loading="lazy" alt="Screenshot of Dashing Krew, showing an alien being thrown from one ufo to another">
                         </div>
                         <div class="slider-nav">
                             <a href="#whats-next-slide-1" data-slide="game-slide-1"></a>
-                            <a href="#whats-next-slide-2" data-slide="game-slide-2"></a>
-                            <a href="#whats-next-slide-3" data-slide="game-slide-3"></a>
                         </div>
                     </div>
                 </div>
                 <div class="text-content">
-                    <h3>What's Next</h3>
+                    <h3 id="whats-next-title">What's Next</h3>
                     <br>
-                    <p>You liked my games and want more of them? Click the link down below if you want to have a sneak peak of all of my upcomming creation, have fun!</p>
-                    <a href="whats-next.html" title="Discover what's next">Take a look!</a>
+                    <p id="whats-next-description">You liked my games and want more of them ? Click the link down below if you want to have a sneak peak of all of my upcomming creation, have fun !</p>
+                    <a id="whats-next-button" href="whats-next.html" title="Discover what's next">Take a look !</a>
                 </div>
             </div>
             <!-- About me -->
@@ -161,8 +163,8 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "about-me-slide-1" src="images/photo1.png" alt="Picture of I, Jordan Septier, in a red coat, at night, in a parking">
-                            <img id = "about-me-slide-2" src="images/photo2.png" alt="Same picture but I'm looking on the right, go figure out why">
+                            <img id = "about-me-slide-1" src="images/photo1.png" loading="lazy" alt="Picture of Jordan Septier (or me) facing the camera on a parking at night, wearing a red jacket, a hat and glasses">
+                            <img id = "about-me-slide-2" src="images/photo2.png" loading="lazy" alt="Picture of Jordan Septier (or me) looking on the right on a parking at night, wearing a red jacket, a hat and glasses">
                         </div>
                         <div class="slider-nav">
                             <a href="#about-me-slide-1" data-slide="about-me-slide-1"></a>
@@ -171,11 +173,10 @@
                     </div>
                 </div>
                 <div class="text-content">
-                    <h3>Myself</h3>
+                    <h3 id="myself-title">Myself</h3>
                     <br>
-                    <p>Hi! I'm Jordan! Since I was 14, my main hobby was to create games, and guess what! It still is! The only difference now is that YOU, the user, get the chance to play them! But this is not about my games, this is about me, so click on the link down below if you'd like to see how did I got here, and what to do if, like me, you love creating games!</p>
-                    <br>
-                    <a href="about-me.html" title="Learn more about me">Learn more about me!</a>
+                    <p id="myself-description">Hi ! I'm Jordan ! Since I was 14, my main hobby was to create games, and guess what ! It still is ! The only difference now is that YOU, the user, get the chance to play them ! But this is not about my games, this is about me, so click on the link down below if you'd like to see how did I got here, and what to do if, like me, you love creating games !</p>
+                    <a id="myself-button" href="about-me.html" title="Learn more about me">Learn more about me !</a>
                 </div>
             </div>
             <!-- Contact Me -->
@@ -183,29 +184,25 @@
                 <div class="image-container">
                     <div class="slider-wrapper">
                         <div class="slider">
-                            <img id = "contact-me-slide-1" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
-                            <img id = "contact-me-slide-2" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
-                            <img id = "contact-me-slide-3" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                            <img id="contact-me-slide-1" src="images/MISSING.png" loading="lazy" alt="MISSING PLEASE REPLACE">
                         </div>
                         <div class="slider-nav">
                             <a href="#contact-me-slide-1" data-slide="game-slide-1"></a>
-                            <a href="#contact-me-slide-2" data-slide="game-slide-2"></a>
-                            <a href="#contact-me-slide-3" data-slide="game-slide-3"></a>
                         </div>
                     </div>
                 </div>
                 <div class="text-content">
-                    <h3>Contact me</h3>
+                    <h3 id="contact-me-title">Contact me</h3>
                     <br>
-                    <p>Do you want to share some of your ideas, or report a bug, or just give me suggestions or ask me question? you can do that by clicking the link down bellow!</p>
-                    <a href="contact-me.html" title="Contact me">Contact me!</a>
+                    <p id="contact-me-description">Do you want to share some of your ideas, or report a bug, or just give me suggestions or ask me questions ? you can do that by clicking the link down bellow !</p>
+                    <a id="contact-me-button" href="contact-me.html" title="Contact me">Contact me !</a>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-        <p>Couldn't find what you wanted? Perhaps it's here:</p>
-        <a href="press-media-kit.html" title="Go to Press / Media Kit">Press/Media Kit</a>
+        <p id="footer-help">Couldn't find what you wanted ? Perhaps it's here :</p>
+        <a id="link-to-press-media-kit" href="press-media-kit.html" title="Go to Press / Media Kit">Press / Media Kit</a>
     </footer>
     <script src="scripts/slider.js"></script>
     <script src="scripts/toggle-header.js"></script>

@@ -1,0 +1,13 @@
+{
+  "translations": {
+    "text": {
+      "footer-help": { "en": "Couldn't find what you wanted ? Perhaps it's here :", "fr": "Vous n'avez pas trouvé ce que vous cherchiez ? Peut-être que c'est ici :"},
+      "link-to-press-media-kit": { "en": "Press / Media Kit", "fr": "Dossier de presse"}
+    },
+    "alt": {
+    },
+    "title": {
+      "link-to-press-media-kit": { "en": "Go to Press / Media Kit", "fr": "Aller vers le dossier de presse"}
+    }
+  }
+}
