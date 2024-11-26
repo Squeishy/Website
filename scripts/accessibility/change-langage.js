@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const languageSelector = document.querySelector('#language-selector');
     if (languageSelector) {
         languageSelector.addEventListener('change', () => {
-            TranslateText('translations/header.json');
+            TranslateText('/translations/header.json');
         });
     }
 });
