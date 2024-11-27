@@ -24,10 +24,4 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("hide menu");
         }
     });
-
-    // Only add the 'active' class to open the menu, but do not remove it
-    accessibilityButton.addEventListener('click', () => {
-        nav.classList.add('active');
-        console.log("show menu from accessibility");
-    });
 });

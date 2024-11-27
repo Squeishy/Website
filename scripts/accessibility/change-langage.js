@@ -7,7 +7,6 @@ async function TranslateText(jsonFile, context = document) {
         const languageSelector = context.querySelector('#language-selector');
         const selectedLanguage = languageSelector.value;
 
-        // Safely update text content
         if (translations.text) {
             Object.keys(translations.text).forEach((key) => {
                 const element = context.querySelector(`#${key}`);
@@ -17,7 +16,6 @@ async function TranslateText(jsonFile, context = document) {
             });
         }
 
-        // Safely update alt attributes
         if (translations.alt) {
             Object.keys(translations.alt).forEach((key) => {
                 const element = context.querySelector(`#${key}`);
@@ -27,7 +25,6 @@ async function TranslateText(jsonFile, context = document) {
             });
         }
 
-        // Safely update title attributes
         if (translations.title) {
             Object.keys(translations.title).forEach((key) => {
                 const element = context.querySelector(`#${key}`);

@@ -5,20 +5,22 @@ document.addEventListener("DOMContentLoaded", function () {
     const nav = document.querySelector('header nav');
 
     const header = document.querySelector("header");
+    const headerNav = document.getElementById("header-navigation");
     const headerNavLinks = document.getElementById("header-navigation-links");
     const accessibilityNav = document.getElementById("accessibility-nav");
+    
 
     accessibilityNav.style.display = "none";
     headerNavLinks.style.display = "flex";
 
     function toggleNavigation() {
-        if (headerNavLinks.style.display === "flex") {
+        if (headerNavLinks.style.display === "flex" || headerNav.classList.contains("expand")) {
             headerNavLinks.style.display = "none";
             accessibilityNav.style.display = "block";
             header.classList.add("expand");
             console.log("show accessibility");
         }
-        else if(!header.classList.contains("expand"))
+        else
         {
             headerNavLinks.style.display = "flex";
             accessibilityNav.style.display = "none";
