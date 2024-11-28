@@ -2,7 +2,7 @@ async function TranslateText(jsonFile, context = document) {
     try {
         const response = await fetch(jsonFile);
         const data = await response.json();
-        const translations = data.translations; // Access the nested 'translations' object
+        const translations = data.translations;
 
         const languageSelector = context.querySelector('#language-selector');
         const selectedLanguage = languageSelector.value;
@@ -62,15 +62,34 @@ async function TranslateAll(context = document) {
     }
 }
 
+function detectDefaultLanguage() {
+    const savedLanguage = localStorage.getItem('selectedLanguage');
+    if (savedLanguage) return savedLanguage;
+
+    const browserLanguage = navigator.language || navigator.userLanguage;
+    console.log('Browser Language:', browserLanguage);
+
+    if (browserLanguage.toLowerCase().includes('fr')) return 'fr';
+    return 'en';
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const languageSelector = document.querySelector('#language-selector');
     if (languageSelector) {
-        languageSelector.addEventListener('change', () => {
-            TranslateAll();
-            console.log("Language changed to:", languageSelector.value);
-        });
+        // Restore language or detect the default on first visit
+        const initialLanguage = detectDefaultLanguage();
+        languageSelector.value = initialLanguage;
+        localStorage.setItem('selectedLanguage', initialLanguage);
 
         // Load all translations on page load
         TranslateAll();
+
+        // Save selected language on change and translate
+        languageSelector.addEventListener('change', () => {
+            const selectedLanguage = languageSelector.value;
+            localStorage.setItem('selectedLanguage', selectedLanguage);
+            TranslateAll();
+            console.log("Language changed to:", selectedLanguage);
+        });
     }
 });

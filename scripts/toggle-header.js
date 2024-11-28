@@ -7,21 +7,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const headerNavLinks = document.getElementById("header-navigation-links");
     const accessibilityNav = document.getElementById("accessibility-nav");
 
-    // Toggle the 'active' class for both opening and closing the menu
     toggleButton.addEventListener('click', () => {
         nav.classList.toggle('active');
 
+        // Reset the menu to open navigation
         if (nav.classList.contains('active')) {
-            console.log("show menu");
-
             headerNavLinks.style.display = "flex";
             accessibilityNav.style.display = "none";
             header.classList.remove("expand");
-            console.log("hide accessibility");
-        }
-        else
-        {
-            console.log("hide menu");
         }
     });
 });

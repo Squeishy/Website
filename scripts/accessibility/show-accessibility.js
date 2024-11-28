@@ -9,23 +9,31 @@ document.addEventListener("DOMContentLoaded", function () {
     const headerNavLinks = document.getElementById("header-navigation-links");
     const accessibilityNav = document.getElementById("accessibility-nav");
     
-
     accessibilityNav.style.display = "none";
     headerNavLinks.style.display = "flex";
 
     function toggleNavigation() {
-        if (headerNavLinks.style.display === "flex" || headerNav.classList.contains("expand")) {
+        // This make sure that if the menu is hidden and the last opened tab was accessibility, the menu to open is still the accessibility
+        if(!nav.classList.contains('active'))
+        {
+            nav.classList.add('active');
+            headerNavLinks.style.display = "flex";
+            accessibilityNav.style.display = "none";
+            header.classList.remove("expand");
+        }
+
+        // Pretty sure there is a way to optimize this but my website is behaving weirdly when I do, so I guess that I can let it like that xddd
+        if (headerNavLinks.style.display === "flex") {
+            
             headerNavLinks.style.display = "none";
             accessibilityNav.style.display = "block";
             header.classList.add("expand");
-            console.log("show accessibility");
         }
         else
         {
             headerNavLinks.style.display = "flex";
             accessibilityNav.style.display = "none";
             header.classList.remove("expand");
-            console.log("header has expand");
         }
     }
 

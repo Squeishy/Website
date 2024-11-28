@@ -10,24 +10,94 @@
     <link rel="stylesheet" href="styles/contact-me.css">
     <link rel="stylesheet" href="styles/text-font.css">
 
+    <!-- Accessibility -->
+    <link rel="stylesheet" href="styles/accessibility/inputs.css">
+    <link rel="stylesheet" id="disable-animations-stylesheet" href="styles/accessibility/disable-animations.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&family=Itim&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Header -->   
     <header>
         <div id = "mobile-button-container">
-            <button id="toggle-header" >☰</button>
+            <button id="toggle-header">
+                <img id="hamburger-icon" src="images/hamburger.png" alt="Menu icon">
+            </button>
+            <button id="toggle-accessibility-mobile">
+                <img id="accessibility-icon" src="images/accessibility.png" alt="Accessibility icon">
+            </button>
         </div>
-        <nav>
-            <a href="index.html" title="Go to the home page">Home Page</a>
-            <a href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
-            <a href="whats-next.html" title="Learn about what's next">What's next?</a>
-            <a href="about-me.html" title="Find out more about me">About Me</a>
-            <a class="active" href="contact-me.html" title="Get in touch with me">Contact Me</a>
+        <nav id="header-navigation">
+            <div id="header-navigation-links">
+                <a id="link-to-index" href="index.html" title="Go to the home page">Home Page</a>
+                <a id="link-to-my-games" href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
+                <a id="link-to-whats-next" href="whats-next.html" title="Learn about what's next">What's next?</a>
+                <a id="link-to-about-me" href="about-me.html" title="Find out more about me">About Me</a>
+                <a id="link-to-contact-me" href="contact-me.html" class="active" title="Get in touch with me">Contact Me</a>
+            </div>
+            <div id="accessibility-nav">
+                <div id="general-settings-container">
+                    <p id="general-section-title" class="section-title">General:</p>
+                    <div id="general-settings">
+                        <!-- Language setting -->
+                        <div id="language-changer-area" class = "setting-tab">
+                            <p id="langage-setting-label" class="setting-label">Language :</p>
+                            <select id="language-selector">
+                                <!-- Do not change the language name -->
+                                <option value="en">English</option>
+                                <option value="fr">Français</option>
+                            </select>
+                            
+                            <!-- What json files are going to be used to translate the page -->
+                            <div data-json="translations/header.json"></div>
+                            <div data-json="translations/footer.json"></div>
+                        </div>
+                        <!-- Animation setting -->
+                        <div id="animation-changer-area" class = "setting-tab">
+                            <p id="animation-setting-label" class="setting-label">Animations :</p>
+                            <div class="toggle-container">
+                                <label for="animation-toggle">
+                                    <input type="checkbox" id="animation-toggle">
+                                    <span id="animation-toggle-label" class="checkbox-text">Enable Animations</span>
+                                </label>
+                            </div>
+                        </div>
+                        <!-- Contrast setting -->
+                        <div id="contrast-changer-area" class="setting-tab">
+                            <p id="contrast-setting-label" class="setting-label">Contrast :</p>
+                            <input type="range" id="contrast-slider" min="100" max="300" value="100" step="10"><br>
+                            <span id="contrast-value">100</span><span>%</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="text-settings-container">
+                    <p id="text-section-title" class="section-title">Text:</p>
+                    <div id="text-settings">
+                        <!-- Text size setting -->
+                        <div id="text-size-changer-area" class="setting-tab">
+                            <p id="text-size-setting-label" class="setting-label">Text Size:</p>
+                            <input type="range" id="text-size-slider" min="20" max="28" value="24" step="0.5"><br>
+                            <span id="text-size-value">24</span><span>px</span>
+                        </div>
+                        <!-- Dislexia setting -->
+                        <div id="text-font-changer-area" class = "setting-tab">
+                            <p id="dislexia-setting-label" class="setting-label">Dislexia font:</p>
+                            <input type="checkbox" id="dislexia-font-toggle">
+                            <span id="dislexia-toggle-label" class="checkbox-text">Enable Dislexia Font</span>
+                        </div>
+                        <!-- Character spacing setting -->
+                        <div id="character-spacing-changer-area" class = "setting-tab">
+                            <p id="character-spacing-setting-label" class="setting-label">Character spacing :</p>
+                            <input type="range" id="line-spacing-slider" min="0" max="10" step="0.1" value="0"><br>
+                            <span id="character-spacing-value">0</span><span>px</span>
+                        </div>
+                    </div>
+                </div>
+            </div>                       
         </nav>
+        <button id="toggle-accessibility-pc"><img src="images/accessibility.png" alt="accessibility icon"></button>
     </header> 
     <!-- Section -->   
     <section>
@@ -48,7 +118,18 @@
         <p>Couldn't find what you wanted? Perhaps it's here:</p>
         <a href="press-media-kit.html">Press/Media Kit</a>
     </footer>
+
+    <!-- Script -->
     <script src="scripts/toggle-header.js"></script>
     <script src="scripts/footer.js"></script>
+
+    <!-- Accessibility -->
+    <script src="scripts/accessibility/show-accessibility.js"></script>
+    <script src="scripts/accessibility/change-font-size.js"></script>
+    <script src="scripts/accessibility/change-letter-spacing.js"></script>
+    <script src="scripts/accessibility/change-font.js"></script>
+    <script src="scripts/accessibility/contrast.js"></script>
+    <script src="scripts/accessibility/cancel-animations.js"></script>
+    <script src="scripts/accessibility/change-langage.js"></script>
 </body>
 </html>
