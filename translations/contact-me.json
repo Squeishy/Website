@@ -1,0 +1,18 @@
+{
+  "translations": {
+    "text": {
+      "contact-me-title": { "en": "Contact Me", "fr": "Me contacter"},
+      "contact-me-text": { "en": "Feel free to reach out using the details below. I'm here to help !", "fr": "N'hésitez pas à pas me contactez, je serais ravi de pouvoir vous aider !"},
+      "linkedin-text": { "en": "My LinkedIn : ", "fr": "Mon LinkedIn : "},
+      "email-text": { "en": "My email : ", "fr": "Mon email : "},
+      "address-text": { "en": "My address : ", "fr": "Mon adresse : "}
+    },
+    "alt": {
+
+    },
+    "title": {
+      "linkedin-link": { "en": "My LinkedIn", "fr": "Mon LinkedIn"},
+      "email-link": { "en": "My email", "fr": "Mon email"}
+    }
+  }
+}

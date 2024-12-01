@@ -52,6 +52,7 @@
                             
                             <!-- What json files are going to be used to translate the page -->
                             <div data-json="translations/header.json"></div>
+                            <div data-json="translations/contact-me.json"></div>
                             <div data-json="translations/footer.json"></div>
                         </div>
                         <!-- Animation setting -->
@@ -103,12 +104,12 @@
     <section>
         <div class="contact-me-background">
             <div class="element-container">
-                <h1>Contact Me</h1>
-                <h2>Feel free to reach out using the details below. I'm here to help!</h2>
+                <h1 id="contact-me-title">Contact Me</h1>
+                <h2 id="contact-me-text">Feel free to reach out using the details below. I'm here to help !</h2>
                 <ul class="contact-info">
-                    <li><strong>My LinkedIn : </strong> <a href="https://www.linkedin.com/in/jordan-septier-b2b409335/" title="My LinkedIn" target="_blank">LinkedIn<img src="images/new-tab.svg"></a></li>
-                    <li><strong>Email : </strong> <a href="mailto:septierjordan5@gmail.com" title="E-mail of Jordan" target="_blank">septierjordan5@gmail.com<img src="images/new-tab.svg"></a></li>
-                    <li><strong>Address : </strong> 2 Rue Gustave Eiffel, 10430 Rosières-prés-Troyes </li>
+                    <li><strong id="linkedin-text">My LinkedIn : </strong> <a id="linkedin-link" href="https://www.linkedin.com/in/jordan-septier-b2b409335/" title="My LinkedIn" target="_blank">LinkedIn<img src="images/new-tab.svg"></a></li>
+                    <li><strong id="email-text">My email : </strong> <a id="email-link" href="mailto:septierjordan5@gmail.com" title="My email" target="_blank">septierjordan5@gmail.com<img src="images/new-tab.svg"></a></li>
+                    <li><strong id="address-text">My address : </strong> 2 Rue Gustave Eiffel, 10430 Rosières-prés-Troyes </li>
                 </ul>
             </div>
         </div>
@@ -130,6 +131,6 @@
     <script src="scripts/accessibility/change-font.js"></script>
     <script src="scripts/accessibility/contrast.js"></script>
     <script src="scripts/accessibility/cancel-animations.js"></script>
-    <script src="scripts/accessibility/change-langage.js"></script>
+    <script src="scripts/accessibility/change-language.js"></script>
 </body>
 </html>

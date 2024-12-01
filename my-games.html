@@ -52,6 +52,7 @@
                             
                             <!-- What json files are going to be used to translate the page -->
                             <div data-json="translations/header.json"></div>
+                            <div data-json="translations/my-games.json"></div>
                             <div data-json="translations/footer.json"></div>
                         </div>
                         <!-- Animation setting -->
@@ -102,32 +103,40 @@
     <section>
         <!-- Welcome navigation -->
         <div id="main-presentation">
-            <h2>Have fun browsing my games!</h2>
+            <h2 id="welcome-text">Have fun browsing my games !</h2>
         </div>
         <div id="game-shelf">
             <div class="game-container">
-                <img src="images/ducky-tales.png">
+                <img id="ducky-tales-image" src="images/ducky-tales.png" alt="Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment">
                 <h3>Ducky Tales</h3>
-                <p>Play my cleanest adventures: Ducky Tales, and for free! Only for Android!</p>
-                <button onclick="window.open('https://play.google.com/store/games?device=windows&gl=FR&utm_source=emea_Med&utm_medium=hasem&utm_content=Oct2020&utm_campaign=Evergreen&pcampaignid=MKT-EDR-emea-fr-1707522-Med-hasem-py-Evergreen-Oct2020-Text_Search_BKWS%7CONSEM_kwid_43700008792247580&gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6ZtA2F-vXWn55R6Fj5uiR34AbwOxUDmqhpaRqr7lq7XIjGDMXAwzCW8aApRkEALw_wcB&gclsrc=aw.ds', '_blank')" type="button">Get for Android!<img src="images/new-tab.svg"></button>
+                <p id="ducky-tales-description">Play my cleanest adventures: Ducky Tales, and for free ! Only for Android !</p>
+                <button onclick="window.open('https://play.google.com/store/games?device=windows&gl=FR&utm_source=emea_Med&utm_medium=hasem&utm_content=Oct2020&utm_campaign=Evergreen&pcampaignid=MKT-EDR-emea-fr-1707522-Med-hasem-py-Evergreen-Oct2020-Text_Search_BKWS%7CONSEM_kwid_43700008792247580&gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6ZtA2F-vXWn55R6Fj5uiR34AbwOxUDmqhpaRqr7lq7XIjGDMXAwzCW8aApRkEALw_wcB&gclsrc=aw.ds', '_blank')" title="Go to Ducky Tales on the Play Store" type="button">
+                    <span id="ducky-tales-button-text">Get for Android !</span>
+                    <img src="images/new-tab.svg">
+                </button>
             </div>
             <div class="game-container">
-                <img src="images/tankerz.png">
+                <img id="tankerz-image" src="images/tankerz.png" alt="Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights">
                 <h3>Tankerz</h3>
-                <p>Play Tankerz on your PC! For free, right now!</p>
-                <button onclick="location.href='tankerz-page.html'" type="button">I wanna play!</button>
+                <p id="tankerz-description">Play Tankerz on your PC ! For free, right now !</p>
+                <button onclick="location.href='tankerz-page.html'" type="button" title="Opens Tankerz page">
+                    <span id="tankerz-button-text">I wanna play !</span>
+                </button>
             </div>
             <div class="game-container">
-                <img src="images/spiral-maker.png">
+                <img id="spiral-maker-image" src="images/spiral-maker.png" alt="Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker">
                 <h3>Spiral Maker</h3>
-                <p>Make nice-looking spirals for fun on your browser.</p>
-                <button onclick="window.open('https://squeishy.github.io/index.html', '_blank')" type="button">Get creative!<img src="images/new-tab.svg"></button>
+                <p id="spiral-maker-description">Make nice-looking spirals for fun in your browser.</p>
+                <button onclick="window.open('https://squeishy.github.io/index.html', '_blank')" title="Go to Spiral Maker" type="button">
+                    <span id="spiral-maker-button-text">Get creative !</span>
+                    <img src="images/new-tab.svg">
+                </button>
             </div>
         </div>
     </section>
     <footer>
-        <p>Couldn't find what you wanted? Perhaps it's here:</p>
-        <a href="press-media-kit.html">Press/Media Kit</a>
+        <p id="footer-help">Couldn't find what you wanted ? Perhaps it's here :</p>
+        <a id="link-to-press-media-kit" href="press-media-kit.html" title="Go to Press / Media Kit">Press / Media Kit</a>
     </footer>
 
     <!-- Script -->
@@ -141,6 +150,6 @@
     <script src="scripts/accessibility/change-font.js"></script>
     <script src="scripts/accessibility/contrast.js"></script>
     <script src="scripts/accessibility/cancel-animations.js"></script>
-    <script src="scripts/accessibility/change-langage.js"></script>
+    <script src="scripts/accessibility/change-language.js"></script>
 </body>
 </html>

@@ -1,0 +1,61 @@
+{
+  "translations": {
+    "text": {
+      "unsure-text": { "en": "(I wasn’t sure whether to use About Me or About Us since my company is just me, but... oh well, I’ll go with About Me.)", "fr": "(Je n’arrivais pas à me décider entre 'À propos de moi' ou 'À propos de nous' puisque mon entreprise, c’est juste moi, mais... tant pis, je vais opter pour 'À propos de moi')." },
+      "about-me-title": { "en": "About me", "fr": "À propos de moi" },
+      "myself-description": { 
+        "en": "So, hi! I’m Jordan, a French little dude that just entered the adult life, I love pretty much everything related to computers and technology in general.", 
+        "fr": "Salut ! Je suis Jordan, un petit français qui vient d'entrer dans la vie d’adulte, j’adore à peu près tout ce qui touche aux ordinateurs et à la technologie en général." 
+      },
+      "my-past-1": { 
+        "en": "Alright! So you want to know more about me, huh? Well, here’s my whole timeline (so far): When I was a little kid, I loved going on the computers at my school. I was terrible with them back then, but I absolutely loved programming on a little website called Scratch, that you can check out here: ", 
+        "fr": "Donc tu souhaites en savoir plus sur moi? Eh bien, voici ma timeline (jusqu’à présent) : Quand j'étais petit, j'adorais utiliser les ordinateurs à l'école. J'étais nul à l'époque, mais j'adorais programmer sur un petit site web appelé Scratch, que tu peux consulter ici : "
+      },
+      "my-past-2": { 
+        "en": "I kept goofing around with Scratch for a while, but at some point, I wanted to become a doctor. Despite that, I was already dabbling in Unity.", 
+        "fr": "J’ai continué à faire mumuse avec Scratch pendant un moment, mais à un moment donné, je voulais devenir médecin. Malgré cela, je m’intéressais déjà à Unity."
+      },
+      "my-past-3": { 
+        "en": "However, I quickly realized that biology was way too difficult for my not-so-scientific brain. So, I decided to pursue a programming course where I learned Python and a bit of HTML. At the same time, I started using Unity more seriously, and I fell in love with it.", 
+        "fr": "Cependant, j’ai rapidement réalisé que la biologie était bien trop difficile pour mon cerveau pas vraiment scientifique. Alors, j'ai décidé de suivre un cours de programmation où j’ai appris le Python et un peu de HTML. En parallèle, j'ai commencé à utiliser Unity plus sérieusement, et je suis tombé amoureux de cet outil."
+      },
+      "my-present": {
+        "en": "These days, I’m studying web development, focusing on everything related to the internet, such as design, websites, communication, and so on. I’ll be doing this for the next three years, but my ultimate goal is to join a video game school, which I plan to attend for around two years.",
+        "fr": "En ce moment, je fais des études en développement web, en me concentrant sur tout ce qui touche à Internet, comme le design, les sites web, la communication, etc. Je vais faire ça pendant les trois prochaines années, mais mon objectif ultime est de rejoindre une école de jeu vidéo, où je prévois de passer environ deux ans."
+      },
+      "my-plan": {
+        "en": "My Plan",
+        "fr": "Mes plans"
+      },
+      "my-futur": {
+        "en": "First, I want to be done with school and gain experience and work a bit on my company. After that, I’d like to join a big company like Microsoft or Ubisoft to learn even more. Once I’ve gained enough knowledge and experience, I’ll try to create my own game studio or just continue my company, that got the time to grow in the mean time, though I’m not sure yet how it will turn out.",
+        "fr": "Tout d’abord, je veux terminer mes études, acquérir de l’expérience et travailler un peu sur ma société. Ensuite, j’aimerais rejoindre une grande entreprise comme Microsoft ou Ubisoft pour apprendre encore plus. Une fois que j’aurai acquis suffisamment de connaissances et d’expérience, j’essayerai de créer mon propre studio de jeu vidéo ou simplement continuer ma société, qui aura eu le temps de grandir d’ici là, bien que je ne sois pas encore sûr de la direction que cela prendra."
+      },
+      "my-advice-title": {
+        "en": "My advice for aspiring Game Developers",
+        "fr": "Mon conseil pour les développeurs de jeux en herbe"
+      },
+      "my-advice-intro": {
+        "en": "If you want to create games like me, here’s my advice:",
+        "fr": "Si tu veux créer des jeux comme moi, voici mes conseils :"
+      },
+      "my-advice-1": {
+        "en": "- Work on projects outside of school. Show that you’re passionate about what you do! Trust me, it’ll make it so much easier to get into a good school.",
+        "fr": "- Travaille sur des projets en dehors de l’école. Montre que tu es passionné par ce que tu fais ! Crois-moi, ça te facilitera tellement l’entrée dans une bonne école."
+      },
+      "my-advice-2": {
+        "en": " - Don’t just focus on video games. Work on other areas that can help you grow. For example, I create YouTube videos from time to time, which helps me develop important skills like recording, scripting, video editing, writing, finding ideas, audio management, and more.",
+        "fr": " - Ne te concentre pas uniquement sur les jeux vidéo. Travaille aussi sur d’autres domaines qui peuvent t’aider à grandir. Par exemple, je crée de temps en temps des vidéos YouTube, ce qui m’aide à développer des compétences importantes comme l’enregistrement, l’écriture de scripts, le montage vidéo, l’écriture, la recherche d’idées, la gestion du son, et bien plus."
+      },
+      "my-advice-3": {
+        "en": "- Do what you love. I wanted to be a doctor at some point, but now that I look back, I realize it wasn’t for me (plus, I hate blood, so why did I even consider that ? Oh right, money of course !).",
+        "fr": " - Fais ce que tu aimes. J’ai voulu être médecin à un moment donné, mais maintenant que je regarde en arrière, je me rends compte que ce n’était pas pour moi (en plus, je déteste le sang, alors pourquoi j’ai même envisagé ça ? Ah oui, l’argent bien sûr !)"
+      }
+    },
+    "alt": {
+    },
+    "title": {
+      "scratch-link": { "en": "link to scratch", "fr": "lien vers Scratch" }
+    }
+  }
+}

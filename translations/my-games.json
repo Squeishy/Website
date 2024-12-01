@@ -1,0 +1,23 @@
+{
+  "translations": {
+    "text": {
+      "welcome-text": { "en": "Have fun browsing my games !", "fr": "Amusez-vous à découvrir mes jeux !" },
+      "ducky-tales-description": { "en": "Play my cleanest adventures: Ducky Tales, and for free ! Only for Android !", "fr": "Jouez à mes aventures les plus propres : Ducky Tales, et gratuitement ! Uniquement sur Android !" },
+      "ducky-tales-button-text": { "en": "Get for Android !", "fr": "Télécharger pour Android !" },
+      "tankerz-description": { "en": "Play Tankerz on your PC ! For free, right now !", "fr": "Jouez à Tankerz sur votre PC ! Gratuitement, dès maintenant !" },
+      "tankerz-button-text": { "en": "I wanna play !", "fr": "Je veux jouer !" },
+      "spiral-maker-description": { "en": "Make nice-looking spirals for fun in your browser.", "fr": "Créez de belles spirales pour le plaisir directement dans votre navigateur." },
+      "spiral-maker-button-text": { "en": "Get creative !", "fr": "Soyez créatif !" }
+    },
+    "alt": {
+      "ducky-tales-image": { "en": "Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment", "fr": "Capture d'écran de Ducky Tales, montrant un canard en plastique dans un environnement de salle de bain" },
+      "tankerz-image": { "en": "Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights", "fr": "Capture d'écran de Tankerz, montrant un tank passant devant des soldats, dont un qui soulève des poids" },
+      "spiral-maker-image": { "en": "Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker", "fr": "Capture d'écran de Spiral Maker, montrant une spirale colorée créée avec Spiral Maker" }
+    },
+    "title": {
+      "ducky-tales-button": { "en": "Go to Ducky Tales on the Play Store", "fr": "Accéder à Ducky Tales sur le Play Store" },
+      "tankerz-button": { "en": "Opens Tankerz page", "fr": "Ouvre la page Tankerz" },
+      "spiral-maker-button": { "en": "Go to Spiral Maker", "fr": "Accéder à Spiral Maker" }
+    }
+  }
+}

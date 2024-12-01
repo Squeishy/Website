@@ -34,9 +34,9 @@
       "contact-me-button": { "en": "Contact me !", "fr": "Contactez-moi !" }
     },
     "alt": {
-      "game-slider-1": { "en": "Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment", "fr": "Capture d'écran de Ducky Tales, montrant un canard en plastique dans un environnement de salle de bain" },
-      "game-slider-2": { "en": "Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights", "fr": "Capture d'écran de Tankerz, montrant un tank passant devant des soldats, dont un qui soulève des poids" },
-      "game-slider-3": { "en": "Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker", "fr": "Capture d'écran de Spiral Maker, montrant une spirale colorée créée avec Spiral Maker" },
+      "game-slide-1": { "en": "Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment", "fr": "Capture d'écran de Ducky Tales, montrant un canard en plastique dans un environnement de salle de bain" },
+      "game-slide-2": { "en": "Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights", "fr": "Capture d'écran de Tankerz, montrant un tank passant devant des soldats, dont un qui soulève des poids" },
+      "game-slide-3": { "en": "Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker", "fr": "Capture d'écran de Spiral Maker, montrant une spirale colorée créée avec Spiral Maker" },
       "whats-next-slide-1": { "en": "Screenshot of Dashing Krew, showing an alien being thrown from one ufo to another", "fr": "Capture d'écran de Dashing Krew, montrant un alien lancé d'un ovni à un autre" },
       "about-me-slide-1": { "en": "Picture of Jordan Septier (or me) facing the camera on a parking at night, wearing a red jacket, a hat and glasses", "fr": "Photo de Jordan Septier (moi) face à la caméra sur un parking la nuit, portant une veste rouge, un chapeau et des lunettes" },
       "about-me-slide-2": { "en": "Picture of Jordan Septier (or me) looking on the right on a parking at night, wearing a red jacket, a hat and glasses", "fr": "Photo de Jordan Septier (moi) regardant à droite sur un parking la nuit, portant une veste rouge, un chapeau et des lunettes" },

@@ -14,10 +14,9 @@
     padding: 15px;
     border-radius: 10px;
     min-width: 250px;
-    min-height: 420px;
     max-width: 250px;
-    max-height: 420px;
     transition: all 0.3s ease;
+    height: auto;
 }
 
 .game-container:hover {
@@ -32,10 +31,9 @@
 
 .game-container p
 {
-    height: 70px;
     margin-top: 15px;
     font-size: 0.8rem;
-    overflow: hidden;
+    margin-bottom: 100px;
 }
 
 .game-container img {
@@ -48,15 +46,10 @@
     position: absolute;
     width: 90%;
     left: 5%;
-    height: 40px;
+    height: 80px;
     border-radius: 25px;
     background-color: lime;
     border: none;
-    font-family: "Bungee", serif;
-    font-weight: 400;
-    font-size: 0.8rem;
-    color: #141414;
-    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,11 +58,22 @@
     transition: all 0.3s ease;
 }
 
+.game-container button span{
+    font-family: "Bungee", serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: #141414;
+    text-align: center;
+}
+
 .game-container button:hover {
     background-color: #1a1a1a;
-    color: whitesmoke;
     cursor: pointer;
     transform: scale(1.05);
+}
+
+.game-container button:hover span{
+    color: whitesmoke;
 }
 
 .game-container button img {

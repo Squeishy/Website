@@ -25,9 +25,10 @@
     font-size: 0.8rem !important;
 }
 
-#about-me-background p{
+#about-me-background p, #about-me-background a{
     width: 90%;
     padding-left: 5%;
     font-size: 1rem;
     margin-bottom: 30px;
+    display: block;
 }

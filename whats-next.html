@@ -52,6 +52,7 @@
                             
                             <!-- What json files are going to be used to translate the page -->
                             <div data-json="translations/header.json"></div>
+                            <div data-json="translations/whats-next.json"></div>
                             <div data-json="translations/footer.json"></div>
                         </div>
                         <!-- Animation setting -->
@@ -102,7 +103,7 @@
     <section>
         <!-- Welcome navigation -->
         <div id="main-presentation">
-            <h1>So, what will I create in the future?</h1>
+            <h1 id="title-what-next">So, what will I create in the future?</h1>
         </div>
         <!-- Dashing Krew -->
         <div class="year-display">
@@ -113,24 +114,24 @@
         <div class="futur-projects-container">
             <div class="futur-project-container">
                 <h4>L'Usine Canard</h4>
-                <img id = "whats-next-slide-2" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
-                <h5>Completion planned for 2025</h5>
-                <p>
+                <img id = "usine-canard-image" src="images/MISSING.png" alt="MISSING PLEASE REPLACE">
+                <h5 id="text-completion-2025">Completion planned for 2025</h5>
+                <p id="text-create-company">
                     This company I will establish will manage all my games. Perhaps, in the distant future, I could start hiring people, maybe even you!
                 </p>
-                <button class="learn-more-button" data-target="more-about-canard">Learn more</button>
+                <button id="button-learn-more-canard" class="learn-more-button" data-target="more-about-canard">Learn more</button>
             </div>
             <div id="more-about-canard" class="hidden-info">
-                <h5>Why create a company?</h5>
-                <p>
+                <h5 id="text-why-company">Why create a company?</h5>
+                <p id="text-tax-reason">
                     Well, to avoid tax issues, you need to inform the government about your earnings. That’s the main reason I’m creating this company. Additionally, it will help secure copyrights for my games, and who knows? Maybe, one day, it will grow to be as big as Nintendo (let’s be honest, it probably won’t, but it’s fun to dream)!
                 </p>
-                <h5>Is it hard to start?</h5>
+                <h5 id="text-hard-to-start">Is it hard to start?</h5>
                 <p>
                     Not really, but also yes. The process itself isn’t difficult, but it takes a lot of time and patience, you have no idea!
                 </p>
-                <h5>Trivia</h5>
-                <p>
+                <h5 id="text-canard-trivia">Trivia</h5>
+                <p id="text-trivia-canard">
                     Why "Ducky Factory"? Well, I have 132 rubber ducks in my room and love them. Plus, my biggest game is centered around a duck!
                 </p>
             </div>
@@ -144,39 +145,40 @@
         <div class="futur-projects-container">
             <div class="futur-project-container">
                 <h4>Dashing Krew</h4>
-                <img src="images/dashing-krew.png" alt="Screenshot of Dashing Krew, a game with an alien being launched from one ufo to an other">
-                <h5>Release Date: Around 2025/2026</h5>
-                <p>
+                <img id="alt-dashing-krew-image" src="images/dashing-krew.png" alt="Screenshot of Dashing Krew, a game with an alien being launched from one ufo to an other">
+                <h5 id="dashing-krew-release-date">Release Date: Around 2025/2026</h5>
+                <p id="text-dashing-krew-description">
                     "Dashing Krew" is a game where a little alien must find his way back to the mothership using the abilities of UFOs from his friends.
                 </p>
-                <button class="learn-more-button" data-target="more-about-dashing-krew">Learn more</button>
+                <button id="learn-more-button-dashing-krew" class="learn-more-button" data-target="more-about-dashing-krew">Learn more</button>
             </div>
             <div id="more-about-dashing-krew" class="hidden-info">
-                <h5>Which platform?</h5>
-                <p>
+                <h5 id="text-dashing-platform">Which platform?</h5>
+                <p id="text-android-preference">
                     Unless Apple lowers their prices, I’ll always be an Android kind of person. So yes, it’ll be released on Android!
                 </p>
-                <h5>Progress</h5>
-                <p>
+                <h5 id="text-dashing-progress">Progress</h5>
+                <p id="text-dashing-progress-details">
                     I’d say the game is about 15% complete. I still need to work on cutscenes, music, levels, mechanics, and so much more, the list never ends!
                 </p>
-                <h5>Trivia</h5>
-                <p>
+                <h5 id="text-dashing-trivia">Trivia</h5>
+                <p id="text-dashing-dk-inspiration">
                     You might wonder why I spelled "Crew" with a "K." The reason is that this game is inspired by the barrel sections of Donkey Kong Country Returns, where Donkey Kong hops between barrels to progress. Like in this game! Also, both Donkey Kong and Dashing Krew share the initials "DK."
                 </p>
-                <img src="images/kenny-keny.png" alt="Image of Kenny from South Park and an alien from Dashing Krew">
-                <p>
+                <img id="alt-kenny-image" src="images/kenny-keny.png" alt="Image of Kenny from South Park and an alien from Dashing Krew">
+                <p id="text-dashing-kenny">
                     You might also notice that the aliens look familiar. If you think they resemble Kenny from South Park, you’re absolutely right! That’s where I got the inspiration. (I officially call him Keny, with only one "n.")
                 </p>
-                <p>
-                    Also, this isn’t the first game where they’ve appeared. They were initially 3D characters in a game called HAW (Home Appliance War), but I eventually abandoned that project.
+                <p id="text-dashing-previous-game">
+                    This isn’t the first game where they’ve appeared. They were initially 3D characters in a game called HAW (Home Appliance War), but I eventually abandoned that project. Later, either for a school project or just for my own entertainment, I created EPIC SNOW FIGHTER 4K 60FPS DELUXE (I’m bad at naming things), which you can see below.
                 </p>
+                <img id="epic-snow-fighter-image" src="images/epic-snow-fighter.png" alt="Screenshot of EPIC SNOW FIGHTER 4K DELUXE, an arcade game (like tankerz) that I made, we can see 2 'keny' ready to throw snowballs">
             </div>
         </div>
     </section>
     <footer>
-        <p>Couldn't find what you wanted? Perhaps it's here:</p>
-        <a href="press-media-kit.html">Press/Media Kit</a>
+        <p id="footer-help">Couldn't find what you wanted ? Perhaps it's here :</p>
+        <a id="link-to-press-media-kit" href="press-media-kit.html" title="Go to Press / Media Kit">Press / Media Kit</a>
     </footer>
 
     <!-- Script -->
@@ -191,6 +193,6 @@
     <script src="scripts/accessibility/change-font.js"></script>
     <script src="scripts/accessibility/contrast.js"></script>
     <script src="scripts/accessibility/cancel-animations.js"></script>
-    <script src="scripts/accessibility/change-langage.js"></script>
+    <script src="scripts/accessibility/change-language.js"></script>
 </body>
 </html>
