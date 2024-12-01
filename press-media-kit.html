@@ -51,7 +51,7 @@
                             
                             <!-- What json files are going to be used to translate the page -->
                             <div data-json="translations/header.json"></div>
-                            <div data-json="translations/footer.json"></div>
+                            <div data-json="translations/press-media-kit.json"></div>
                         </div>
                         <!-- Animation setting -->
                         <div id="animation-changer-area" class = "setting-tab">
@@ -100,19 +100,19 @@
     </header> 
     <section>
         <div id="main-presentation">
-            <h1>Press Media Kit</h1>
+            <h1 id="page-title">Press Media Kit</h1>
         </div>
         <div class="press-kit-container">
-            <h2>Help yourself!</h2>
+            <h2 id="help-title">Help yourself !</h2>
             <!-- Ressources -->
-            <h3>Ressources</h3>
-            <p>You can access my game's logo, some sprites or images, and even music featured in my game by following this link:</p>
-            <a href="https://drive.google.com/drive/my-drive?hl=en">Google Drive<img src="images/new-tab.svg"></a>
+            <h3 id="ressources-title">Ressources</h3>
+            <p id="google-drive-info">You can access my game's logo, some sprites or images, and even music featured in my game by following this link :</p>
+            <a id="google-drive-link" target="_blank" href="https://drive.google.com/drive/folders/1a10ISqsN8Gcxg-CAN1_c1VxujOY3oi8q?usp=sharing" id="Open google drive">Google Drive<img src="images/new-tab.svg"></a>
             <!-- Colors -->
-            <h3>Colors:</h3>
+            <h3 id="color-title">Colors :</h3>
             <div class="color-info-container">
                 <div class = "color-info">
-                    <h4 class = "color-name">Background Color 1</h4>
+                    <h4 id="bg-color-title-1" class = "color-name">Background Color 1</h4>
                     <div class = "color-code">
                         <div class="color-block" id="ff9a9e"></div>
                         <p>#ff9a9e</p>
@@ -120,7 +120,7 @@
                     <button>Copy</button>
                 </div>
                 <div class = "color-info">
-                    <h4 class = "color-name">Background Color 2</h4>
+                    <h4 id="bg-color-title-2" class = "color-name">Background Color 2</h4>
                     <div class = "color-code">
                         <div class="color-block" id="fad0c4"></div>
                         <p>#fad0c4</p>
@@ -128,7 +128,7 @@
                     <button>Copy</button>
                 </div>
                 <div class = "color-info">
-                    <h4 class = "color-name">Background Color 3</h4>
+                    <h4 id="bg-color-title-3" class = "color-name">Background Color 3</h4>
                     <div class = "color-code">
                         <div class="color-block" id="a18cd1"></div>
                         <p>#a18cd1</p>
@@ -136,7 +136,7 @@
                     <button>Copy</button>
                 </div>
                 <div class = "color-info">
-                    <h4 class = "color-name">White (whitesmoke)</h4>
+                    <h4 id="bg-color-title-whitesmoke" class = "color-name">White (whitesmoke)</h4>
                     <div class = "color-code">
                         <div class="color-block" id="whitesmoke"></div>
                         <p>#f5f5f5</p>
@@ -144,7 +144,7 @@
                     <button>Copy</button>
                 </div>
                 <div class = "color-info">
-                    <h4 class = "color-name">Black (chineseblack)</h4>
+                    <h4 id="bg-color-title-chinese-black" class = "color-name">Black (chineseblack)</h4>
                     <div class = "color-code">
                         <div class="color-block" id="chinese-black"></div>
                         <p>#141414</p>
@@ -152,7 +152,7 @@
                     <button>Copy</button>
                 </div>
                 <div class = "color-info">
-                    <h4 class = "color-name">Button Lime</h4>
+                    <h4 id="bg-color-title-lime" class = "color-name">Button Lime</h4>
                     <div class = "color-code">
                         <div class="color-block" id="lime-button"></div>
                         <p>#00ff00</p>
@@ -174,6 +174,6 @@
     <script src="scripts/accessibility/change-font.js"></script>
     <script src="scripts/accessibility/contrast.js"></script>
     <script src="scripts/accessibility/cancel-animations.js"></script>
-    <script src="scripts/accessibility/change-langage.js"></script>
+    <script src="scripts/accessibility/change-language.js"></script>
 </body>
 </html>

@@ -1,0 +1,27 @@
+{
+  "translations": {
+    "text": {
+      "page-title": { "en": "Press Media Kit", "fr": "Dossier de presse"},
+      "help-title": { "en": "Help yourself !", "fr": "Fais toi plaisir !"},
+      "ressources-title": { "en": "Ressources", "fr": "Ressources"},
+      "google-drive-info": 
+      { 
+        "en": "You can access my game's logo, some sprites or images, and even music featured in my game by following this link :", 
+        "fr": "Tu peux retrouver les logos de mes jeux, des sprites ou des images, et même des musiques que j'ai fait en suivant ce lien :"
+      },
+      "color-title": { "en": "Colors :", "fr": "Couleurs :"},
+      "bg-color-title-1": { "en": "Background Color 1", "fr": "Couleur de fond 1"},
+      "bg-color-title-2": { "en": "Background Color 2", "fr": "Couleur de fond 2"},
+      "bg-color-title-3": { "en": "Background Color 3", "fr": "Couleur de fond 3"},
+      "bg-color-title-whitesmoke": { "en": "White (whitesmoke)", "fr": "Blanc (whitesmoke)"},
+      "bg-color-title-chinese-black": { "en": "Black (chineseblack)", "fr": "Noir (chineseblack)"},
+      "bg-color-title-lime": { "en": "Button Lime", "fr": "Bouton Vert"}
+    },
+    "alt": {
+      
+    },
+    "title": {
+      "google-drive-link": { "en": "Open Google Drive", "fr": "Ouvre Google Drive"}
+    }
+  }
+}
