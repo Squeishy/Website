@@ -1,0 +1,17 @@
+{
+  "translations": {
+    "text": {
+      "sorry-text": 
+      { 
+        "en": "Sorry, phone user ! You need to be on a PC to play this game.", 
+        "fr": "Désolé ! Vous devez être sur ordinateur pour jouer à ce jeu." 
+      }
+    },
+    "alt": {
+      "game-title": { "en": "Render of Tankerz' title", "fr": "" },
+      "expand-icon": { "en": "Expand", "fr": "" }
+    },
+    "title": {
+    }
+  }
+}

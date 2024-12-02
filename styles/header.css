@@ -38,7 +38,7 @@ header nav #header-navigation-links a {
     text-align: center;
     font-size: 1rem;
     height: 50px;
-    width: 160px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;

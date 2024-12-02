@@ -50,7 +50,8 @@
                             </select>
                             
                             <!-- What json files are going to be used to translate the page -->
-                            <div data-json="translations/header.json"></div>
+                            <div data-json="translations/header.json"></div>*
+                            <div data-json="translations/tankerz.json"></div>
                             <div data-json="translations/footer.json"></div>
                         </div>
                         <!-- Animation setting -->
@@ -99,19 +100,19 @@
         <button id="toggle-accessibility-pc"><img src="images/accessibility.png" alt="accessibility icon"></button>
     </header>  
     <section>
-        <img id="game-title" src="images/tankerz-title.png" alt="Render of Tankerz title">
+        <img id="game-title" src="images/tankerz-title.png" alt="Render of Tankerz' title">
         <div id="game-presentation">
             <div id="game-container"></div>
             <ul>
                 <li>
                     <button onclick="toggleFullscreen()">
-                        <img src="images/expand.svg" alt="Expand">
+                        <img id="expand-icon" src="images/expand.svg" alt="Expand">
                     </button>
                 </li>
             </ul>
         </div>
         <div id="phone-message">
-            <p>Sorry, phone user! You need to be on a PC to play this game.</p>
+            <p id="sorry-text">Sorry, phone user ! You need to be on a PC to play this game.</p>
         </div>
     </section>
     <footer>

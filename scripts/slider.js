@@ -16,9 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             slider.scrollLeft = targetImage.offsetLeft;
 
             // Update active link for the current slider
-            const sliderLinks = sliderWrapper.querySelectorAll('.slider-nav a');
-            sliderLinks.forEach(l => l.classList.remove("active"));
-            link.classList.add("active");
+            updateActiveLink(sliderWrapper, link);
         });
     });
 
@@ -30,4 +28,37 @@ document.addEventListener("DOMContentLoaded", function () {
             firstLink.classList.add("active");
         }
     });
+
+    // Listen for scroll events on each slider
+    sliders.forEach(slider => {
+        slider.addEventListener("scroll", () => {
+            const sliderWrapper = slider.closest('.slider-wrapper');
+            const images = slider.querySelectorAll("img");
+
+            let activeImageIndex = 0;
+            let minDifference = Infinity;
+
+            // Find the image closest to the current scroll position
+            images.forEach((image, index) => {
+                const difference = Math.abs(slider.scrollLeft - image.offsetLeft);
+                if (difference < minDifference) {
+                    minDifference = difference;
+                    activeImageIndex = index;
+                }
+            });
+
+            // Update the active link based on the closest image
+            const activeLink = sliderWrapper.querySelectorAll('.slider-nav a')[activeImageIndex];
+            updateActiveLink(sliderWrapper, activeLink);
+        });
+    });
+
+    // Function to update active link
+    function updateActiveLink(wrapper, newActiveLink) {
+        const sliderLinks = wrapper.querySelectorAll('.slider-nav a');
+        sliderLinks.forEach(link => link.classList.remove("active"));
+        if (newActiveLink) {
+            newActiveLink.classList.add("active");
+        }
+    }
 });
