@@ -35,18 +35,18 @@ header nav #header-navigation-links
 }
 
 header nav #header-navigation-links a {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     text-align: center;
     font-size: 24px !important;
     letter-spacing: 0px !important;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 70px;
     color: whitesmoke;
     text-decoration-line: none;
     text-transform: uppercase;
-    padding: 10px 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
     box-sizing: border-box
 }
 
@@ -157,7 +157,7 @@ header nav #header-navigation-links a.active:hover {
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     nav{
         overflow-y: scroll;
     }
@@ -212,8 +212,9 @@ header nav #header-navigation-links a.active:hover {
     }
 
     header nav #header-navigation-links a {
+        padding-left: 10px;
         margin: 20px;
-        width: 200px;
+        width: 220px;
         text-align: left;
         justify-content: left;
     }

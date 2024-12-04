@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /private/
+Disallow: /drafts/
+Disallow: /admin/
+Allow: /projects/          
+Allow: /creations/
+
+# Change https://www.yourwebsite.com with the futur website adress when it'll go live
+# Sitemap: https://www.yourwebsite.com/sitemap.xml

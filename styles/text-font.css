@@ -53,3 +53,9 @@ body.dyslexia-font select,
 body.dyslexia-font span {
     font-family: 'OpenDyslexic', sans-serif !important;
 }
+
+* {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}

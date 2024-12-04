@@ -1,3 +1,14 @@
+#main-presentation {
+    margin-top: 130px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-shadow: 
+        0 -1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25),
+        0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+
 #game-shelf {
     width: 90%;
     margin-left: 5%;
@@ -23,7 +34,7 @@
     transform: scale(1.05);
 }
 
-.game-container h3
+.game-container h2
 {
     margin-top: 10px;
     font-size: 1rem;
