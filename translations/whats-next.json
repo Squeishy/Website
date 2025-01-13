@@ -2,14 +2,6 @@
   "translations": {
     "text": {
       "title-what-next": { "en": "So, what will I create in the future?", "fr": "Alors, que vais-je créer à l'avenir ?"},
-      "text-completion-2025": { "en": "Completion planned for 2025", "fr": "Achèvement prévu pour 2025"},
-      "text-create-company": { "en": "This company I will establish will manage all my games. Perhaps, in the distant future, I could start hiring people, maybe even you!", "fr": "Cette entreprise que je vais créer gérera tous mes jeux. Peut-être, dans un futur lointain, je pourrais commencer à embaucher des gens, peut-être même toi !"},
-      "text-why-company": { "en": "Why create a company?", "fr": "Pourquoi créer une entreprise ?"},
-      "text-tax-reason": { "en": "Well, to avoid tax issues, you need to inform the government about your earnings. That’s the main reason I’m creating this company. Additionally, it will help secure copyrights for my games, and who knows? Maybe, one day, it will grow to be as big as Nintendo (let’s be honest, it probably won’t, but it’s fun to dream)!", "fr": "Eh bien, pour éviter les problèmes fiscaux, il faut informer le gouvernement de ses revenus. C’est la principale raison pour laquelle je crée cette entreprise. De plus, cela permettra de sécuriser les droits d'auteur de mes jeux, et qui sait ? Peut-être qu'un jour, elle deviendra aussi grande que Nintendo (soyons honnêtes, probablement pas, mais c'est amusant de rêver) !" },
-      "text-hard-to-start": { "en": "Is it hard to start?", "fr": "Est-ce difficile de commencer ?"},
-      "text-start-experience": { "en": "Not really, but also yes. The process itself isn’t difficult, but it takes a lot of time and patience, you have no idea!", "fr": "Pas vraiment, mais aussi oui. Le processus en lui-même n'est pas difficile, mais il demande beaucoup de temps et de patience, tu n'as pas idée !"},
-      "text-canard-trivia": { "en": "Trivia", "fr": "Anecdotes"},
-      "text-trivia-canard": { "en": "Why 'Ducky Factory'? Well, I have 132 rubber ducks in my room and love them. Plus, my biggest game is centered around a duck!", "fr": "Pourquoi 'Usine Canard' ? Eh bien, j'ai 132 canards en plastique dans ma chambre et je les adore. En plus, mon plus grand jeu est centré sur un canard !"},
       "dashing-krew-release-date": { "en": "Release Date : Around 2025/2026", "fr": "Date de sortie : Vers 2025/2026"},
       "text-dashing-krew-description": { "en": "'Dashing Krew' is a game where a little alien must find his way back to the mothership using the abilities of UFOs from his friends.", "fr": "'Dashing Krew' est un jeu où un petit alien doit retrouver son chemin vers le vaisseau-mère en utilisant les capacités des OVNIS de ses amis."},
       "text-dashing-platform": { "en": "Which platform?", "fr": "Quelle plateforme ?" },
@@ -22,14 +14,11 @@
       "text-dashing-previous-game": { "en": "This isn’t the first game where they’ve appeared. They were initially 3D characters in a game called HAW (Home Appliance War), but I eventually abandoned that project. Later, either for a school project or just for my own entertainment, I created EPIC SNOW FIGHTER 4K 60FPS DELUXE (I’m bad at naming things), which you can see below.", "fr": "Ce n’est pas le premier jeu où ils apparaissent. Ils étaient initialement des personnages 3D dans un jeu appelé HAW (Home Appliance War), mais j’ai finalement abandonné ce projet. Plus tard, que ce soit pour un projet scolaire ou simplement pour mon propre divertissement, j’ai créé EPIC SNOW FIGHTER 4K 60FPS DELUXE (je suis nul pour trouver des noms), que vous pouvez voir ci-dessous."}
     },
     "alt": {
-      "ducky-tales-image": { "en": "Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment", "fr": "Capture d'écran de Ducky Tales, montrant un canard en plastique dans un environnement de salle de bain" },
-      "usine-canard-image": { "en": "Picture of a technopole located in Troyes, France", "fr": "Photo de la technopole situé sur Troyes, en France"},
       "alt-dashing-krew-image": { "en": "Screenshot of Dashing Krew, a game with an alien being launched from one UFO to another", "fr": "Capture d'écran de Dashing Krew, un jeu où un alien est propulsé d'un OVNI à un autre" },
       "alt-kenny-image": { "en": "Image of Kenny from South Park and an alien from Dashing Krew", "fr": "Image de Kenny de South Park et d'un alien de Dashing Krew"},
       "epic-snow-fighter-image": { "en": "Screenshot of EPIC SNOW FIGHTER 4K DELUXE, an arcade game (like tankerz) that I made, we can see 2 'keny' ready to throw snowballs", "fr": "Capture d'écran de EPIC SNOW FIGHTER 4K DELUXE, un jeu d'arcade (comme Tankerz) que j'ai créé, où l'on peut voir 2 'keny' prêts à lancer des boules de neige."}
     },
     "title": {
-      "button-learn-more-canard": { "en": "Learn more", "fr": "En savoir plus"},
       "learn-more-button-dashing-krew": { "en": "Learn more", "fr": "En savoir plus"}
     }
   }
