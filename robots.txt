@@ -1,9 +1,19 @@
+# Allow all search engines to crawl the main pages
 User-agent: *
-Disallow: /private/
-Disallow: /drafts/
-Disallow: /admin/
-Allow: /projects/          
-Allow: /creations/
+Allow: /index.html
+Allow: /about-me.html
+Allow: /contact-me.html
+Allow: /my-games.html
+Allow: /press-media-kit.html
+Allow: /tankerz-page.html
+Allow: /whats-next.html
 
-# Change https://www.yourwebsite.com with the futur website adress when it'll go live
+# Disallow access to unnecessary directories
+Disallow: /fonts/
+Disallow: /scripts/
+Disallow: /styles/
+Disallow: /images/
+Disallow: /translations/
+
+# Optional: Add your sitemap URL here when your site is live
 # Sitemap: https://www.yourwebsite.com/sitemap.xml
