@@ -4,10 +4,10 @@
     <title>Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/pastel-background.css">
     <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/pastel-background.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/game-shelf.css">
+    <link rel="stylesheet" href="styles/game-iframe.css">
     <link rel="stylesheet" href="styles/text-font.css">
 
     <!-- Accessibility -->
@@ -31,7 +31,7 @@
         <nav id="header-navigation">
             <div id="header-navigation-links">
                 <a id="link-to-index" href="index.html" title="Go to the home page">Home Page</a>
-                <a id="link-to-my-games" href="my-games.html" class="active" title="Explore my games and experiences">My Games / Experiences</a>
+                <a id="link-to-my-games" href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
                 <a id="link-to-whats-next" href="whats-next.html" title="Learn about what's next">What's next?</a>
                 <a id="link-to-about-me" href="about-me.html" title="Find out more about me">About Me</a>
                 <a id="link-to-contact-me" href="contact-me.html" title="Get in touch with me">Contact Me</a>
@@ -51,7 +51,7 @@
                             
                             <!-- What json files are going to be used to translate the page -->
                             <div data-json="translations/header.json"></div>
-                            <div data-json="translations/my-games.json"></div>
+                            <div data-json="translations/tankerz.json"></div>
                             <div data-json="translations/footer.json"></div>
                         </div>
                         <!-- Animation setting -->
@@ -98,47 +98,23 @@
             </div>                       
         </nav>
         <button id="toggle-accessibility-pc"><img src="images/accessibility.png" alt="accessibility icon"></button>
-    </header>
+    </header>  
     <section>
-        <!-- Welcome navigation -->
-        <div id="main-presentation">
-            <h1 id="welcome-text">Have fun browsing my games !</h2>
+        <img id="game-title" src="images/tankerz-title.png" alt="Render of Tankerz' title">
+        <div id="game-presentation">
+            <div id="game-container">
+                
+            </div>
+            <ul>
+                <li>
+                    <button onclick="toggleFullscreen()">
+                        <img id="expand-icon" src="images/expand.svg" alt="Expand">
+                    </button>
+                </li>
+            </ul>
         </div>
-        <div id="game-shelf">
-            <div class="game-container">
-                <img id="ducky-tales-image" src="images/ducky-tales.png" alt="Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment">
-                <h2>Ducky Tales</h2>
-                <p id="ducky-tales-description">Play my cleanest adventures: Ducky Tales, and for free ! Only for Android !</p>
-                <button onclick="window.open('https://play.google.com/store/apps/details?id=com.LUsineCanard.DuckyTales', '_blank')" title="Go to Ducky Tales on the Play Store" type="button">
-                    <span id="ducky-tales-button-text">Get for Android !</span>
-                    <img src="images/new-tab.svg">
-                </button>
-            </div>
-            <div class="game-container">
-                <img id="tankerz-image" src="images/tankerz-thumbnail.png" alt="Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights">
-                <h2>Tankerz</h2>
-                <p id="tankerz-description">Play Tankerz on your PC ! For free, right now !</p>
-                <button onclick="location.href='tankerz-page.html'" type="button" title="Opens Tankerz page">
-                    <span id="tankerz-button-text">I wanna play !</span>
-                </button>
-            </div>
-            <div class="game-container">
-                <img id="xarius-image" src="images/xarius-thumbnail.png" alt="Screenshot of Xarius, showing 4 spaceships flying in space">
-                <h2>XARIUS</h2>
-                <p id="xarius-description">Challenge your friends in a galactic high speed race ! For free, right now !</p>
-                <button onclick="location.href='xarius-page.html'" type="button" title="Opens Tankerz page">
-                    <span id="xarius-button-text">I wanna play !</span>
-                </button>
-            </div>
-            <div class="game-container">
-                <img id="spiral-maker-image" src="images/spiral-maker.png" alt="Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker">
-                <h2>Spiral Maker</h2>
-                <p id="spiral-maker-description">Make nice-looking spirals for fun in your browser.</p>
-                <button onclick="window.open('https://squeishy.github.io/index.html', '_blank')" title="Go to Spiral Maker" type="button">
-                    <span id="spiral-maker-button-text">Get creative !</span>
-                    <img src="images/new-tab.svg">
-                </button>
-            </div>
+        <div id="phone-message">
+            <p id="sorry-text">Sorry, phone user ! You need to be on a PC to play this game.</p>
         </div>
     </section>
     <footer>
@@ -147,8 +123,10 @@
     </footer>
 
     <!-- Script -->
-    <script src="scripts/toggle-header.js"></script>
     <script src="scripts/footer.js"></script>
+    <script src="scripts/fullscreen.js"></script>
+    <script src="scripts/toggle-header.js"></script>
+    <script src="scripts/hide-iframe-for-phone-user.js"></script>
 
     <!-- Accessibility -->
     <script src="scripts/accessibility/show-accessibility.js"></script>

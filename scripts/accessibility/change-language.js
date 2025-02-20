@@ -48,7 +48,6 @@ async function TranslateAll(context = document) {
         }
         const selectedLanguage = languageSelector.value;
 
-        // Loop through all elements with data-json and fetch their respective JSON files
         for (const element of elements) {
             const jsonFile = element.getAttribute('data-json');
             if (jsonFile) {
