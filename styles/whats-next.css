@@ -9,7 +9,8 @@
 
 #main-presentation {
     margin-top: 150px;
-    background-color: whitesmoke;
+    padding: 15px 0 15px 0;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: auto;
     text-align: center;
