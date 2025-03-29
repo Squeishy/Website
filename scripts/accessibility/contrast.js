@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+function initializeContrast() {
     const contrastSlider = document.getElementById("contrast-slider");
     const contrastValue = document.getElementById("contrast-value");
     const htmlElement = document.documentElement;
@@ -31,4 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const contrast = contrastSlider.value;
         localStorage.setItem("contrastValue", contrast);
     });
-});
+}
+
+// Initialize immediately
+initializeContrast();

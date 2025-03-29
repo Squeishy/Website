@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+function initializeDyslexiaFont() {
     const toggle = document.getElementById("dislexia-font-toggle");
 
     if (!toggle) {
@@ -27,4 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
             localStorage.setItem("dyslexiaFontEnabled", "false");
         }
     });
-});
+}
+
+// Initialize immediately
+initializeDyslexiaFont();

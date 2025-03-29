@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+function initializeLetterSpacing() {
     const spacingSlider = document.getElementById("line-spacing-slider");
     const spacingValueDisplay = document.getElementById("character-spacing-value");
 
@@ -30,4 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const spacingValue = spacingSlider.value;
         localStorage.setItem("letterSpacing", spacingValue);
     });
-});
+}
+
+// Initialize immediately
+initializeLetterSpacing();

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/pastel-background.css">
+    <link rel="stylesheet" href="styles/trace.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/text-font.css">
+
+    <!-- Accessibility -->
+    <link rel="stylesheet" href="styles/accessibility/inputs.css">
+    <link rel="stylesheet" id="disable-animations-stylesheet" href="styles/accessibility/disable-animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&family=Itim&display=swap" rel="stylesheet">
+</head>
+<body> 
+    <section id="trace-background">
+        <h1>Trace</h1>
+        <div class="trace-section">
+            
+        </div>
+    </section>
+
+    <script>
+        // Fonction pour obtenir les paramètres de l'URL
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        // Fonction pour charger le contenu du projet
+        async function loadProjectContent() {
+            const projectId = getUrlParameter('project');
+            if (!projectId) {
+                console.error('No project specified');
+                return;
+            }
+
+            console.log(projectId);
+
+            try {
+                const response = await fetch(`portfolio-traces/${projectId}.html`);
+                if (!response.ok) {
+                    throw new Error('Project not found');
+                }
+                const content = await response.text();
+                const section = document.querySelector('section');
+                section.innerHTML = content;
+            } catch (error) {
+                console.error('Error loading project:', error);
+                document.getElementById('project-content').innerHTML = '<p>Error loading project content.</p>';
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', loadProjectContent);
+    </script>
+
+    <!--<script src="scripts/load-header.js"></script>
+    <script src="scripts/load-footer.js"></script>
+    <script src="scripts/load-after-elements.js"></script>-->
+
+</body>
+</html>

@@ -19,145 +19,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&family=Itim&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div id = "mobile-button-container">
-            <button id="toggle-header">
-                <img id="hamburger-icon" src="images/hamburger.png" alt="Menu icon">
-            </button>
-            <button id="toggle-accessibility-mobile">
-                <img id="accessibility-icon" src="images/accessibility.png" alt="Accessibility icon">
-            </button>
-        </div>
-        <nav id="header-navigation">
-            <div id="header-navigation-links">
-                <a id="link-to-index" href="index.html" title="Go to the home page">Home Page</a>
-                <a id="link-to-my-games" href="my-games.html" title="Explore my games and experiences">My Games / Experiences</a>
-                <a id="link-to-whats-next" href="whats-next.html" title="Learn about what's next">What's next?</a>
-                <a id="link-to-about-me" href="about-me.html" class="active" title="Find out more about me">About Me</a>
-                <a id="link-to-contact-me" href="contact-me.html" title="Get in touch with me">Contact Me</a>
-            </div>
-            <div id="accessibility-nav">
-                <div id="general-settings-container">
-                    <p id="general-section-title" class="section-title">General:</p>
-                    <div id="general-settings">
-                        <!-- Language setting -->
-                        <div id="language-changer-area" class = "setting-tab">
-                            <p id="langage-setting-label" class="setting-label">Language :</p>
-                            <select id="language-selector">
-                                <!-- Do not change the language name -->
-                                <option value="en">English</option>
-                                <option value="fr">Français</option>
-                            </select>
-                            
-                            <!-- What json files are going to be used to translate the page -->
-                            <div data-json="translations/header.json"></div>
-                            <div data-json="translations/about-me.json"></div>
-                            <div data-json="translations/footer.json"></div>
-                        </div>
-                        <!-- Animation setting -->
-                        <div id="animation-changer-area" class = "setting-tab">
-                            <p id="animation-setting-label" class="setting-label">Animations :</p>
-                            <div class="toggle-container">
-                                <label for="animation-toggle">
-                                    <input type="checkbox" id="animation-toggle">
-                                    <span id="animation-toggle-label" class="checkbox-text">Enable Animations</span>
-                                </label>
-                            </div>
-                        </div>
-                        <!-- Contrast setting -->
-                        <div id="contrast-changer-area" class="setting-tab">
-                            <p id="contrast-setting-label" class="setting-label">Contrast :</p>
-                            <input type="range" id="contrast-slider" min="100" max="300" value="100" step="10"><br>
-                            <span id="contrast-value">100</span><span>%</span>
-                        </div>
-                    </div>
-                </div>
-                <div id="text-settings-container">
-                    <p id="text-section-title" class="section-title">Text:</p>
-                    <div id="text-settings">
-                        <!-- Text size setting -->
-                        <div id="text-size-changer-area" class="setting-tab">
-                            <p id="text-size-setting-label" class="setting-label">Text Size:</p>
-                            <input type="range" id="text-size-slider" min="20" max="28" value="24" step="0.5"><br>
-                            <span id="text-size-value">24</span><span>px</span>
-                        </div>
-                        <!-- Dislexia setting -->
-                        <div id="text-font-changer-area" class = "setting-tab">
-                            <p id="dislexia-setting-label" class="setting-label">Dislexia font:</p>
-                            <input type="checkbox" id="dislexia-font-toggle">
-                            <span id="dislexia-toggle-label" class="checkbox-text">Enable Dislexia Font</span>
-                        </div>
-                        <!-- Character spacing setting -->
-                        <div id="character-spacing-changer-area" class = "setting-tab">
-                            <p id="character-spacing-setting-label" class="setting-label">Character spacing :</p>
-                            <input type="range" id="line-spacing-slider" min="0" max="10" step="0.1" value="0"><br>
-                            <span id="character-spacing-value">0</span><span>px</span>
-                        </div>
-                    </div>
-                </div>
-            </div>                       
-        </nav>
-        <button id="toggle-accessibility-pc"><img src="images/accessibility.png" alt="accessibility icon"></button>
-    </header>
     <section>
-        <div id = "about-me-background">
-            <p id="unsure-text" class = "comment">
-                (I wasn’t sure whether to use About Me or About Us since my company is just me, but... oh well, I’ll go with About Me.)
-            </p>
-            <h1 id="about-me-title">About me</h1>
-            <p id="myself-description">
-                So, hi! I’m Jordan, a French little dude that just entered the adult life, I love pretty much everything related to computers and technology in general.
-            </p>
-            <p id="my-past-1">
-                Alright! So you want to know more about me, huh? Well, here’s my whole timeline (so far):
-                When I was a little kid, I loved going on the computers at my school. I was terrible with them back then, but I absolutely loved programming on a little website called Scratch, that you can check out here: 
-            </p>
-            <a id="scratch-link" href="https://scratch.mit.edu/" target="_blank" title = "link to scratch">Scratch<img src="images/new-tab.svg"></a>
-            <p id="my-past-2">
-                I kept goofing around with Scratch for a while, but at some point, I wanted to become a doctor. Despite that, I was already dabbling in Unity.</p>
-            </p>
-            <p id="my-past-3">
-                However, I quickly realized that biology was way too difficult for my not-so-scientific brain. So, I decided to pursue a programming course where I learned Python and a bit of HTML. At the same time, I started using Unity more seriously, and I fell in love with it.
-            </p>
-            <p id="my-present">
-                These days, I’m studying web development, focusing on everything related to the internet, such as design, websites, communication, and so on. I’ll be doing this for the next three years, but my ultimate goal is to join a video game school, which I plan to attend for around two years.
-            </p>
-            <h1 id="my-plan">My Plan</h1>
-            <p id="my-futur">
-                First, I want to be done with school and gain experience and work a bit on my company. After that, I’d like to join a big company like Microsoft or Ubisoft to learn even more. Once I’ve gained enough knowledge and experience, I’ll try to create my own game studio or just continue my company, that got the time to grow in the mean time, though I’m not sure yet how it will turn out.
-            </p> 
-            <h1 id="my-advice-title">My advice for aspiring Game Developers</h1>
-            <p id="my-advice-intro">
-                If you want to create games like me, here’s my advice:
-            </p>
-            <p id="my-advice-1">
-                - Work on projects outside of school. Show that you’re passionate about what you do! Trust me, it’ll make it so much easier to get into a good school.
-            </p>
-            <p id="my-advice-2">
-                - Don’t just focus on video games. Work on other areas that can help you grow. For example, I create YouTube videos from time to time, which helps me develop important skills like recording, scripting, video editing, writing, finding ideas, audio management, and more.
-            </p>
-            <p id="my-advice-3">
-                - Do what you love. I wanted to be a doctor at some point, but now that I look back, I realize it wasn’t for me (plus, I hate blood, so why did I even consider that ? Oh right, money of course !).
-            </p>
+        <div id="about-me-background">
+            <h1 id="portfolio-title">Portfolio</h1>
+            
+            <!-- Brief Introduction -->
+            <div class="portfolio-section">
+                <h2>About Me</h2>
+                <p id="myself-description">
+                    Hi! I'm Jordan, a French developer passionate about game development and web technologies. I specialize in Unity game development and web development, constantly exploring new technologies to create engaging digital experiences.
+                </p>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="portfolio-section">
+                <h2>Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Game Development</h3>
+                        <ul>
+                            <li>Unity</li>
+                            <li>C#</li>
+                            <li>Game Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Section -->
+            <div class="portfolio-section">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <!-- Add your actual projects here -->
+                    <div class="project-card">
+                        <h3>Spiral Maker</h3>
+                        <p>Create spiral using Spiral Maker !</p>
+                        <a href="trace.html?project=spiral-maker" class="project-link">View Project</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Site web Phasmophobia</h3>
+                        <p>A php website about phasmophobia</p>
+                        <a href="trace.html?project=phasmophobia" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Education & Goals -->
+            <div class="portfolio-section">
+                <h2>Education & Future Goals</h2>
+                <p>Currently studying web development with a focus on internet technologies. Planning to pursue further education in game development, with the ultimate goal of establishing a game studio.</p>
+            </div>
         </div>
     </section>
-    <footer>
-        <p id="footer-help">Couldn't find what you wanted ? Perhaps it's here :</p>
-        <a id="link-to-press-media-kit" href="press-media-kit.html" title="Go to Press / Media Kit">Press / Media Kit</a>
-    </footer>
 
-    <!-- Script -->
-    <script src="scripts/footer.js"></script>
-    <script src="scripts/slider.js"></script>
-    <script src="scripts/toggle-header.js"></script>
-
-    <!-- Accessibility -->
-    <script src="scripts/accessibility/show-accessibility.js"></script>
-    <script src="scripts/accessibility/change-font-size.js"></script>
-    <script src="scripts/accessibility/change-letter-spacing.js"></script>
-    <script src="scripts/accessibility/change-font.js"></script>
-    <script src="scripts/accessibility/contrast.js"></script>
-    <script src="scripts/accessibility/cancel-animations.js"></script>
-    <script src="scripts/accessibility/change-language.js"></script>
+    <script src="scripts/load-header.js"></script>
+    <script src="scripts/load-footer.js"></script>
+    <script src="scripts/load-after-elements.js"></script>
 </body>
 </html>

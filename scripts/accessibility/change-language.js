@@ -72,7 +72,7 @@ function detectDefaultLanguage() {
     return 'en';
 }
 
-document.addEventListener('DOMContentLoaded', () => {
+function initializeLanguage() {
     const languageSelector = document.querySelector('#language-selector');
     if (languageSelector) {
         // Restore language or detect the default on first visit
@@ -91,4 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("Language changed to:", selectedLanguage);
         });
     }
-});
+}
+
+// Initialize immediately
+initializeLanguage();

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+function initializeAccessibility() {
     const toggleMobileButton = document.getElementById("toggle-accessibility-mobile");
     const togglePCButton = document.getElementById("toggle-accessibility-pc");
 
@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const headerNav = document.getElementById("header-navigation");
     const headerNavLinks = document.getElementById("header-navigation-links");
     const accessibilityNav = document.getElementById("accessibility-nav");
+    
+    if (!accessibilityNav || !headerNavLinks) return;
     
     accessibilityNav.style.display = "none";
     headerNavLinks.style.display = "flex";
@@ -44,4 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (togglePCButton) {
         togglePCButton.addEventListener("click", toggleNavigation);
     }
-});
+}
+
+// Initialize immediately
+initializeAccessibility();

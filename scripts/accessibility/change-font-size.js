@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+function initializeFontSize() {
     const slider = document.getElementById("text-size-slider");
     const valueDisplay = document.getElementById("text-size-value");
 
@@ -29,4 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         document.documentElement.style.fontSize = `${newFontSize}px`;
         localStorage.setItem("textSize", newFontSize);
     });
-});
+}
+
+// Initialize immediately
+initializeFontSize();

@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initializeAnimationToggle() {
     const toggle = document.getElementById('animation-toggle');
 
     if (!toggle) {
@@ -35,16 +35,19 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('animationToggleState', 'false');
         }
     });
+}
 
-    // function to add the disable animations stylesheet
-    function addDisableAnimationsStylesheet() {
-        const existingStylesheet = document.getElementById('disable-animations-stylesheet');
-        if (!existingStylesheet) {
-            const newStylesheet = document.createElement('link');
-            newStylesheet.rel = 'stylesheet';
-            newStylesheet.id = 'disable-animations-stylesheet';
-            newStylesheet.href = 'styles/accessibility/disable-animations.css';
-            document.head.appendChild(newStylesheet);
-        }
+// function to add the disable animations stylesheet
+function addDisableAnimationsStylesheet() {
+    const existingStylesheet = document.getElementById('disable-animations-stylesheet');
+    if (!existingStylesheet) {
+        const newStylesheet = document.createElement('link');
+        newStylesheet.rel = 'stylesheet';
+        newStylesheet.id = 'disable-animations-stylesheet';
+        newStylesheet.href = 'styles/accessibility/disable-animations.css';
+        document.head.appendChild(newStylesheet);
     }
-});
+}
+
+// Initialize immediately
+initializeAnimationToggle();

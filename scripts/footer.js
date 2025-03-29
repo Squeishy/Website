@@ -1,5 +1,10 @@
-document.addEventListener('DOMContentLoaded', () => {
+function initializeFooter() {
     const footer = document.querySelector('footer');
+
+    if (!footer) {
+        console.error('Footer element not found');
+        return;
+    }
 
     const updateFooterVisibility = () => {
         const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -28,4 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add event listeners for scroll and resize (to handle unzoom scenarios)
     document.addEventListener('scroll', updateFooterVisibility);
     window.addEventListener('resize', updateFooterVisibility);
-});
+}
+
+// Initialize immediately
+initializeFooter();
