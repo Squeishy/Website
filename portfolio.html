@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/pastel-background.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/text-font.css">
+
+    <!-- Accessibility -->
+    <link rel="stylesheet" href="styles/accessibility/inputs.css">
+    <link rel="stylesheet" id="disable-animations-stylesheet" href="styles/accessibility/disable-animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Background layers -->
+    <div class="background-layer layer-1"></div>
+    <div class="background-layer layer-2"></div>
+    
+    <!-- Grid overlay -->
+    <div class="grid-overlay"></div>
+    
+    <!-- Glowing orbs -->
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    
+    <!-- Animated particles -->
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    
+    <!-- Glowing lines -->
+    <div class="glow-line"></div>
+    <div class="glow-line"></div>
+    <div class="glow-line"></div>
+    
+    <div data-json="translations/portfolio.json"></div>
+    <section>
+        <div id="about-me-background">
+            <h1 id="portfolio-title">Portfolio</h1>
+            
+            <!-- Navigation Menu -->
+            <nav class="section-nav">
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#education">Education</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Brief Introduction -->
+            <div class="portfolio-section" id="about-me">
+                <h2 id="about-me-title" class="section-title">About Me</h2>
+                <p id="myself-description">
+                    Hi! I'm Jordan, a French developer passionate about game development and web technologies. I specialize in Unity game development and web development, constantly exploring new technologies to create engaging digital experiences.
+                </p>
+            </div>
+    
+            <!-- Skills Section -->
+            <div class="portfolio-section" id="skills">
+                <h2 id="technical-skills-title" class="section-title">Technical Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 id="game-dev-title">Game Development</h3>
+                        <ul>
+                            <li id="skill-unity">Unity</li>
+                            <li id="skill-csharp">C#</li>
+                            <li id="skill-game-design">Game Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3 id="web-dev-title">Web Development</h3>
+                        <ul>
+                            <li id="skill-html-css">HTML/CSS</li>
+                            <li id="skill-js">JavaScript</li>
+                            <li id="skill">PHP</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>skill-game-design</h3>
+                        <ul>
+                            <li id="skill">Blender</li>
+                            <li id="skill">Figma / Adobe Illustrator / Adobe Photoshop</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Audio</h3>
+                        <ul>
+                            <li id="skill">Audacity</li>
+                            <li id="skill">FL Studio</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Vidéo</h3>
+                        <ul>
+                            <li id="skill">OBS Studio</li>
+                            <li id="skill">Olive / Adobe Premiere Pro / Filmora</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Autre languages</h3>
+                        <ul>
+                            <li id="skill">Python</li>
+                            <li id="skill">Node.js</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Projects Section -->
+            <div class="portfolio-section" id="projects">
+                <h2 id="featured-projects-title" class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" id="project-spiral-maker">
+                        <img src="images/portfolio/preview/spiral-maker.webp" alt="Spiral Maker" class="center">
+                        <h3 id="title-spiral-maker">Spiral Maker</h3>
+                        <p id="desc-spiral-maker">Create spiral using Spiral Maker !</p>
+                        <a id="link-spiral-maker" href="trace.html?project=spiral-maker" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-phasmophobia">
+                        <img src="images/portfolio/preview/phamophobia.webp" alt="Phasmophobia" class="up">
+                        <h3 id="title-phasmophobia">Site web Phasmophobia</h3>
+                        <p id="desc-phasmophobia">A php website about phasmophobia</p>
+                        <a id="link-phasmophobia" href="trace.html?project=phasmophobia" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-space-invader-3D">
+                        <img src="images/portfolio/preview/space-invader.webp" alt="Space Invader 3D" class="up">
+                        <h3 id="title-space-invader-3D">Space Invader 3D</h3>
+                        <p id="desc-space-invader-3D">A 3D python game, where I created my own 3D engine</p>
+                        <a id="link-space-invader-3D" href="trace.html?project=space-invader-3D" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-xarius">
+                        <img src="images/portfolio/preview/xarius.webp" alt="XARIUS" class="up">
+                        <h3 id="title-xarius">XARIUS</h3>
+                        <p id="desc-xarius">An arcade game about spaceship !</p>
+                        <a id="link-xarius" href="trace.html?project=xarius" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-tankerz">
+                        <img src="images/tankerz-thumbnail.png" alt="Tankerz">
+                        <h3 id="title-tankerz">Tankerz</h3>
+                        <p id="desc-tankerz">An arcade game about tanks !</p>
+                        <a id="link-tankerz" href="trace.html?project=tankerz" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-company">
+                        <img src="images/portfolio/lusine-canard-1.webp" alt="L'Usine Canard">
+                        <h3 id="title-company">L'Usine Canard</h3>
+                        <p id="desc-company">My company</p>
+                        <a id="link-company" href="trace.html?project=company" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-this-website">
+                        <img src="images/MISSING.png" alt="L'Usine Canard">
+                        <h3 id="title-this-website">lusinecanard.fr</h3>
+                        <p id="desc-this-website">i.e the website you're on right on</p>
+                        <a id="link-this-website" href="trace.html?project=this-website" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-ducky-tales">
+                        <img src="images/portfolio/ducky-tales-2.webp" alt="Ducky Tales">
+                        <h3 id="title-ducky-tales">Ducky Tales</h3>
+                        <p id="desc-ducky-tales">An adventure game featuring a cute duck!</p>
+                        <a id="link-ducky-tales" href="trace.html?project=ducky-tales" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-esf4kd60fps">
+                        <img src="images/portfolio/eps4kd60fps-1.webp" alt="ESF4KD60FPS">
+                        <h3 id="title-esf4kd60fps">ESF4KD60FPS</h3>
+                        <p id="desc-esf4kd60fps">A high-performance video renderer project</p>
+                        <a id="link-esf4kd60fps" href="trace.html?project=esf4kd60fps" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-haw">
+                        <img src="images/portfolio/haw-1.webp" alt="HAW">
+                        <h3 id="title-haw">HAW</h3>
+                        <p id="desc-haw">A flight simulation game with a twist!</p>
+                        <a id="link-haw" href="trace.html?project=haw" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-utopia">
+                        <img src="images/portfolio/utopia-7.webp" alt="Project utopia">
+                        <h3 id="title-utopia">Project utopia</h3>
+                        <p id="desc-utopia">A cinema's redesign</p>
+                        <a id="link-utopia" href="trace.html?project=utopia" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-interview">
+                        <img src="images/portfolio/interview-1.webp" alt="Interview">
+                        <h3 id="title-interview">Interview</h3>
+                        <p id="desc-interview">A job interview simulation tool</p>
+                        <a id="link-interview" href="trace.html?project=interview" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-jds">
+                        <img src="images/portfolio/jds-1.webp" alt="JDS">
+                        <h3 id="title-jds">JDS</h3>
+                        <p id="desc-jds">A personal project management tool</p>
+                        <a id="link-jds" href="trace.html?project=jds" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-sae105">
+                        <img src="images/portfolio/sae105-10.webp" alt="Rubber Ducky Website">
+                        <h3 id="title-sae105">Rubber Ducky Website</h3>
+                        <p id="desc-sae105">A project for school about rubber ducks</p>
+                        <a id="link-sae105" href="trace.html?project=sae105" class="project-link" title="View project">View Project</a>
+                    </div>
+                    <div class="project-card" id="project-affiche-saint-andre">
+                        <img src="images/portfolio/preview/affiche-preview.webp" alt="Affiche Saint André" class="up">
+                        <h3 id="title-affiche-saint-andre">Affiche Saint André</h3>
+                        <p id="desc-affiche-saint-andre">A project dedicated to Saint André's event posters</p>
+                        <a id="link-affiche-saint-andre" href="trace.html?project=affiche-saint-andre" class="project-link" title="View project">View Project</a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- CV Section -->
+            <div class="portfolio-section" id="cv">
+                <h2 class="section-title">CV</h2>
+                <button>Télécharger mon cv</button>
+            </div>
+
+            <!-- Education & Goals -->
+            <div class="portfolio-section" id="education">
+                <h2 id="education-goals-title" class="section-title">Education & Future Goals</h2>
+                <img src="cv" alt="">
+                <p id="education-goals-desc">Currently studying web development with a focus on internet technologies. Planning to pursue further education in game development, with the ultimate goal of establishing a game studio.</p>
+            </div>
+        </div>
+    </section>    
+
+    <script src="scripts/load-header.js"></script>
+    <script src="scripts/load-footer.js"></script>
+    <script src="scripts/load-after-elements.js"></script>
+
+    
+    <script src="scripts/grid.js"></script>
+</body>
+</html>

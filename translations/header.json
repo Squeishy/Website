@@ -1,11 +1,11 @@
 {
   "translations": {
     "text": {
-      "website-title": { "en": "Home Page", "fr": "Page d'accueil" },
-      "link-to-index": { "en": "Home Page", "fr": "Page d'accueil" },
-      "link-to-my-games": { "en": "My Games / Experiences", "fr": "Mes Jeux / Expériences" },
+      "website-title": { "en": "Home Page", "fr": "Accueil" },
+      "link-to-index": { "en": "Home Page", "fr": "Accueil" },
+      "link-to-my-games": { "en": "My Games", "fr": "Mes Jeux" },
       "link-to-whats-next": { "en": "What's next?", "fr": "À venir" },
-      "link-to-about-me": { "en": "About Me", "fr": "À propos de moi" },
+      "link-to-portfolio": { "en": "Portfolio", "fr": "Portfolio" },
       "link-to-contact-me": { "en": "Contact Me", "fr": "Me Contacter" },
       "general-section-title": { "en": "General :", "fr": "Général :" },
       "langage-setting-label": { "en": "Language :", "fr": "Langue :" },
@@ -26,7 +26,7 @@
       "link-to-index": { "en": "Go to the home page", "fr": "Aller à la page d'accueil" },
       "link-to-my-games": { "en": "Explore my games and experiences", "fr": "Découvrez mes jeux et expériences" },
       "link-to-whats-next": { "en": "Learn about what's next", "fr": "En savoir plus sur ce qui vient ensuite" },
-      "link-to-about-me": { "en": "Find out more about me", "fr": "En savoir plus sur moi" },
+      "link-to-portfolio": { "en": "Discover my portfolio", "fr": "Découvrez mon portfolio" },
       "link-to-contact-me": { "en": "Get in touch with me", "fr": "Contactez-moi" }
     }
   }

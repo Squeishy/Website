@@ -1,0 +1,118 @@
+<div class=" trace-content card">
+    <h2>HAW - Home Appliance War | Unity | Perso</h2>
+    <hr>
+    <div class="trace-infos-min">
+        <ul>
+            <li><span>Contexte :</span> projet personnel, en solo</li>
+        </ul>
+    </div>
+
+    <h2>Présentation</h2>
+
+    <p><em>HAW</em>, pour <em>Home Appliance War</em>, ou la "Guerre des Électroménagers", était<strong> mon tout premier vrai projet de jeu qui semblait pouvoir aboutir à quelque chose</strong>. Bien qu'il n'ait <strong>jamais été terminé</strong>, ce jeu m'a énormément appris : <strong>la modélisation 3D</strong>,<strong> le C#, les shaders</strong>, <strong>les animations</strong>, <strong>le multijoueur en ligne</strong>, et même la <strong>gestion de comptes</strong> !</p>
+
+    <img src="images/portfolio/haw-1.webp">
+
+    <h3>Le début d'une aventure</h3>
+
+    <p>Pour arriver au jeu final (inachevé), j'ai dû refaire le projet… <strong>quatre fois</strong> ! J'étais très novice sur Unity à ce moment-là, et même après la quatrième tentative, il était loin d'être terminé. J'ai fini par l'abandonner. Car, soyons honnêtes : créer un jeu multijoueur en ligne à 15 ans, sans aucune expérience ni idée de comment s'y prendre, ce n'est clairement pas la clé du succès…</p>
+
+    <h3>Parlons du multijoueur</h3>
+
+    <img src="images/portfolio/haw-4.webp">
+
+    <p>Pour le système de jeu en ligne, j'utilisais un service appelé<em> Photon</em> (ou <em>Photon.PUN</em> pour les intimes), qui permettait <strong>d'héberger et de jouer sur des serveurs en ligne</strong>. Grâce à ça, j'ai appris énormément sur le fonctionnement d'un jeu en réseau, notamment :</p>
+
+    <ul>
+        <li>
+            <p role="presentation">La<strong> distinction entre le propriétaire (owner) et le client.</strong></p>
+        </li>
+        <li>
+            <p role="presentation">La nécessité de <strong>synchroniser les joueurs via un serveur principal </strong>(et non un client, sous peine de triche).</p>
+        </li>
+        <li>
+            <p role="presentation">La<strong> création d'instances en ligne</strong>, comme des projectiles visibles pour tous les joueurs.</p>
+        </li>
+    </ul>
+
+    <p>J'ai découvert les bases essentielles pour éviter les problèmes de triche et assurer une expérience synchronisée.</p>
+
+    <p>On peut d'ailleurs évidement rejoindre des serveurs en ligne et jouer avec du monde, et changer sa couleur aussi !</p>
+
+    <img src="images/portfolio/haw-2.webp">
+
+    <h3>Graphismes et modélisation 3D</h3>
+
+    <p>Ce projet m'a énormément appris sur <em>Blender</em>, notamment en ce qui concerne <strong>les animations</strong>,<strong> les textures</strong>,<strong> les shaders</strong>,<strong> les UVs</strong>, <strong>les mesh</strong>, <strong>l'optimisation</strong>,<strong> les matériaux et les blend-frames</strong>. Voici le héro principal du jeu :</p>
+
+    <img src="images/portfolio/haw-6.webp">
+
+    <p>Il est, bon, pas super super beau, mais il y a eu pire, sa version précédente :</p>
+
+    <img src="images/portfolio/haw-7.webp">
+
+    <p>Et avant ça, il y a eu cette horreur :</p>
+
+    <img src="images/portfolio/haw-8.webp">
+
+    <p>Aucun besoin de vous dire que cela m'a appris beaucoup de choses sur Blender ! D'ailleurs l'évolution de ce personnage ne s'arrête pas là, il est ensuite devenu comme ça dans un autre jeu (qu'on verra dans un autre poste.)</p>
+
+    <img src="images/portfolio/haw-9.webp">
+
+    <p>Puis comme ça dans mon jeu le plus récent, qu'on verra aussi dans un autre poste !</p>
+    
+    <img src="images/portfolio/haw-10.webp">
+
+    <h3>Création de l'environnement</h3>
+
+    <p>Tout le jeu était en 3D, y compris la ville, que j'ai refaite trois fois avant d'obtenir un résultat satisfaisant, toujours avec Blender :</p>
+
+    <img src="images/portfolio/haw-11.webp">
+    <img src="images/portfolio/haw-12.webp">
+
+    <p>J'ai également créé un shader "toon" pour donner un aspect cartoonesque au jeu. Ce shader saturait légèrement les couleurs et ajoutait un contour autour des objets.<strong><br></strong></p>
+
+    <h3>Enfin, les électroménagers !</h3>
+
+    <img src="images/portfolio/haw-3.webp">
+
+    <p>Mais là, vous vous dites sans doute : "On m'avait dit que ce jeu s'appelle '<em>La guerre des électroménagers</em>', et pourtant, je ne vois aucun électroménager. Je vois juste tout plein de copies de <em>Kenny McCormick</em> de <em>South Park</em>." Eh bien, justement, on y vient !</p>
+    <p>Le but de ce jeu était de<strong> pousser les autres joueurs dans le vide avec des appareils électriques en tout genre</strong>, par exemple <strong>un toaster </strong>ou <strong>un frigo</strong> qui envoyaient des projectiles pour repousser les autres joueurs.</p>
+
+    <img src="images/portfolio/haw-13.webp">
+    
+    <p><sub>(L'image est beaucoup trop claire mais c'est l'éditeur Unity qui bug, comme à son habitude.)</sub></p>
+
+    <img src="images/portfolio/haw-14.webp">
+
+    <p>D'autres appareils utilisaient le vent pour pousser les joueurs, comme <strong>un aspirateur</strong>,<strong> un souffleur à feuilles</strong>, <strong>un ventilateur</strong>, ou même <strong>un Karcher </strong>
+    <sub>(maintenant que j'y repense, je crois que Karcher est une marque déposé, à éviter par la suite.)</sub></p>
+    
+    <h3>S'envoler avec style</h3>
+
+    <p>Mais ce n'était pas tout ! Puisque le but du jeu était de se pousser les uns les autres dans le vide, il fallait un moyen de se sauver. C'est ainsi que j'ai inventé <strong>les gliders</strong>, qui permettaient de s'envoler dans le ciel, par exemple avec un Jet Pack :</p>
+
+    <img src="images/portfolio/haw-15.webp">
+
+
+    <p><em>(C'est vrai qu'un glider est un élément électroménager. J'en utilise un tous les jours pour faire la vaisselle, c'est super pratique.)</em></p>
+
+    <h3>Les animations</h3>
+
+    <p>Quand je regarde les animators que faisait à l'époque, je me rends compte à quel point j'ai évolué :</p>
+
+    <img src="images/portfolio/haw-16.webp">
+
+    <p>Passer d'une animation à une autre de cette manière, c'était… affreux. Pour ceux qui ne connaissent pas, l'image montre ce qu'on appelle un "Animator" sur Unity. Cet Animator permet de <strong>passer d'une animation à une autre en fonction de conditions et de valeurs</strong>, mais là, c'était hyper mal fait et très peu compréhensible !</p>
+
+    <h3>Le sound design</h3>
+
+    <img src="images/portfolio/haw-17.webp">
+
+    <p>Une anecdote amusante : pour le son du toaster qui envoie du pain, j'ai placé <strong>mon toaster et mon micro dans une taie d'oreiller pour isoler le son, puis j'ai enregistré en jouant avec</strong>.</p>
+
+    <h3>Conclusion</h3>
+    
+    <p>Le jeu était loin d'être parfait et restait assez vide, mais il m'a pris énormément de temps et m'a appris tellement de choses. À l'époque, je me battais contre Unity pour apprendre littéralement tout à partir de zéro. Malgré cela, c'était un projet super fun à réaliser !</p>
+    <p>Merci d'avoir lu !</p>
+</div>

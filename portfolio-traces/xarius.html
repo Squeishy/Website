@@ -1,0 +1,70 @@
+<div class=" trace-content card">
+    <h2>Xarius | Unity | Perso</h2>
+    <hr>
+    <div class="trace-infos-min">
+        <ul>
+            <li><span>Contexte :</span> en solo</li>
+        </ul>
+    </div>
+
+    <button class="btn btn-primary">
+        <a href="https://lusinecanard.fr/xarius-page.html">https://lusinecanard.fr/xarius-page.html</a>
+    </button>
+    
+    <h2>Présentation</h2>
+
+    <img src="images/xarius-thumbnail.png">
+    
+    <p>Troisième jeu que j'ai réalisé pour la borne d'arcade, <em>Xarius</em> est un jeu jouable de <strong>1 à 4 joueurs en local.</strong> Les joueurs participent à une course spatiale dans des vaisseaux et doivent atteindre la ligne d'arrivée en premier. Je suis particulièrement fier de ce projet en raison du temps qu'il m'a fallu pour le réaliser : seulement <strong>5 jours</strong> pour créer tous les modèles, les musiques, les sons, le code, les deux niveaux et les contenus additionnels (miniatures, etc.).</p>
+    
+    <h2>Problème</h2>
+    
+    <p>Si vous avez vu la borne d'arcade à l'école, vous avez probablement remarqué qu'elle ne possède que deux joysticks et des boutons. Alors, comment ai-je réussi à faire un jeu jouable à quatre en local sur cette machine qui semble limitée à deux joueurs simultanément ?</p>
+    <p>J'ai considérablement réduit les contrôles de chaque vaisseau en leur permettant uniquement de bouger de haut en bas et de gauche à droite. Avec si peu de commandes, il est possible d'assigner <strong>les joysticks aux joueurs 1 et 3 </strong>et les <strong>boutons aux joueurs 2 et 4</strong>. Ainsi, <em>Xarius</em> est devenu <strong>le premier jeu à proposer un mode 4 joueurs sur cette borne !</strong></p>
+    
+    <img src="images/portfolio/xarius-1.webp">
+    
+    
+    <h2>Comment ça marche ?</h2>
+    
+    <p>Dans le jeu, chaque joueur suit une ligne qui trace le niveau. Ils ne peuvent pas s'en éloigner, mais peuvent <strong>se déplacer de haut en bas et de gauche à droite le long de celle-ci.</strong> Le jeu avance automatiquement les joueurs sur cette ligne.</p>
+    <p>Grâce à ces contrôles hyper simples, j'ai pu rendre possible une expérience à 4 joueurs en local. En jeu, les joueurs peuvent <strong>emprunter des tunnels de vitesse pour accélérer</strong>, mais ils doivent aussi <strong>éviter les obstacles sur leur chemin. </strong>Au risque de perdent toute leur vitesse et de devoir la regagner progressivement.</p>
+    
+    <img src="images/portfolio/xarius-2.webp">
+    <img src="images/portfolio/xarius-3.webp">
+    
+    <p>Honnêtement, il n'y a pas grand-chose de complexe dans ce jeu en termes de code. Cependant, la partie la plus technique reste l'éditeur de niveaux.</p>
+    <p>J'ai développé un script qui <strong>prend une série de points et trace un niveau en les reliant</strong>. Il est possible d'ajouter ou de supprimer ces points, et les joueurs suivent automatiquement ce chemin. Cela permet de <strong>créer des niveaux rapidement et efficacement</strong>. Voici les deux niveaux que j'ai créés : Earth et <em>Tankerz</em> (une référence à mon autre jeu du même nom).</p>
+    
+    <img src="images/portfolio/xarius-4.webp">
+    <img src="images/portfolio/xarius-5.webp">
+    
+    <p>J'ai choisi d'intégrer une map inspirée de <em>Tankerz</em> pour gagner du temps : j'avais déjà la plupart des assets et une base musicale. Il ne me restait plus qu'à apporter quelques modifications.</p>
+    
+    <img src="images/portfolio/xarius-6.webp">
+    
+    <h2>Le plus grand défi</h2>
+    
+    <p><em>Xarius</em>, 4 joueurs, dans l'espace... c'est super cool, mais essayez donc de faire tourner ça sur l'ordinateur (de bureau) de la borne d'arcade ! Il devait gérer 4 caméras et faire des calculs distincts pour chaque joueur simultanément. Résultat ? Le pauvre était en pleurs, affichant péniblement 20 FPS.</p>
+    <p>Que faire ? Mon jeu était fini, mais injouable à cause du manque d'optimisation. J'ai donc tout repensé !</p>
+    <p>Par exemple, le modèle 3D des astéroïdes contenait énormément de polygones, ce qui était trop coûteux en ressources. J'ai simplifié leur géométrie ainsi que celle des vaisseaux et des autres objets du jeu. <strong>En passant de 7 500 000 à 250 000 polygones à 4 joueurs.</strong></p>
+    
+    <img src="images/portfolio/xarius-7.webp">
+    
+    <p>Mais ce n'était pas suffisant. J'ai aussi <strong>optimisé les matériaux </strong>: suppression des reflets, des effets métalliques et des ombres, et activation du "GPU Instancing" pour que tous les objets partagent le même matériau plutôt que d'en avoir un individuel.</p>
+    <p>Le résultat ? On passe de 20 FPS à un confortable 60 FPS !</p>
+    
+    <h2>Les musiques (la meilleure partie)</h2>
+    
+    <p>Qui dit espace dit musique grandiose. Mais qui dit Jordan Septier dit compositeur en herbe... ou supplice pour les oreilles ! J'avais quelques compétences en musique, mais pas assez pour composer une bonne bande-son.</p>
+    <p>En essayant de créer la musique pour Earth, j'ai trouvé une superbe ligne de basse et un piano spatial, mais j'étais bloqué. Comment continuer ? J'ai fait appel à une amie, <strong>Lauren Lamoureux</strong> (merci encore mille fois !). Après quatre heures en vocal sur Discord à composer ensemble, j'avais ma meilleure musique à ce jour !</p>
+    <p>Pour <em>Tankerz</em>, j'ai pris la musique originale du jeu et l'ai remixée en adaptant les instruments. Le résultat m'a rendu très fier, surtout après avoir appliqué tous les conseils de Lauren.</p>
+    <p>Elle m'a appris à réaliser des transitions fluides, à utiliser un style musical adapté et à bien choisir mes instruments. Un immense merci à elle !</p>
+    <p>(Vous pouvez trouver les musiques ici : https://drive.google.com/drive/folders/1EOx_vFhWaLanuS5AQbU-sd5QzjCVJNBs)</p>
+    
+    <h2>Anecdotes</h2>
+    <p>Si vous vous demandez pourquoi j'ai nommé mon jeu <em>Xarius</em>, c'est en hommage à un de mes professeurs, qui utilise ce pseudo sur Discord. C'est lui qui a codé le système de mise en ligne des jeux sur la borne !</p>
+    <p>Le jeu est aussi très inspiré de <strong>StarFox</strong>, j'ai probablement écouté la version SNES de Corneria en boucle pendant toute la création du jeu !</p>
+    
+    <img src="images/portfolio/xarius-8.webp">   
+</div>

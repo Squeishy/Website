@@ -12,6 +12,7 @@
 }
 
 #game-shelf {
+    pointer-events: none !important;
     width: 90%;
     margin-left: 5%;
     padding-top: 25px;

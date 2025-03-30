@@ -1,13 +1,19 @@
 #trace-background {
     text-align: left;
-    background-color: whitesmoke;
-    width: 90%;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80%;
     border-radius: 25px;
-    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.1);
     z-index: 10;
     padding: 60px;
-    margin: 150px auto 500px auto;
-    position: relative;
+    margin: 150px auto 300px auto;
+    transition: all 0.3s ease-in-out;
+}
+
+#trace-background:hover {
+    background-color: rgba(255, 255, 255, 1);
+    transform: scaleX(1.02);
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 }
 
 #trace-background h1 {
@@ -24,6 +30,10 @@
     margin-bottom: 20px;
     text-align: left;
     padding: 15px 0;
+}
+
+#trace-background h3 {
+    margin: 20px auto 20px auto;
 }
 
 .trace-section {
@@ -63,11 +73,31 @@ p code {
     margin: 0 2px;
 }
 
+strong {
+    font-weight: bold;
+}
+
 em {
     display: inline-block;
-    font-style: normal;
+    font-style: italic;
     color: #666;
     padding: 0 5px;
+}
+
+sub {
+    display: inline-block;
+    font-style: italic;
+    color: #666;
+    font-size: 0.7em;
+    padding: 0 5px;
+}
+
+ul, ol {
+    margin-left: 50px;
+}
+
+li {
+    list-style-type: disc;
 }
 
 /* Code syntax highlighting */
@@ -78,16 +108,53 @@ code .function { color: #dcdcaa; }
 code .number { color: #b5cea8; }
 code .operator { color: #d4d4d4; }
 
-/* Center images */
 #trace-background img {
     display: block;
     margin: 30px auto;
-    width: 100%;
-    max-width: 800px;
-    height: 400px;
+
+    height: 300px;
+    width: auto;
+
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#trace-background img:hover {
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    transform: scale(1.01);
+}
+
+#trace-background button {
+    font-size: 1.2rem;
+    padding: 15px 20px;
+    display: block;
+    width: 90%;
+    margin: 50px auto;
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.8);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#trace-background button a {
+    color: black;
+    text-decoration: none;
+}
+    
+#trace-background button:hover {
+    background: #141414;
+    color: #ffffff;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+#trace-background button:hover a {
+    color: white;
 }
 
 /* Paragraphs and lists */
@@ -102,10 +169,6 @@ li {
 
 /* Responsive design */
 @media (max-width: 768px) {
-    #trace-background {
-        padding: 30px;
-        width: 95%;
-    }
     
     .trace-section {
         padding: 20px;
@@ -114,9 +177,5 @@ li {
     code {
         font-size: 0.8rem;
         padding: 15px;
-    }
-
-    img {
-        height: 300px;
     }
 } 

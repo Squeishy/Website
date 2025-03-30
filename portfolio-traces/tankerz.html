@@ -1,0 +1,66 @@
+<div class=" trace-content card">
+    <h2>Tankerz | Unity | Perso</h2>
+    <hr>
+    <div class="trace-infos-min">
+        <ul>
+            <li><span>Contexte :</span> Projet Personnel, en solo</li>
+        </ul>
+    </div>
+
+    <button>
+        <a href="https://lusinecanard.fr/tankerz-page.html">https://lusinecanard.fr/tankerz-page.html</a>
+    </button>
+    
+    <h3>Présentation</h3>
+
+    <img src="images/tankerz-thumbnail.png">
+    
+    <p>Deuxième jeu que j'ai réalisé pour la borne d'arcade, <em>Tankerz</em> est un jeu jouable de 1 à 2 joueurs en local. <strong>Les joueurs contrôlent chacun un tank qui doit tirer sur tous les ennemis et marquer le plus de points possible avant de mourir</strong>. Ils peuvent lever et abaisser leur canon et se déplacer avec leur joystick. Le bouton B1 leur permet de tirer.</p>
+    
+    <p>Les ennemis sont assez variés : <strong>drones, hélicoptères, soldats (deux types) et tonneaux explosifs</strong>.</p>
+    
+    <h3>Ce que ce jeu m'a apporté</h3>
+    
+    <p>Chaque niveau est <strong>généré aléatoirement à partir de parties de terrain préfabriquées</strong>, et il en va de même pour le spawn (l'apparition) des ennemis. Ainsi, chaque partie est différente, et cette mécanique m'a permis d'apprendre à implémenter ce type <strong>de génération procédurale</strong>, une compétence simple mais essentielle dans le game dev !</p>
+    
+    <img src="images/portfolio/tankerz-1.webp">
+    
+    <p>Mais LA compétence principale que ce jeu m'a enseignée,<strong> c'est l'héritage en programmation</strong>. En d'autres termes, <strong>on peut créer un script de base qui partage son code avec des scripts enfants</strong>. Cela permet non seulement <strong>d'optimiser les lignes de code en évitant les redondances, mais aussi de manipuler différents types d'objets de manière générique.</strong></p>
+    <p>Par exemple, tous les éléments <code>destructibles</code> du jeu ont un script propre (comme <code>Helicopter.cs</code> ou <code>Soldier.cs</code>), mais ces scripts dérivent d'un script parent nommé <code>Destructible.cs</code>. <strong>Ce script contient des propriétés communes comme des points de vie, des prefabs d'explosions,</strong> etc. Ainsi, <strong>chaque élément du jeu peut avoir une barre de vie et un type de destruction spécifique tout en conservant ses particularités </strong>(par exemple, l'hélicoptère vole et le soldat tire).</p>
+    
+    <img src="images/portfolio/tankerz-2.webp">
+    
+    <p>Ce principe d'héritage sera beaucoup réutilisé dans mon jeu <em>Dashing Krew</em>, que je présenterai dans un autre post !</p>
+    
+    <h2>Les trucs rigolos</h2>
+    
+    <p>J'adore ajouter des easter eggs (éléments cachés ou secrets) dans mes jeux. En voici deux exemples :</p>
+    <p><strong>Les soldats </strong>: Leur tête a un design... particulier. C'est normal, car leur texture de visage, c'est moi ! J'ai aussi demandé à un ami s'il voulait participer, et il a accepté. Le résultat est juste trop bien !</p>
+    
+    <img src="images/portfolio/tankerz-3.webp">
+    <img src="images/portfolio/tankerz-4.webp">
+    
+    <p>La musique du menu principal : Si vous tendez bien l'oreille, vous entendrez une musique qui sort d'une radio. Si elle vous semble familière, c'est une mélodie qu'internet a mis des années à retrouver… mais je ne vais pas en dire plus. Ceux qui savent, savent.</p>
+    
+    <h2>Travailler avec les autres</h2>
+    
+    <p>Étant donné que <em>Tankerz</em> est conçu pour une borne d'arcade, <strong>il fallait implémenter un système de highscore et d'inputs spécifiques aux boutons de la borne</strong>. Contrairement aux contrôles classiques (clavier ou joystick analogique), les bornes utilisent des boutons particuliers. Pour cela, notre professeur, Jules, a créé un package appelé<em> Anatidae</em>, <strong>qui gère ces inputs et le système de highscore</strong>. Ce package, disponible sur <em>GitHub</em>, a dû être lu, compris, et intégré à mon projet pour obtenir le jeu final.</p>
+    <p>La plus grande difficulté était liée au système de highscore : sur la borne d'arcade, les scores sont stockés sur le réseau internet du lycée. Mais, pendant le développement, <strong>j'ai dû configurer un mini-serveur local sur mon ordinateur</strong>, une tâche que le Jordan Septier d'il y a 8 mois ne savait pas du tout faire. Mais au final, je m'en suis sorti !</p>
+    
+    <h2>Blender & Mixamo</h2>
+    
+    <p>Qui dit jeu 3D, dit modèles 3D, et qui dit modèles 3D, dit <em>Blender</em> (ou <em>Maya</em>, si vous avez 2000€ à perdre). <strong>Tous les modèles 3D du jeu ont été réalisés par moi-même </strong>sur<em> Blender.</em> Je ne vous cache pas que je suis une quiche en art : je maîtrise très bien <em>Blender</em>, mais dès qu'on parle d'aspects artistiques, je suis largué.</p>
+    <p>À partir d'images trouvées en ligne, <strong>j'ai conçu le tank, les hélicoptères, les drones</strong> (issus de mon jeu <em>Home Appliance War</em>), etc. Tout a été réalisé dans un style low poly (avec peu de polygones), pour rester simple et efficace.</p>
+    
+    <img src="images/portfolio/tankerz-5.webp">
+    
+    <p><strong>Les animations des tanks et des hélicoptères ont été faites par moi,</strong> mais pour les soldats, j'ai utilisé <em>Mixamo</em>, un outil en ligne d'<em>Adobe</em>. <em>Mixamo</em> <strong>propose une large bibliothèque d'animations prêtes à l'emploi</strong>, qu'il suffit d'importer directement sur nos modèles. On peut également y uploader des modèles custom pour des résultats incroyables, même pour des débutants !</p>
+    
+    <img src="images/portfolio/tankerz-6.webp">
+    
+    <h2>Et si moi, je veux y jouer ?</h2>
+    
+    <p>Eh bien figurez vous qu'il est disponible à cette adresse :</p>
+    <p><a href="http://lusinecanard.fr/tankerz-page.html">https://lusinecanard.fr/tankerz-page.html</a></p>
+    <p>Merci d'avoir lu !</p>
+</div>

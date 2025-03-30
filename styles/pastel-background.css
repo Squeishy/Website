@@ -1,18 +1,67 @@
-/* background */
-
 html, body {
-    height: 100%;
     margin: 0;
     background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #a18cd1, #fad0c4, #ff9a9e);
     background-size: 200% 200%;
     background-attachment: fixed;
-    animation: gradientBackground 8s ease infinite;
+    animation: gradientBackground 20s ease-in-out infinite;
     display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+html::before, body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.2) 2px, transparent 2px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.2) 2px, transparent 2px);
+    background-size: 50px 50px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Add hover effect for grid tiles */
+html::before:hover, body::before:hover {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.2) 2px, transparent 2px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.2) 2px, transparent 2px);
+}
+
+/* Create a grid of hoverable tiles */
+.grid-tile {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+
+    transition: all 0.4s ease-out;
+}
+
+.grid-tile:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0s;
+}
+
+.grid-tile.active {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0s;
 }
 
 @keyframes gradientBackground {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
+}
+
+section {
+    z-index: 10;
+    pointer-events: none !important;
+}
+
+* {
+    pointer-events: auto;
 }

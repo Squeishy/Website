@@ -21,12 +21,11 @@ iframe.fullscreen {
     margin-right: 0%;
     width: 100%;
     height: auto;
-    z-index: 1000;
     background-color: rgb(0, 0, 0);
 }
 
 #game-presentation {
-    background-color: whitesmoke;
+    background-color: white;
     width: 50%;
     border-radius: 15px;
     height: auto;

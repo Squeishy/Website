@@ -1,0 +1,182 @@
+{
+  "translations": {
+    "text": {
+      "portfolio-title": {
+        "en": "Portfolio",
+        "fr": "Portfolio"
+      },
+      "about-me-title": {
+        "en": "About Me",
+        "fr": "À propos de moi"
+      },
+      "myself-description": {
+        "en": "Hi! I'm Jordan, a French developer passionate about game development and web technologies. I specialize in Unity game development and web development, constantly exploring new technologies to create engaging digital experiences.",
+        "fr": "Salut ! Je suis Jordan, un développeur français passionné par le développement de jeux et les technologies web. Je me spécialise dans le développement de jeux Unity et le développement web, explorant sans cesse de nouvelles technologies pour créer des expériences numériques captivantes."
+      },
+      "technical-skills-title": {
+        "en": "Technical Skills",
+        "fr": "Compétences techniques"
+      },
+      "game-dev-title": {
+        "en": "Game Development",
+        "fr": "Développement de jeux"
+      },
+      "skill-unity": {
+        "en": "Unity",
+        "fr": "Unity"
+      },
+      "skill-csharp": {
+        "en": "C#",
+        "fr": "C#"
+      },
+      "skill-game-design": {
+        "en": "Game Design",
+        "fr": "Conception de jeux"
+      },
+      "web-dev-title": {
+        "en": "Web Development",
+        "fr": "Développement web"
+      },
+      "skill-html-css": {
+        "en": "HTML/CSS",
+        "fr": "HTML/CSS"
+      },
+      "skill-js": {
+        "en": "JavaScript",
+        "fr": "JavaScript"
+      },
+      "skill-python": {
+        "en": "Python",
+        "fr": "Python"
+      },
+      "featured-projects-title": {
+        "en": "Featured Projects",
+        "fr": "Projets en vedette"
+      },
+      "title-spiral-maker": {
+        "en": "Spiral Maker",
+        "fr": "Spiral Maker"
+      },
+      "desc-spiral-maker": {
+        "en": "Create spiral using Spiral Maker !",
+        "fr": "Créez une spirale en utilisant Spiral Maker !"
+      },
+      "title-phasmophobia": {
+        "en": "Site web Phasmophobia",
+        "fr": "Site web Phasmophobia"
+      },
+      "desc-phasmophobia": {
+        "en": "A php website about phasmophobia",
+        "fr": "Un site PHP sur Phasmophobia"
+      },
+      "title-space-invader-3D": {
+        "en": "Space Invader 3D",
+        "fr": "Space Invader 3D"
+      },
+      "desc-space-invader-3D": {
+        "en": "A 3D python game, where I created my own 3D engine",
+        "fr": "Un jeu Python en 3D, dans lequel j'ai créé mon propre moteur 3D"
+      },
+      "title-xarius": {
+        "en": "XARIUS",
+        "fr": "XARIUS"
+      },
+      "desc-xarius": {
+        "en": "An arcade game about spaceship !",
+        "fr": "Un jeu d'arcade sur les vaisseaux spatiaux !"
+      },
+      "title-tankerz": {
+        "en": "Tankerz",
+        "fr": "Tankerz"
+      },
+      "desc-tankerz": {
+        "en": "An arcade game about tanks !",
+        "fr": "Un jeu d'arcade sur les tanks !"
+      },
+      "title-company": {
+        "en": "L'Usine Canard",
+        "fr": "L'Usine Canard"
+      },
+      "desc-company": {
+        "en": "My company",
+        "fr": "Mon entreprise"
+      },
+      "title-this-website": {
+        "en": "lusinecanard.fr",
+        "fr": "lusinecanard.fr"
+      },
+      "desc-this-website": {
+        "en": "i.e the website you're on right on",
+        "fr": "c'est-à-dire le site sur lequel tu te trouves"
+      },
+      "education-goals-title": {
+        "en": "Education & Future Goals",
+        "fr": "Éducation et objectifs futurs"
+      },
+      "education-goals-desc": {
+        "en": "Currently studying web development with a focus on internet technologies. Planning to pursue further education in game development, with the ultimate goal of establishing a game studio.",
+        "fr": "Actuellement en études de développement web, avec un accent sur les technologies internet. Je prévois de poursuivre mes études dans le développement de jeux, avec pour objectif ultime de créer un studio de jeux vidéo."
+      },
+      "link-spiral-maker": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-phasmophobia": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-space-invader-3D": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-xarius": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-tankerz": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-company": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-this-website": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      }
+    },
+    "alt": {
+    },
+    "title": {
+      "link-spiral-maker": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-phasmophobia": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-space-invader-3D": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-xarius": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-tankerz": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-company": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-this-website": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      }
+    }
+  }
+}

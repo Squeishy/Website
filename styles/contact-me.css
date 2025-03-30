@@ -1,10 +1,9 @@
 .contact-me-background {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: white;
     width: 90%;
     border-radius: 25px;
     box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
-    z-index: 10;
     text-align: left;
     padding-bottom: 20px;
     margin: 150px 0 100px 5%;

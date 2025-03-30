@@ -1,0 +1,111 @@
+<div class=" trace-content card">
+    <h2>Space Invader 3D | Python | Perso</h2>
+    
+    <hr>
+    
+    <div class="trace-infos-min">
+        <ul>
+            <li><span>Contexte :&nbsp;</span> en solo</li>
+        </ul>
+    </div>
+
+    <button>
+        <a href="https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing</a>
+    </button>
+    
+    <h3 data-pm-slice="1 1 []">Présentation</h3>
+    
+    <p>À la fin de mon année de terminale aux Lombards, il nous était demandé de <strong>coder un Space Invaders comme projet final</strong>, un jeu simple en 2D sur <em>Tkinter</em> (un module en <em>Python</em> pour créer des interfaces graphiques).</p>
+    <p>Sauf que je n'avais pas envie de refaire, encore une fois, un projet en 2D que nous avions déjà réalisé une vingtaine de fois. J'ai donc <strong>décidé de le faire en 3D</strong>.</p>
+    <p>Et là, vous vous dites sûrement : "Avec les outils d'aujourd'hui, c'est simple ! Il y a <em>Blender</em> et sûrement plein de modules en <em>Python</em> qui permettent de faire de la 3D." Sauf que non. <strong>J'ai entièrement codé mon propre moteur 3D</strong>, en utilisant <em>Tkinter</em>, qui n'est <strong>absolument pas conçu pour ça</strong>.</p>
+    <p>Voyons à présent comment j'ai réalisé ce projet !</p>
+    
+    <h3 data-pm-slice="1 1 []">Comprendre l'espace 3D</h3>
+    
+    <p>Avant d'expliquer le fonctionnement de mon moteur, il faut <strong>d'abord comprendre comment fonctionne un espace 3D</strong>. Commençons par un espace 2D :<strong> il est défini par deux dimensions, l'abscisse (x) et l'ordonnée (y).</strong> Par exemple, un carré possède quatre points.</p>
+    <p>En 3D, <strong>on ajoute une troisième dimension</strong>, appelée la côte ou profondeur (axe z). Notre carré devient alors un cube et gagne quatre sommets supplémentaires, soit un total de huit.</p>
+    <p>Ainsi, pour représenter un cube en 3D, <strong>il faut d'abord définir son squelette</strong>, c'est-à-dire ses sommets (appelés "vertices"), que j'ai codé en créant une classe <em>Vertex </em>qui contient <strong>des coordonnées et une fonction pour bouger</strong>!</p>
+    
+    <img src="images/portfolio/space-invader-1.webp">
+    
+    <h3 data-pm-slice="1 1 []">Création des vertices et du cube</h3>
+    
+    <p>Lorsqu'on crée un vertex, on passe en paramètre ses coordonnées (x, y, z) et on les lui assigne. La méthode <code>changePosition(self, valx, valy, valz)</code> permet de modifier sa position, tandis que <code>__str__(self)</code> facilite le débogage en affichant les coordonnées du point.</p>
+    <p>Avec cette classe de vertex en place, nous pouvons créer notre cube. <strong>Celui-ci possède un vertex pour désigner le centre, un attribut side qui représente sa taille, une couleur et un nom.</strong></p>
+    <p>À partir du centre, nous générons huit autres vertices dans chaque direction (voir <code>self.vertices</code>). <strong>Ces sommets permettent ensuite de créer les faces du cube.</strong></p>
+    
+    <img src="images/portfolio/space-invader-2.webp">
+    
+    <p>J'ai pris l'exemple du cube car il est le plus simple à modéliser, mais il est <strong>bien entendu possible de concevoir d'autres formes, comme un octaèdre </strong>(octahedron en anglais.)</p>
+    
+    <img src="images/portfolio/space-invader-3.webp">
+    
+    <h3 data-pm-slice="1 1 []">Affichage des formes à l'écran</h3>
+    
+    <p>Pour l'instant, nous avons juste une série de valeurs numériques, <strong>mais rien d'affiché à l'écran</strong>. Pas d'inquiétude, c'est maintenant que nous allons travailler sur le rendu.</p>
+    <p>Une liste <code>objects</code> contient toutes les formes du jeu (cubes, octaèdres, pyramides…).</p>
+    <p>Le processus de rendu se déroule ainsi :</p>
+    
+    <img src="images/portfolio/space-invader-4.webp">
+    
+    <p>On <strong>efface le canvas avant de redessiner, afin d'éviter la superposition des anciennes images</strong>. Puis on <strong>détermine le centre de l'écran, essentiel pour créer l'effet de perspective</strong>. Bien que mon jeu soit en 3D, l'écran reste en 2D ! Il faut donc <strong>simuler la profondeur en ajustant x et y en fonction de z</strong>. Plus un objet est éloigné (grand z), <strong>plus il se rapproche du centre </strong>(point de fuite). Ensuite, il faut trier les objets (<code>sorted_objects</code>) pour s'assurer que ceux situés plus loin s'affichent derrière les autres (ça n'a jamais marché, quoi que je fasse). Enfin, pour chaque face d'un objet, <strong>on relie les sommets pour dessiner les formes.</strong></p>
+    
+    <h3 data-pm-slice="1 1 []">Animation et rotation des objets</h3>
+    
+    <p>Pour rendre le jeu un petit peu plus vivant, <strong>il serait bien de faire tourner les objets</strong>, afin d'animer le tout, pour se faire, la rotation repose sur l'application de matrices de transformation.</p>
+    <p>Ce qu'on fait c'est que, <strong>pour chaque sommet, on crée un sommet temporaire, ensuite, on lui applique une matrice de rotation sur l'axe x,</strong> enfin, <strong>on met à jour les coordonnées du sommet d'origine.</strong> une fois cela fait, <strong>on recommence avec y et z</strong>, à noter qu'il est largement possible d'optimiser ce code, mais je n'avais pas ce genre de compétences à l'époque !</p>
+    
+    <img src="images/portfolio/space-invader-5.webp">
+    
+    <p>Avec quelques objets supplémentaires et un peu de code, voici le résultat en jeu :</p>
+    
+    <img src="images/portfolio/space-invader-6.webp">
+    
+    <p>Le cube rose représente le joueur avec un bouclier. Sans bouclier, il est blanc. <strong>L'objectif est de tirer sur les aliens</strong> (les formes colorées en haut de l'écran) en se déplaçant dans l'espace et en les éliminant !</p>
+    
+    <h3 data-pm-slice="1 1 []">Effets visuels et gameplay</h3>
+    
+    <p>Dans la fonction <code>render</code>, vous remarquerez les variables <code>x_noise</code> et <code>y_noise</code>. Elles servent <strong>à faire trembler les faces des objets</strong>, simulant par exemple une explosion lorsqu'un alien est détruit. En combinant cet effet avec une inversion des couleurs, l'impact visuel est parfait !</p>
+    
+    <img src="images/portfolio/space-invader-7.webp">
+    
+    <p>Les aliens vont de devant à derrière tout en descendant progressivement. <strong>Pour varier le gameplay, j'ai ajouté des boss.</strong></p>
+    
+    <img src="images/portfolio/space-invader-8.webp">
+    
+    <p><strong>Le boss bouge aléatoirement dans la zone de combat. Plus on lui inflige de dégâts, plus il rétrécit et accélère, rendant le combat plus difficile</strong>. S'il touche le joueur, c'est la fin de la partie. (Le carré cyan au-dessus du joueur indique un bonus de tir doublé.)</p>
+    <p>Après avoir terminé les 26 niveaux et battu les 3 boss, <strong>un message informe le joueur qu'il débloque le mode Debug</strong>.</p>
+    
+    <img src="images/portfolio/space-invader-9.webp">
+    
+    <h3 data-pm-slice="1 1 []">Mode Debug et collision 3D</h3>
+    
+    <p>Une fois le mode Debug activé, vous <strong>pourrez bouger votre caméra, tuer tous les ennemis d'un seul coup, et changer le FOV</strong> (field of view, le champ) <strong>de la caméra</strong>.</p>
+    
+    <img src="images/portfolio/space-invader-10.webp">
+    
+    <p>Détecter <strong>les collisions en 3D est un défi intéressant.</strong> En raison de la perspective, voici la méthode que j'ai utilisée :</p>
+    
+    <img src="images/portfolio/space-invader-11.webp">
+    
+    <p>On regarde simplement si les coordonnées d'un objet (pos) est à l'intérieur de shape1, hitbox (qui devrait s'appeler offset plutôt que hitbox), permet de réduire ou de grossir la taille de boîte de collision.</p>
+    
+    <h3 data-pm-slice="1 1 []">Perception de la profondeur en 3D</h3>
+    
+    <p>Un problème en 3D est la difficulté d'évaluer la profondeur. Regardez cette image :</p>
+    
+    <img src="images/portfolio/space-invader-12.webp">
+    
+    <p>Est-ce que vous arriveriez à me dire où précisément se trouve les aliens sur l'axe Z ? Sont-ils proches ou loin ? Prenez le cube bleu, la pyramide orange et la pyramide jaune au dessus du joueur, ils semblent être au même niveau. Eh bien non ! Ils sont totalement éloignés, et c'est impossible à voir ! Donc j'ai rajouté une indication qui permet au joueur de mieux se repérer dans l'espace, aller jeter un coup d'œil aux captures d'écran en haut de ce poste quand on est en jeu et dites moi quels indications ont été utilisé pour améliorer la notion de perspective !</p>
+    <p>Si vous me dites les "ombres" de chaque aliens, vous avez raison ! <strong>J'ai rajouté pour chaque alien une sorte de marquage au sol pour pouvoir voir où est l'alien par rapport à l'axe z</strong>, et ça améliore énormément le gameplay ! Aussi, si vous regardez bien attentivement, <strong>plus l'alien est proche du sol, plus son ombre sera grosse</strong>, pour indiquer qu'il est important de le tuer en premier, car il représente un plus gros danger que les autres !</p>
+    
+    <h3 data-pm-slice="1 1 []">Sons, musiques et sauvegarde</h3>
+    
+    <p>Tout a été réalisé sans utiliser <em>Pygame</em> (excepté pour la musique) ni module pour faire de la 3D. <strong>J'ai ajouté des effets sonores et une bande-son originale conçue pour le jeu</strong>. Enfin, un système de sauvegarde au format <code>JSON</code> permet de conserver la progression !</p>
+    
+    <img src="images/portfolio/space-invader-13.webp">
+    
+    <p>Merci d'avoir lu cette présentation ! Si vous souhaitez essayer le projet, vous pouvez le télécharger ici :</p>
+    <p><a href="https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing">https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing</a></p>
+    <p><strong>Il vous faudra cependant avoir installé <em>Pygame</em> et <em>Pillow</em> !</strong></p>
+</div>
