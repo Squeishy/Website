@@ -1,0 +1,154 @@
+{
+    "translations": {
+        "text": {
+            "trace-title": {
+                "en": "SAE104 - Interview Project | Adobe Premiere | University",
+                "fr": "SAE104 - Projet Interview | Adobe Première | Univ"
+            },
+            "context-label": {
+                "en": "Context: ",
+                "fr": "Contexte : "
+            },
+            "context-value": {
+                "en": "SAE, group project",
+                "fr": "SAE, en groupe"
+            },
+            "presentation-title": {
+                "en": "Presentation",
+                "fr": "Présentation"
+            },
+            "presentation-text": {
+                "en": "As part of our SAE 104, our objective was to <strong>create an interview video</strong>. The principle was simple: <strong>one of us had to introduce themselves and be interviewed on any topic.</strong> Some chose to talk about music, others about art or video games, while my group and I decided to focus on a more professional theme related to business.",
+                "fr": "Dans le cadre de notre SAE 104, nous avions pour objectif <strong>de créer une vidéo d'interview</strong>. Le principe était simple : <strong>l'un d'entre nous devait se présenter et être interrogé sur un sujet libre.</strong> Certains ont choisi de parler de musique, d'autres d'art ou de jeux vidéo, tandis que mon groupe et moi avons décidé de nous orienter vers un thème un peu plus professionnel, en lien avec les entreprises."
+            },
+            "preparation-title": {
+                "en": "The Preparation",
+                "fr": "La préparation"
+            },
+            "preparation-location": {
+                "en": "Before even thinking about filming, it was essential to <strong>determine where and how we would film</strong>. Finding an appropriate location was the first step: after some research, <strong>I managed to secure two rooms at the Troyes technopole</strong>. These places offered an ideal professional setting, reinforcing the credibility of our interview, since it's a business incubator (it's where I have my company.)",
+                "fr": "Avant même de penser au tournage, il était essentiel de <strong>déterminer où et comment nous allions filmer</strong>. Trouver un lieu approprié fut la première étape : après quelques recherches,<strong> j'ai réussi à nous obtenir deux salles à la technopole de Troyes</strong>. Ces lieux offraient un cadre professionnel idéal, renforçant la crédibilité de notre interview, puisqu'il s'agit d'un incubateur pour entreprises (c'est l'endroit ou j'ai mon entreprise.)"
+            },
+            "preparation-script": {
+                "en": "Then, we <strong>wrote a script</strong>, not only to structure the interview but also to <strong>anticipate responses and ensure fluid and coherent speech</strong>. Out of eight questions and answers, we finally kept three or four.",
+                "fr": "Ensuite, nous avons <strong>rédigé un script</strong>, non seulement pour structurer l'interview, mais aussi pour <strong>anticiper les réponses et garantir un discours fluide et cohérent</strong>. Sur huit questions et réponses, nous en avons finalement retenu trois ou quatre."
+            },
+            "preparation-decor": {
+                "en": "We couldn't just settle for a neutral background like a wall. It was necessary to <strong>create a set that matched the atmosphere</strong> <strong>we wanted to convey.</strong> Since our theme was about entrepreneurship in video games, we needed to combine professionalism with aesthetics related to this universe. So we brought various objects from home, like books and office accessories, to make the environment more natural. We even added string lights to make it more dynamic!",
+                "fr": "Nous ne pouvions pas nous contenter d'un simple fond neutre comme un mur. Il était donc nécessaire de <strong>créer un décor correspondant à l'ambiance</strong> <strong>que nous souhaitions donner.</strong> Étant donné que notre thème portait sur l'entrepreneuriat dans les jeux vidéo, nous devions allier sérieux et esthétique en rapport avec cet univers. Nous avons donc apporté divers objets de chez nous, comme des livres et des accessoires de bureau, afin de rendre l'environnement plus naturel. Nous avons même ajouté des guirlandes pour dynamiser l'ensemble !"
+            },
+            "preparation-location-visit": {
+                "en": "Before shooting, <strong>we went to the technopole to inspect the premises</strong>. That's when we chose the two rooms and determined where to shoot our scenes. We also <strong>created a technical breakdown and storyboard to optimize our efficiency.</strong> You can find these elements at the top of this topic!",
+                "fr": "Avant de tourner,<strong> nous nous sommes rendus à la technopole pour inspecter les lieux</strong>. C'est à ce moment-là que nous avons choisi les deux salles et déterminé où réaliser nos plans. Nous avons également <strong>effectué un découpage technique et réalisé un storyboard afin d'optimiser notre efficacité.</strong> Vous pouvez retrouver ces éléments en haut de ce sujet !"
+            },
+            "shooting-title": {
+                "en": "The Shooting: A Race Against Time",
+                "fr": "Le tournage : une course contre la montre"
+            },
+            "shooting-roles": {
+                "en": "Once on site, we quickly set up the equipment. <strong>My role was to answer questions, while my colleague conducted the interview</strong>. Three other team members were respectively in charge of sound, camera, and lighting. We had to work fast because our two camera batteries weren't powerful enough to last all day! Moreover, our access to the equipment was limited to the afternoon, as we had to share it with other teams.",
+                "fr": "Une fois sur place, nous avons rapidement installé le matériel. <strong>Mon rôle était de répondre aux questions, tandis que ma collègue menait l'interview</strong>. Trois autres membres de l'équipe se chargeaient respectivement du son, de la caméra et de l'éclairage. Nous devions faire vite, car nos deux batteries de caméra n'étaient pas assez puissantes pour tenir toute une journée ! De plus, notre accès à l'équipement était limité à l'après-midi, car nous devions le partager avec les autres équipes."
+            },
+            "shooting-method": {
+                "en": "To save time and get a cleaner result, we chose to record in two parts: <strong>first all the answers, then all the questions. This method saved us from repositioning the camera for each take, but added an extra challenge to the editing</strong>, as everything had to be cut and reorganized in the right order.",
+                "fr": "Pour gagner du temps et obtenir un rendu plus propre, nous avons choisi d'enregistrer en deux parties : <strong>d'abord toutes les réponses, puis toutes les questions. Cette méthode nous a évité de repositionner la caméra à chaque prise, mais a ajouté une difficulté supplémentaire au montage</strong>, car il a fallu tout découper et réorganiser dans le bon ordre."
+            },
+            "shooting-broll": {
+                "en": "Apart from that, we also shot some B-roll footage, for example when entering the technopole, walking down a hallway, scrolling through a PC screen, or playing one of my games to illustrate the scene!",
+                "fr": "Mis à part cela, il a également réalisé parfois des plans d'illustration, par exemple lorsqu'on rentre de la technopole, lorsqu'on marche dans un couloir, qu'on fait défiler un écran sur un PC ou qu'on joue à un de mes jeux afin d'illustrer la scène !"
+            },
+            "subtitles": {
+                "en": "We also had to <strong>subtitle the video in English</strong>, but that was just a detail. It just required translating and adding text. The girls translated, and I believe I was the one who added them all to the video!",
+                "fr": "On a aussi dû <strong>sous-titrer la vidéo en anglais</strong>, mais ce n'est qu'un détail. Il suffit juste de traduire puis d'ajouter un texte. Les filles ont traduit, et il me semble que c'est moi qui les ai tous ajoutés à la vidéo !"
+            },
+            "editing-title": {
+                "en": "The Editing",
+                "fr": "Le montage"
+            },
+            "editing-process": {
+                "en": "Editing was a crucial step in structuring the video and ensuring its fluidity. It wasn't just about assembling takes, but also about <strong>giving rhythm and coherence to the whole</strong>. At times, we used an effect where the voice appears before the image, creating a more natural continuity. This effect also reinforced the \"documentary\" aspect of the video, increasing viewer immersion. Speaking of coherence, <strong>we also had to ensure that our voice sound remained consistent throughout, and I took care of that during editing!</strong>",
+                "fr": "Le montage a été une étape cruciale pour structurer la vidéo et assurer sa fluidité. Il ne s'agissait pas seulement d'assembler les prises, mais aussi de <strong>donner du rythme et de la cohérence à l'ensemble</strong>. Par moments, nous avons utilisé un effet où la voix apparaît avant l'image, créant ainsi une continuité plus naturelle. Cet effet renforçait également l'aspect \"documentaire\" de la vidéo, augmentant l'immersion du spectateur. Parlant de cohérence,<strong> Il fallait aussi s'assurer que le son de nos voix reste toujours le même, et je m'en suis chargé au montage !</strong>"
+            },
+            "editing-graphics": {
+                "en": "To help viewers identify the speakers, I added digital \"post-its\" indicating everyone's names and roles.",
+                "fr": "Afin d'aider les spectateurs à identifier les intervenants, j'ai ajouté des \"post-it\" numériques indiquant les noms et rôles de chacun."
+            },
+            "editing-effects": {
+                "en": "Additionally, to make it more dynamic, <strong>I integrated our logo and applied blur to certain parts to highlight key elements, like headlines.</strong>",
+                "fr": "De plus, pour dynamiser l'ensemble, <strong>j'ai intégré notre logo et appliqué du flou sur certaines parties afin de mettre en avant des éléments clés, comme les gros titres.</strong>"
+            },
+            "teamwork-title": {
+                "en": "Hell Is Not, Surprisingly, Other People",
+                "fr": "L'enfer, c'est étonnement pas les autres"
+            },
+            "teamwork-text": {
+                "en": "As you could see in the previous image, we were five working on the project and divided the roles among ourselves. <strong>I was mainly in charge of editing and the interview, but I also helped in other areas, although my teammates were much more competent in those aspects!</strong> In the end, we all enjoyed collaborating and were able to work efficiently together. It was a refreshing and enriching experience!",
+                "fr": "Comme vous avez pu le voir sur l'image précédente, nous étions cinq à travailler sur le projet et avons réparti les rôles entre nous. J<strong>'étais principalement en charge du montage et de l'interview, mais j'ai également apporté mon aide dans d'autres domaines, bien que mes coéquipiers étaient bien plus compétents dans ces aspects !</strong> Au final, nous avons tous pris plaisir à collaborer et avons su travailler efficacement ensemble. C'était une expérience rafraîchissante et enrichissante !"
+            },
+            "conclusion-title": {
+                "en": "Conclusion",
+                "fr": "Conclusion"
+            },
+            "conclusion-text": {
+                "en": "Despite technical constraints and tight timing, we managed to produce a three-minute video effectively summarizing our work. This experience allowed us to explore all stages of video production, from preparation to distribution, while providing us with valuable multimedia project management skills.",
+                "fr": "Malgré les contraintes techniques et un timing serré, nous avons réussi à produire une vidéo d'environ trois minutes résumant efficacement notre travail. Cette expérience nous a permis d'explorer toutes les étapes de la réalisation d'une vidéo, de la préparation à la diffusion, tout en nous apportant de précieuses compétences en gestion de projet multimédia."
+            },
+            "video-link": {
+                "en": "If you'd like to watch the video, it's available here",
+                "fr": "Si vous souhaitez visionner la vidéo, elle est disponible ici :"
+            }
+        },
+        "alt": {
+            "interview-1": {
+                "en": "View of the technopole building",
+                "fr": "Vue du bâtiment de la technopole"
+            },
+            "interview-2": {
+                "en": "Interior of the first meeting room",
+                "fr": "Intérieur de la première salle de réunion"
+            },
+            "interview-3": {
+                "en": "Interior of the second meeting room",
+                "fr": "Intérieur de la deuxième salle de réunion"
+            },
+            "interview-4": {
+                "en": "Screenshot of the interview script",
+                "fr": "Capture d'écran du script de l'interview"
+            },
+            "interview-5": {
+                "en": "Photo of the decorated interview set",
+                "fr": "Photo du décor de l'interview"
+            },
+            "interview-6": {
+                "en": "Behind the scenes of filming",
+                "fr": "Les coulisses du tournage"
+            },
+            "interview-7": {
+                "en": "Camera setup shot",
+                "fr": "Installation de la caméra"
+            },
+            "interview-8": {
+                "en": "Recording the interview",
+                "fr": "Enregistrement de l'interview"
+            },
+            "interview-9": {
+                "en": "B-roll footage being filmed",
+                "fr": "Tournage des plans d'illustration"
+            },
+            "interview-10": {
+                "en": "Screenshot of the editing timeline",
+                "fr": "Capture d'écran de la timeline de montage"
+            },
+            "interview-11": {
+                "en": "Example of name tags in the video",
+                "fr": "Exemple des étiquettes de noms dans la vidéo"
+            }
+        },
+        "title": {
+            "video-link": {
+                "en": "Watch the interview video",
+                "fr": "Regarder la vidéo de l'interview"
+            }
+        }
+    }
+} 

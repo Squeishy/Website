@@ -21,7 +21,7 @@ async function TranslateText(jsonFile, context = document) {
                     const element = context.querySelector(`#${key}`);
                     if (element) {
                         if (category === 'text') {
-                            element.textContent = translations[category][key][selectedLanguage] || 'MISSING TEXT';
+                            element.innerHTML = translations[category][key][selectedLanguage] || 'MISSING TEXT';
                         } else {
                             element[category] = translations[category][key][selectedLanguage] || 'MISSING VALUE';
                         }

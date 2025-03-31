@@ -1,0 +1,118 @@
+{
+  "translations": {
+    "text": {
+      "trace-title": {
+        "en": "Phasmophobia - The Guide | HTML / CSS / JS / PHP / SQL | Personal",
+        "fr": "Phasmophobia - Le Guide | HTML / CSS / JS / PHP / SQL | Perso"
+      },
+      "context-label": {
+        "en": "Context:",
+        "fr": "Contexte :"
+      },
+      "context-value": {
+        "en": "in group",
+        "fr": "en groupe"
+      },
+      "presentation-title": {
+        "en": "Presentation",
+        "fr": "Présentation"
+      },
+      "presentation-game": {
+        "en": "<strong>Phasmophobia</strong> is a video game where players must identify the type of ghost haunting a location (Poltergeist, Ghost, Demon, etc.). To do this, the player is equipped with various gadgets that help determine the correct entity based on evidence. Each ghost has three specific pieces of evidence that help identify it.",
+        "fr": "<strong>Phasmophobia</strong> est un jeu vidéo où les joueurs doivent identifier le type de fantôme qui hante un lieu (Poltergeist, Fantôme, Démon, etc.). Pour ce faire, le joueur est doté de divers gadgets qui l'aident à déterminer la bonne entité en fonction des preuves. Chaque fantôme possède trois preuves spécifiques permettant de l'identifier."
+      },
+      "presentation-project": {
+        "en": "During a class project in NSI, we were asked to create a website using SQL databases, which we had to put online and use dynamically via PHP. So I created three tables: one for ghosts, another for objects, and a last one for evidence. This project allowed me to learn the basics of <strong>PHP</strong> and <strong>SQL databases</strong>, as well as the use of <strong><em>AlwaysData</em></strong>, a service for hosting these tables.",
+        "fr": "Lors d'un projet de classe en NSI, il nous était demandé de réaliser un site web en utilisant des bases de données SQL, que nous devions mettre en ligne et exploiter dynamiquement via PHP. J'ai donc créé trois tables : une pour les fantômes, une autre pour les objets et une dernière pour les preuves. Ce projet m'a permis d'apprendre les bases du <strong>PHP</strong> et des <strong>bases de données SQL</strong>, ainsi que l'utilisation d'<strong><em>AlwaysData</em></strong>, un service permettant d'héberger ces tables."
+      },
+      "code-title": {
+        "en": "The Code",
+        "fr": "Le code"
+      },
+      "code-intro": {
+        "en": "Here is, for example, a <strong>code excerpt that allows retrieving ghosts associated with certain types of evidence</strong>:",
+        "fr": "Voici, par exemple, un <strong>extrait de code qui permet de récupérer les fantômes associés à certains types de preuves </strong>:"
+      },
+      "code-evidence-query": {
+        "en": "// Get evidence",
+        "fr": "// Récupérer les preuves"
+      },
+      "code-ghost-query": {
+        "en": "// Get ghosts and their evidence",
+        "fr": "// Récupérer les fantômes et leurs preuves"
+      },
+      "pages-title": {
+        "en": "The Pages",
+        "fr": "Les pages"
+      },
+      "pages-intro": {
+        "en": "The site had several pages:",
+        "fr": "Le site comportait plusieurs pages :"
+      },
+      "pages-home": {
+        "en": "The home page (index) allowed navigation throughout the site and access to different tables.",
+        "fr": "La page d'accueil (index) permettait de naviguer sur l'ensemble du site et d'accéder aux différentes tables."
+      },
+      "pages-entities": {
+        "en": "The \"Entities\" page displayed all entities from the database.",
+        "fr": "La page \"Entités\" affichait toutes les entités de la base de données."
+      },
+      "pages-ghost-details": {
+        "en": "By clicking a button, you could see the selected ghost with a short description and its evidence. A small image corresponding to the ghost was also displayed.",
+        "fr": "En cliquant sur un bouton, on pouvait voir le fantôme sélectionné avec une courte description et ses preuves. Une petite image correspondant au fantôme était également affichée."
+      },
+      "pages-objects": {
+        "en": "The \"Objects\" page listed all objects from the database, showing their price and description. It was possible to modify the tier of objects (three levels: bad, normal, and good) and see the changes in real-time.",
+        "fr": "La page \"Objets\" listait tous les objets de la base de données, en montrant leur prix et leur description. Il était possible de modifier le tier des objets (trois niveaux : mauvais, normaux et bons) et de voir les changements en direct."
+      },
+      "pages-evidence": {
+        "en": "The <strong>\"Evidence\"</strong> page allowed you to <strong>check/uncheck evidence</strong>, and a JavaScript script would dynamically update the list of corresponding ghosts. Hovering over <strong>evidence would also display an image of it.</strong>",
+        "fr": "La page <strong>\"Preuves\"</strong> permettait de <strong>cocher/décocher des preuves</strong>, et un script JavaScript mettait à jour dynamiquement la liste des fantômes correspondants. Passer la souris sur une<strong> preuve affichait également une image de celle-ci.</strong>"
+      },
+      "conclusion-title": {
+        "en": "Conclusion",
+        "fr": "Conclusion"
+      },
+      "conclusion-text": {
+        "en": "In the end, this project allowed me to <strong>deepen my skills in HTML and CSS</strong>, learn <strong>JavaScript</strong>, but most importantly to <strong>manipulate databases in PHP</strong>, all while working on a game I love. The website is unfortunately no longer online, but you can see it by clicking on this link:",
+        "fr": "Au final, ce projet m'a permis <strong>d'approfondir mes compétences en HTML et CSS</strong>, d'apprendre le <strong>JavaScript</strong>, mais surtout de <strong>manipuler des bases de données en PHP</strong>, tout cela en travaillant sur un jeu que j'adore. Le site web n'est malheuresement plus en ligne, mais vous pouvez le voir en cliquant sur ce lien :"
+      },
+      "video-link": {
+        "en": "video",
+        "fr": "vidéo"
+      }
+    },
+    "alt": {
+      "phasmophobia-header": {
+        "en": "Phasmophobia Guide Header Image",
+        "fr": "Image d'en-tête du Guide Phasmophobia"
+      },
+      "phasmophobia-1": {
+        "en": "Phasmophobia Guide Home Page",
+        "fr": "Page d'accueil du Guide Phasmophobia"
+      },
+      "phasmophobia-2": {
+        "en": "Entities Page showing ghost types",
+        "fr": "Page des Entités montrant les types de fantômes"
+      },
+      "phasmophobia-3": {
+        "en": "Detailed ghost information page",
+        "fr": "Page d'information détaillée sur un fantôme"
+      },
+      "phasmophobia-4": {
+        "en": "Objects page with equipment list",
+        "fr": "Page des Objets avec liste d'équipement"
+      },
+      "phasmophobia-5": {
+        "en": "Evidence page with interactive checklist",
+        "fr": "Page des Preuves avec liste interactive"
+      }
+    },
+    "title": {
+      "video-link": {
+        "en": "Watch the Phasmophobia Guide demonstration video",
+        "fr": "Regarder la vidéo de démonstration du Guide Phasmophobia"
+      }
+    }
+  }
+} 

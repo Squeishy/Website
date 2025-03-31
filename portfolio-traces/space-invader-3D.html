@@ -1,111 +1,113 @@
-<div class=" trace-content card">
-    <h2>Space Invader 3D | Python | Perso</h2>
+<div data-json="translations/trace/space-invader-3D.json"></div>
+
+<div class="trace-content card">
+    <h2 id="trace-title">Space Invader 3D | Python | Personal</h2>
     
     <hr>
     
     <div class="trace-infos-min">
         <ul>
-            <li><span>Contexte :&nbsp;</span> en solo</li>
+            <li><span id="context-label">Context:&nbsp;</span><span id="context-value">solo</span></li>
         </ul>
     </div>
 
-    <button>
-        <a href="https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing</a>
+    <button id="download-button">
+        <a href="https://github.com/AurelienLombard/Space-Invader-3D" target="_blank" id="download-link" title="Download Space Invader 3D">Download the game</a>
     </button>
     
-    <h3 data-pm-slice="1 1 []">Présentation</h3>
+    <h3 id="presentation-title">Presentation</h3>
     
-    <p>À la fin de mon année de terminale aux Lombards, il nous était demandé de <strong>coder un Space Invaders comme projet final</strong>, un jeu simple en 2D sur <em>Tkinter</em> (un module en <em>Python</em> pour créer des interfaces graphiques).</p>
-    <p>Sauf que je n'avais pas envie de refaire, encore une fois, un projet en 2D que nous avions déjà réalisé une vingtaine de fois. J'ai donc <strong>décidé de le faire en 3D</strong>.</p>
-    <p>Et là, vous vous dites sûrement : "Avec les outils d'aujourd'hui, c'est simple ! Il y a <em>Blender</em> et sûrement plein de modules en <em>Python</em> qui permettent de faire de la 3D." Sauf que non. <strong>J'ai entièrement codé mon propre moteur 3D</strong>, en utilisant <em>Tkinter</em>, qui n'est <strong>absolument pas conçu pour ça</strong>.</p>
-    <p>Voyons à présent comment j'ai réalisé ce projet !</p>
+    <p id="presentation-intro">At the end of my senior year at Les Lombards, we were asked to <strong>code a Space Invaders as a final project</strong>, a simple 2D game using <em>Tkinter</em> (a <em>Python</em> module for creating graphical interfaces).</p>
+    <p id="presentation-3d-choice">Except that I didn't want to make, yet again, a 2D project that we had already done about twenty times. So I <strong>decided to make it in 3D</strong>.</p>
+    <p id="presentation-engine">And here, you might be thinking: "With today's tools, that's simple! There's <em>Blender</em> and surely many <em>Python</em> modules that allow for 3D." Except no. <strong>I completely coded my own 3D engine</strong>, using <em>Tkinter</em>, which is <strong>absolutely not designed for this</strong>.</p>
+    <p id="presentation-transition">Let's see how I made this project!</p>
     
-    <h3 data-pm-slice="1 1 []">Comprendre l'espace 3D</h3>
+    <h3 id="understanding-3d-title">Understanding 3D Space</h3>
     
-    <p>Avant d'expliquer le fonctionnement de mon moteur, il faut <strong>d'abord comprendre comment fonctionne un espace 3D</strong>. Commençons par un espace 2D :<strong> il est défini par deux dimensions, l'abscisse (x) et l'ordonnée (y).</strong> Par exemple, un carré possède quatre points.</p>
-    <p>En 3D, <strong>on ajoute une troisième dimension</strong>, appelée la côte ou profondeur (axe z). Notre carré devient alors un cube et gagne quatre sommets supplémentaires, soit un total de huit.</p>
-    <p>Ainsi, pour représenter un cube en 3D, <strong>il faut d'abord définir son squelette</strong>, c'est-à-dire ses sommets (appelés "vertices"), que j'ai codé en créant une classe <em>Vertex </em>qui contient <strong>des coordonnées et une fonction pour bouger</strong>!</p>
+    <p id="understanding-2d">Before explaining how my engine works, we need to <strong>first understand how 3D space works</strong>. Let's start with 2D space: <strong>it is defined by two dimensions, the abscissa (x) and the ordinate (y).</strong> For example, a square has four points.</p>
+    <p id="understanding-3d">In 3D, <strong>we add a third dimension</strong>, called the height or depth (z-axis). Our square becomes a cube and gains four additional vertices, for a total of eight.</p>
+    <p id="understanding-vertices">Thus, to represent a cube in 3D, <strong>we must first define its skeleton</strong>, meaning its vertices (called "vertices"), which I coded by creating a <em>Vertex</em> class that contains <strong>coordinates and a function to move</strong>!</p>
     
-    <img src="images/portfolio/space-invader-1.webp">
+    <img src="images/portfolio/space-invader-1.webp" alt="Diagram showing 2D and 3D coordinate systems" id="space-invader-1">
     
-    <h3 data-pm-slice="1 1 []">Création des vertices et du cube</h3>
+    <h3 id="vertices-cube-title">Creating Vertices and the Cube</h3>
     
-    <p>Lorsqu'on crée un vertex, on passe en paramètre ses coordonnées (x, y, z) et on les lui assigne. La méthode <code>changePosition(self, valx, valy, valz)</code> permet de modifier sa position, tandis que <code>__str__(self)</code> facilite le débogage en affichant les coordonnées du point.</p>
-    <p>Avec cette classe de vertex en place, nous pouvons créer notre cube. <strong>Celui-ci possède un vertex pour désigner le centre, un attribut side qui représente sa taille, une couleur et un nom.</strong></p>
-    <p>À partir du centre, nous générons huit autres vertices dans chaque direction (voir <code>self.vertices</code>). <strong>Ces sommets permettent ensuite de créer les faces du cube.</strong></p>
+    <p id="vertex-class">When creating a vertex, we pass its coordinates (x, y, z) as parameters and assign them to it. The <code>changePosition(self, valx, valy, valz)</code> method allows modifying its position, while <code>__str__(self)</code> facilitates debugging by displaying the point's coordinates.</p>
+    <p id="cube-class">With this vertex class in place, we can create our cube. <strong>It has a vertex to designate the center, a side attribute that represents its size, a color, and a name.</strong></p>
+    <p id="cube-vertices">From the center, we generate eight other vertices in each direction (see <code>self.vertices</code>). <strong>These vertices then allow us to create the cube's faces.</strong></p>
     
-    <img src="images/portfolio/space-invader-2.webp">
+    <img src="images/portfolio/space-invader-2.webp" alt="Code showing cube vertex generation" id="space-invader-2">
     
-    <p>J'ai pris l'exemple du cube car il est le plus simple à modéliser, mais il est <strong>bien entendu possible de concevoir d'autres formes, comme un octaèdre </strong>(octahedron en anglais.)</p>
+    <p id="other-shapes">I used the cube as an example because it's the simplest to model, but it's <strong>certainly possible to design other shapes, like an octahedron</strong>.</p>
     
-    <img src="images/portfolio/space-invader-3.webp">
+    <img src="images/portfolio/space-invader-3.webp" alt="Example of an octahedron shape" id="space-invader-3">
     
-    <h3 data-pm-slice="1 1 []">Affichage des formes à l'écran</h3>
+    <h3 id="display-title">Displaying Shapes on Screen</h3>
     
-    <p>Pour l'instant, nous avons juste une série de valeurs numériques, <strong>mais rien d'affiché à l'écran</strong>. Pas d'inquiétude, c'est maintenant que nous allons travailler sur le rendu.</p>
-    <p>Une liste <code>objects</code> contient toutes les formes du jeu (cubes, octaèdres, pyramides…).</p>
-    <p>Le processus de rendu se déroule ainsi :</p>
+    <p id="display-intro">For now, we just have a series of numerical values, <strong>but nothing displayed on screen</strong>. Don't worry, this is where we'll work on rendering.</p>
+    <p id="objects-list">An <code>objects</code> list contains all the game's shapes (cubes, octahedrons, pyramids...).</p>
+    <p id="render-process">The rendering process goes like this:</p>
     
-    <img src="images/portfolio/space-invader-4.webp">
+    <img src="images/portfolio/space-invader-4.webp" alt="Code showing the rendering process" id="space-invader-4">
     
-    <p>On <strong>efface le canvas avant de redessiner, afin d'éviter la superposition des anciennes images</strong>. Puis on <strong>détermine le centre de l'écran, essentiel pour créer l'effet de perspective</strong>. Bien que mon jeu soit en 3D, l'écran reste en 2D ! Il faut donc <strong>simuler la profondeur en ajustant x et y en fonction de z</strong>. Plus un objet est éloigné (grand z), <strong>plus il se rapproche du centre </strong>(point de fuite). Ensuite, il faut trier les objets (<code>sorted_objects</code>) pour s'assurer que ceux situés plus loin s'affichent derrière les autres (ça n'a jamais marché, quoi que je fasse). Enfin, pour chaque face d'un objet, <strong>on relie les sommets pour dessiner les formes.</strong></p>
+    <p id="render-steps">We <strong>clear the canvas before redrawing to avoid overlapping old images</strong>. Then we <strong>determine the center of the screen, essential for creating the perspective effect</strong>. Although my game is in 3D, the screen remains 2D! So we need to <strong>simulate depth by adjusting x and y based on z</strong>. The further an object is (higher z), <strong>the closer it gets to the center</strong> (vanishing point). Then, we need to sort the objects (<code>sorted_objects</code>) to ensure those further back appear behind others (this never worked, whatever I did). Finally, for each face of an object, <strong>we connect the vertices to draw the shapes.</strong></p>
     
-    <h3 data-pm-slice="1 1 []">Animation et rotation des objets</h3>
+    <h3 id="animation-title">Animation and Object Rotation</h3>
     
-    <p>Pour rendre le jeu un petit peu plus vivant, <strong>il serait bien de faire tourner les objets</strong>, afin d'animer le tout, pour se faire, la rotation repose sur l'application de matrices de transformation.</p>
-    <p>Ce qu'on fait c'est que, <strong>pour chaque sommet, on crée un sommet temporaire, ensuite, on lui applique une matrice de rotation sur l'axe x,</strong> enfin, <strong>on met à jour les coordonnées du sommet d'origine.</strong> une fois cela fait, <strong>on recommence avec y et z</strong>, à noter qu'il est largement possible d'optimiser ce code, mais je n'avais pas ce genre de compétences à l'époque !</p>
+    <p id="animation-intro">To make the game a bit more lively, <strong>it would be nice to rotate the objects</strong>, to animate everything. To do this, rotation relies on applying transformation matrices.</p>
+    <p id="rotation-process">What we do is, <strong>for each vertex, we create a temporary vertex, then apply a rotation matrix on the x-axis</strong>, finally, <strong>we update the original vertex's coordinates</strong>. Once this is done, <strong>we repeat with y and z</strong>. Note that this code could be largely optimized, but I didn't have those kinds of skills at the time!</p>
     
-    <img src="images/portfolio/space-invader-5.webp">
+    <img src="images/portfolio/space-invader-5.webp" alt="Code showing rotation matrix application" id="space-invader-5">
     
-    <p>Avec quelques objets supplémentaires et un peu de code, voici le résultat en jeu :</p>
+    <p id="game-result">With a few additional objects and some code, here's the result in-game:</p>
     
-    <img src="images/portfolio/space-invader-6.webp">
+    <img src="images/portfolio/space-invader-6.webp" alt="Screenshot of the game in action" id="space-invader-6">
     
-    <p>Le cube rose représente le joueur avec un bouclier. Sans bouclier, il est blanc. <strong>L'objectif est de tirer sur les aliens</strong> (les formes colorées en haut de l'écran) en se déplaçant dans l'espace et en les éliminant !</p>
+    <p id="gameplay-explanation">The pink cube represents the player with a shield. Without a shield, it's white. <strong>The goal is to shoot the aliens</strong> (the colored shapes at the top of the screen) by moving through space and eliminating them!</p>
     
-    <h3 data-pm-slice="1 1 []">Effets visuels et gameplay</h3>
+    <h3 id="effects-title">Visual Effects and Gameplay</h3>
     
-    <p>Dans la fonction <code>render</code>, vous remarquerez les variables <code>x_noise</code> et <code>y_noise</code>. Elles servent <strong>à faire trembler les faces des objets</strong>, simulant par exemple une explosion lorsqu'un alien est détruit. En combinant cet effet avec une inversion des couleurs, l'impact visuel est parfait !</p>
+    <p id="visual-effects">In the <code>render</code> function, you'll notice the <code>x_noise</code> and <code>y_noise</code> variables. They serve <strong>to make the objects' faces shake</strong>, simulating for example an explosion when an alien is destroyed. By combining this effect with a color inversion, the visual impact is perfect!</p>
     
-    <img src="images/portfolio/space-invader-7.webp">
+    <img src="images/portfolio/space-invader-7.webp" alt="Example of visual effects in the game" id="space-invader-7">
     
-    <p>Les aliens vont de devant à derrière tout en descendant progressivement. <strong>Pour varier le gameplay, j'ai ajouté des boss.</strong></p>
+    <p id="alien-movement">The aliens move from front to back while gradually descending. <strong>To vary the gameplay, I added bosses.</strong></p>
     
-    <img src="images/portfolio/space-invader-8.webp">
+    <img src="images/portfolio/space-invader-8.webp" alt="Screenshot of a boss battle" id="space-invader-8">
     
-    <p><strong>Le boss bouge aléatoirement dans la zone de combat. Plus on lui inflige de dégâts, plus il rétrécit et accélère, rendant le combat plus difficile</strong>. S'il touche le joueur, c'est la fin de la partie. (Le carré cyan au-dessus du joueur indique un bonus de tir doublé.)</p>
-    <p>Après avoir terminé les 26 niveaux et battu les 3 boss, <strong>un message informe le joueur qu'il débloque le mode Debug</strong>.</p>
+    <p id="boss-mechanics"><strong>The boss moves randomly in the combat zone. The more damage you inflict, the smaller and faster it becomes, making the fight more difficult</strong>. If it touches the player, it's game over. (The cyan square above the player indicates a double-shot bonus.)</p>
+    <p id="debug-mode">After completing the 26 levels and defeating the 3 bosses, <strong>a message informs the player that they've unlocked Debug Mode</strong>.</p>
     
-    <img src="images/portfolio/space-invader-9.webp">
+    <img src="images/portfolio/space-invader-9.webp" alt="Screenshot showing debug mode unlock" id="space-invader-9">
     
-    <h3 data-pm-slice="1 1 []">Mode Debug et collision 3D</h3>
+    <h3 id="debug-title">Debug Mode and 3D Collision</h3>
     
-    <p>Une fois le mode Debug activé, vous <strong>pourrez bouger votre caméra, tuer tous les ennemis d'un seul coup, et changer le FOV</strong> (field of view, le champ) <strong>de la caméra</strong>.</p>
+    <p id="debug-features">Once Debug Mode is activated, you <strong>can move your camera, kill all enemies with one shot, and change the FOV</strong> (field of view, the camera's field) <strong>of the camera</strong>.</p>
     
-    <img src="images/portfolio/space-invader-10.webp">
+    <img src="images/portfolio/space-invader-10.webp" alt="Screenshot of debug mode features" id="space-invader-10">
     
-    <p>Détecter <strong>les collisions en 3D est un défi intéressant.</strong> En raison de la perspective, voici la méthode que j'ai utilisée :</p>
+    <p id="collision-intro">Detecting <strong>collisions in 3D is an interesting challenge.</strong> Due to perspective, here's the method I used:</p>
     
-    <img src="images/portfolio/space-invader-11.webp">
+    <img src="images/portfolio/space-invader-11.webp" alt="Code showing collision detection" id="space-invader-11">
     
-    <p>On regarde simplement si les coordonnées d'un objet (pos) est à l'intérieur de shape1, hitbox (qui devrait s'appeler offset plutôt que hitbox), permet de réduire ou de grossir la taille de boîte de collision.</p>
+    <p id="collision-method">We simply check if an object's coordinates (pos) are inside shape1, hitbox (which should be called offset rather than hitbox) allows reducing or increasing the collision box size.</p>
     
-    <h3 data-pm-slice="1 1 []">Perception de la profondeur en 3D</h3>
+    <h3 id="depth-perception-title">Perceiving Depth in 3D</h3>
     
-    <p>Un problème en 3D est la difficulté d'évaluer la profondeur. Regardez cette image :</p>
+    <p id="depth-problem">A problem in 3D is the difficulty of evaluating depth. Look at this image:</p>
     
-    <img src="images/portfolio/space-invader-12.webp">
+    <img src="images/portfolio/space-invader-12.webp" alt="Screenshot showing depth perception challenge" id="space-invader-12">
     
-    <p>Est-ce que vous arriveriez à me dire où précisément se trouve les aliens sur l'axe Z ? Sont-ils proches ou loin ? Prenez le cube bleu, la pyramide orange et la pyramide jaune au dessus du joueur, ils semblent être au même niveau. Eh bien non ! Ils sont totalement éloignés, et c'est impossible à voir ! Donc j'ai rajouté une indication qui permet au joueur de mieux se repérer dans l'espace, aller jeter un coup d'œil aux captures d'écran en haut de ce poste quand on est en jeu et dites moi quels indications ont été utilisé pour améliorer la notion de perspective !</p>
-    <p>Si vous me dites les "ombres" de chaque aliens, vous avez raison ! <strong>J'ai rajouté pour chaque alien une sorte de marquage au sol pour pouvoir voir où est l'alien par rapport à l'axe z</strong>, et ça améliore énormément le gameplay ! Aussi, si vous regardez bien attentivement, <strong>plus l'alien est proche du sol, plus son ombre sera grosse</strong>, pour indiquer qu'il est important de le tuer en premier, car il représente un plus gros danger que les autres !</p>
+    <p id="depth-solution">Could you tell me exactly where the aliens are on the Z-axis? Are they close or far? Take the blue cube, the orange pyramid, and the yellow pyramid above the player, they seem to be at the same level. Well no! They are completely far apart, and it's impossible to see! So I added an indicator that helps the player better orient themselves in space, go take a look at the screenshots at the top of this post when we're in-game and tell me what indicators were used to improve the sense of perspective!</p>
+    <p id="shadow-system">If you say the "shadows" of each alien, you're right! <strong>I added a kind of ground marking for each alien to be able to see where the alien is in relation to the z-axis</strong>, and it greatly improves the gameplay! Also, if you look carefully, <strong>the closer the alien is to the ground, the bigger its shadow will be</strong>, to indicate that it's more important to kill it first, as it represents a bigger danger than the others!</p>
     
-    <h3 data-pm-slice="1 1 []">Sons, musiques et sauvegarde</h3>
+    <h3 id="audio-title">Sounds, Music, and Save System</h3>
     
-    <p>Tout a été réalisé sans utiliser <em>Pygame</em> (excepté pour la musique) ni module pour faire de la 3D. <strong>J'ai ajouté des effets sonores et une bande-son originale conçue pour le jeu</strong>. Enfin, un système de sauvegarde au format <code>JSON</code> permet de conserver la progression !</p>
+    <p id="audio-implementation">Everything was done without using <em>Pygame</em> (except for music) or any module for 3D. <strong>I added sound effects and an original soundtrack designed for the game</strong>. Finally, a <code>JSON</code> format save system allows preserving progress!</p>
     
-    <img src="images/portfolio/space-invader-13.webp">
+    <img src="images/portfolio/space-invader-13.webp" alt="Screenshot showing save system" id="space-invader-13">
     
-    <p>Merci d'avoir lu cette présentation ! Si vous souhaitez essayer le projet, vous pouvez le télécharger ici :</p>
-    <p><a href="https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing">https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing</a></p>
-    <p><strong>Il vous faudra cependant avoir installé <em>Pygame</em> et <em>Pillow</em> !</strong></p>
+    <p id="download-note">Thank you for reading this presentation! If you'd like to try the project, you can download it here:</p>
+    <p id="download-link-2"><a href="https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing">https://drive.google.com/drive/folders/1et-A36n3nEX4gVnTWWRvca5-O8ZlBRmF?usp=sharing</a></p>
+    <p id="requirements"><strong>You'll need to have <em>Pygame</em> and <em>Pillow</em> installed!</strong></p>
 </div>
