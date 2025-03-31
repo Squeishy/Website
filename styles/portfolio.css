@@ -12,7 +12,7 @@
 }
 
 #about-me-background:hover {
-    background: rgba(255, 255, 255, 1);
+    background: whitesmoke;
     transform: scaleX(1.02);
 }
 
@@ -204,5 +204,103 @@
     .section-nav ul {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+.cv-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.cv-container:hover {
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    transform: scale(1.01);
+}
+
+.cv-container p {
+    flex: 1 1 45%;
+    margin: 0;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+    padding-right: 20px;
+}
+
+.cv-container img {
+    flex: 1 1 45%;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+}
+
+.cv-container img:hover {
+    box-shadow: 1rem 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    transform: scale(1.02) rotateZ(3deg);
+}
+
+.cv-container a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.cv-container button {
+    flex: 1 1 100%;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.cv-container button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+@media (max-width: 768px) {
+    .cv-container {
+        padding: 30px 20px;
+    }
+    
+    .cv-container p,
+    .cv-container img {
+        flex: 1 1 100%;
+    }
+    
+    .cv-container p {
+        font-size: 1rem;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .cv-container img {
+        max-width: 100%;
     }
 }

@@ -8,6 +8,7 @@
     padding: 60px;
     margin: 150px auto 300px auto;
     transition: all 0.3s ease-in-out;
+    pointer-events: auto !important;
 }
 
 #trace-background:hover {
@@ -112,10 +113,11 @@ code .operator { color: #d4d4d4; }
     display: block;
     margin: 30px auto;
 
-    height: 300px;
-    width: auto;
+    width: 90%;
+    max-width: 600px;
+    max-height: auto;
+    object-fit: contain;
 
-    object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: all 0.3s ease-in-out;

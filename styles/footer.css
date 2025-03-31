@@ -2,9 +2,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.85);
+    background: rgba(0, 0, 0, 0.75);
     backdrop-filter: blur(15px);
-    color: whitesmoke;
+    color: white;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease-in-out;
@@ -21,7 +21,7 @@ footer.shown {
 }
 
 footer p {
-    color: whitesmoke;
+    color: white;
     font-size: 1rem;
     margin: 20px;
 }
@@ -36,10 +36,18 @@ footer a {
 }
 
 footer a:hover {
-    color: whitesmoke;
+    color: white;
     text-decoration: underline;
 }
 
 section {
     padding-bottom: 200px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    footer {
+        background-color: #141414;
+        backdrop-filter: blur(0px);
+    }
 }
