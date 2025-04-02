@@ -13,6 +13,11 @@ header {
     align-items: center;
     padding: 0 1em;
     box-sizing: border-box;
+    transition: z-index 0.3s ease-in-out;
+}
+
+body:has(iframe.fullscreen) header {
+    z-index: 0;
 }
 
 header.expand {

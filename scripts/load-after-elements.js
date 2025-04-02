@@ -9,7 +9,7 @@ document.addEventListener('headerLoaded', function() {
         'scripts/accessibility/contrast.js',
         'scripts/accessibility/cancel-animations.js',
         'scripts/accessibility/change-language.js',
-        'scripts/toggle-header.js'
+        'scripts/toggle-header.js',
     ];
 
     // Load scripts sequentially to ensure proper initialization

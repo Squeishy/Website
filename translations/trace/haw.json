@@ -1,0 +1,228 @@
+{
+  "translations": {
+    "text": {
+      "title": {
+        "en": "HAW - Home Appliance War | Unity | Personal",
+        "fr": "HAW - Home Appliance War | Unity | Perso"
+      },
+      "context-label": {
+        "en": "Context:",
+        "fr": "Contexte :"
+      },
+      "context-value": {
+        "en": "Personal Project, solo",
+        "fr": "projet personnel, en solo"
+      },
+      "presentation-title": {
+        "en": "Presentation",
+        "fr": "Présentation"
+      },
+      "presentation-text": {
+        "en": "<em>HAW</em>, for <em>Home Appliance War</em>, or \"The War of Home Appliances\", was <strong>my very first real game project that seemed like it could lead to something</strong>. Although it was <strong>never completed</strong>, this game taught me a lot: <strong>3D modeling</strong>, <strong>C#</strong>, <strong>shaders</strong>, <strong>animations</strong>, <strong>online multiplayer</strong>, and even <strong>account management</strong>!",
+        "fr": "<em>HAW</em>, pour <em>Home Appliance War</em>, ou la \"Guerre des Électroménagers\", était <strong>mon tout premier vrai projet de jeu qui semblait pouvoir aboutir à quelque chose</strong>. Bien qu'il n'ait <strong>jamais été terminé</strong>, ce jeu m'a énormément appris : <strong>la modélisation 3D</strong>, <strong>le C#</strong>, <strong>les shaders</strong>, <strong>les animations</strong>, <strong>le multijoueur en ligne</strong>, et même <strong>la gestion de comptes</strong> !"
+      },
+      "adventure-start-title": {
+        "en": "The Beginning of an Adventure",
+        "fr": "Le début d'une aventure"
+      },
+      "adventure-start-text": {
+        "en": "To get to the final (unfinished) game, I had to remake the project... <strong>four times</strong>! I was very new to Unity at that time, and even after the fourth attempt, it was far from finished. I ended up abandoning it. Because, let's be honest: creating an online multiplayer game at 15, with no experience or idea of how to do it, is clearly not the key to success...",
+        "fr": "Pour arriver au jeu final (inachevé), j'ai dû refaire le projet… <strong>quatre fois</strong> ! J'étais très novice sur Unity à ce moment-là, et même après la quatrième tentative, il était loin d'être terminé. J'ai fini par l'abandonner. Car, soyons honnêtes : créer un jeu multijoueur en ligne à 15 ans, sans aucune expérience ni idée de comment s'y prendre, ce n'est clairement pas la clé du succès…"
+      },
+      "multiplayer-title": {
+        "en": "Let's Talk About Multiplayer",
+        "fr": "Parlons du multijoueur"
+      },
+      "multiplayer-intro": {
+        "en": "For the online gaming system, I used a service called <em>Photon</em> (or <em>Photon.PUN</em> for those in the know), which allowed <strong>hosting and playing on online servers</strong>. Thanks to this, I learned a lot about how networked games work, including:",
+        "fr": "Pour le système de jeu en ligne, j'utilisais un service appelé <em>Photon</em> (ou <em>Photon.PUN</em> pour les intimes), qui permettait <strong>d'héberger et de jouer sur des serveurs en ligne</strong>. Grâce à ça, j'ai appris énormément sur le fonctionnement d'un jeu en réseau, notamment :"
+      },
+      "owner-client-distinction": {
+        "en": "The <strong>distinction between owner and client</strong>.",
+        "fr": "La <strong>distinction entre le propriétaire (owner) et le client</strong>."
+      },
+      "server-sync": {
+        "en": "The need to <strong>synchronize players through a main server</strong> (and not a client, at the risk of cheating).",
+        "fr": "La nécessité de <strong>synchroniser les joueurs via un serveur principal</strong> (et non un client, sous peine de triche)."
+      },
+      "online-instances": {
+        "en": "The <strong>creation of online instances</strong>, like projectiles visible to all players.",
+        "fr": "La <strong>création d'instances en ligne</strong>, comme des projectiles visibles pour tous les joueurs."
+      },
+      "multiplayer-conclusion": {
+        "en": "I discovered the essential basics to avoid cheating issues and ensure a synchronized experience.",
+        "fr": "J'ai découvert les bases essentielles pour éviter les problèmes de triche et assurer une expérience synchronisée."
+      },
+      "server-join": {
+        "en": "You can obviously join online servers and play with people, and change your color too!",
+        "fr": "On peut d'ailleurs évidement rejoindre des serveurs en ligne et jouer avec du monde, et changer sa couleur aussi !"
+      },
+      "graphics-title": {
+        "en": "Graphics and 3D Modeling",
+        "fr": "Graphismes et modélisation 3D"
+      },
+      "graphics-intro": {
+        "en": "This project taught me a lot about <em>Blender</em>, especially regarding <strong>animations</strong>, <strong>textures</strong>, <strong>shaders</strong>, <strong>UVs</strong>, <strong>meshes</strong>, <strong>optimization</strong>, <strong>materials and blend-frames</strong>. Here's the game's main hero:",
+        "fr": "Ce projet m'a énormément appris sur <em>Blender</em>, notamment en ce qui concerne <strong>les animations</strong>, <strong>les textures</strong>, <strong>les shaders</strong>, <strong>les UVs</strong>, <strong>les mesh</strong>, <strong>l'optimisation</strong>, <strong>les matériaux et les blend-frames</strong>. Voici le héro principal du jeu :"
+      },
+      "character-evolution-1": {
+        "en": "It's, well, not super super beautiful, but there was worse, its previous version:",
+        "fr": "Il est, bon, pas super super beau, mais il y a eu pire, sa version précédente :"
+      },
+      "character-evolution-2": {
+        "en": "And before that, there was this horror:",
+        "fr": "Et avant ça, il y a eu cette horreur :"
+      },
+      "blender-learning": {
+        "en": "No need to tell you that this taught me a lot about Blender! By the way, this character's evolution doesn't stop there, it later became like this in another game (which we'll see in another post).",
+        "fr": "Aucun besoin de vous dire que cela m'a appris beaucoup de choses sur Blender ! D'ailleurs l'évolution de ce personnage ne s'arrête pas là, il est ensuite devenu comme ça dans un autre jeu (qu'on verra dans un autre poste.)"
+      },
+      "character-evolution-3": {
+        "en": "Then like this in my most recent game, which we'll also see in another post!",
+        "fr": "Puis comme ça dans mon jeu le plus récent, qu'on verra aussi dans un autre poste !"
+      },
+      "environment-title": {
+        "en": "Environment Creation",
+        "fr": "Création de l'environnement"
+      },
+      "environment-intro": {
+        "en": "The entire game was in 3D, including the city, which I remade three times before getting a satisfactory result, always with Blender:",
+        "fr": "Tout le jeu était en 3D, y compris la ville, que j'ai refaite trois fois avant d'obtenir un résultat satisfaisant, toujours avec Blender :"
+      },
+      "toon-shader": {
+        "en": "I also created a \"toon\" shader to give the game a cartoonish look. This shader slightly saturated the colors and added an outline around objects.",
+        "fr": "J'ai également créé un shader \"toon\" pour donner un aspect cartoonesque au jeu. Ce shader saturait légèrement les couleurs et ajoutait un contour autour des objets."
+      },
+      "appliances-title": {
+        "en": "Finally, the Home Appliances!",
+        "fr": "Enfin, les électroménagers !"
+      },
+      "appliances-intro": {
+        "en": "But now, you're probably saying: \"I was told this game is called '<em>The War of Home Appliances</em>', and yet, I don't see any home appliances. I just see a bunch of copies of <em>Kenny McCormick</em> from <em>South Park</em>.\" Well, that's exactly what we're getting to!",
+        "fr": "Mais là, vous vous dites sans doute : \"On m'avait dit que ce jeu s'appelle '<em>La guerre des Électroménagers</em>', et pourtant, je ne vois aucun électroménager. Je vois juste tout plein de copies de <em>Kenny McCormick</em> de <em>South Park</em>.\" Eh bien, justement, on y vient !"
+      },
+      "appliances-gameplay": {
+        "en": "The goal of this game was to <strong>push other players into the void with various electrical appliances</strong>, for example <strong>a toaster</strong> or <strong>a fridge</strong> that sent projectiles to push other players away.",
+        "fr": "Le but de ce jeu était de <strong>pousser les autres joueurs dans le vide avec des appareils électriques en tout genre</strong>, par exemple <strong>un toaster</strong> ou <strong>un frigo</strong> qui envoyaient des projectiles pour repousser les autres joueurs."
+      },
+      "unity-bug-note": {
+        "en": "(The image is way too bright but that's Unity's editor bugging, as usual.)",
+        "fr": "(L'image est beaucoup trop claire mais c'est l'éditeur Unity qui bug, comme à son habitude.)"
+      },
+      "wind-appliances-list": {
+        "en": "Other appliances used wind to push players, like <strong>a vacuum cleaner</strong>, <strong>a leaf blower</strong>, <strong>a fan</strong>, or even <strong>a pressure washer</strong> (now that I think about it, I believe Karcher is a registered trademark, should avoid that in the future.)",
+        "fr": "D'autres appareils utilisaient le vent pour pousser les joueurs, comme <strong>un aspirateur</strong>, <strong>un souffleur à feuilles</strong>, <strong>un ventilateur</strong>, ou même <strong>un Karcher</strong> (maintenant que j'y repense, je crois que Karcher est une marque déposé, à éviter par la suite.)"
+      },
+      "gliders-title": {
+        "en": "Flying with Style",
+        "fr": "S'envoler avec style"
+      },
+      "gliders-intro": {
+        "en": "But that wasn't all! Since the goal of the game was to push each other into the void, there needed to be a way to save yourself. That's how I invented <strong>gliders</strong>, which allowed you to fly in the sky, for example with a Jet Pack:",
+        "fr": "Mais ce n'était pas tout ! Puisque le but du jeu était de se pousser les uns les autres dans le vide, il fallait un moyen de se sauver. C'est ainsi que j'ai inventé <strong>les gliders</strong>, qui permettaient de s'envoler dans le ciel, par exemple avec un Jet Pack :"
+      },
+      "glider-joke": {
+        "en": "<em>(It's true that a glider is a home appliance. I use one every day to do the dishes, it's super practical.)</em>",
+        "fr": "<em>(C'est vrai qu'un glider est un élément électroménager. J'en utilise un tous les jours pour faire la vaisselle, c'est super pratique.)</em>"
+      },
+      "animations-title": {
+        "en": "The Animations",
+        "fr": "Les animations"
+      },
+      "animations-intro": {
+        "en": "When I look at the animators I made back then, I realize how much I've evolved:",
+        "fr": "Quand je regarde les animators que faisait à l'époque, je me rends compte à quel point j'ai évolué :"
+      },
+      "animation-explanation": {
+        "en": "Transitioning from one animation to another like this was... awful. For those who don't know, the image shows what's called an \"Animator\" in Unity. This Animator allows you to <strong>transition from one animation to another based on conditions and values</strong>, but here, it was done very poorly and was hardly understandable!",
+        "fr": "Passer d'une animation à une autre de cette manière, c'était… affreux. Pour ceux qui ne connaissent pas, l'image montre ce qu'on appelle un \"Animator\" sur Unity. Cet Animator permet de <strong>passer d'une animation à une autre en fonction de conditions et de valeurs</strong>, mais là, c'était hyper mal fait et très peu compréhensible !"
+      },
+      "sound-title": {
+        "en": "The Sound Design",
+        "fr": "Le sound design"
+      },
+      "sound-anecdote": {
+        "en": "A fun anecdote: for the toaster sound that shoots bread, I placed <strong>my toaster and my microphone in a pillowcase to isolate the sound, then recorded while playing with it</strong>.",
+        "fr": "Une anecdote amusante : pour le son du toaster qui envoie du pain, j'ai placé <strong>mon toaster et mon micro dans une taie d'oreiller pour isoler le son, puis j'ai enregistré en jouant avec</strong>."
+      },
+      "conclusion-title": {
+        "en": "Conclusion",
+        "fr": "Conclusion"
+      },
+      "conclusion-text-1": {
+        "en": "The game was far from perfect and remained quite empty, but it took me a lot of time and taught me so much. At the time, I was fighting against Unity to learn literally everything from scratch. Despite that, it was a super fun project to work on!",
+        "fr": "Le jeu était loin d'être parfait et restait assez vide, mais il m'a pris énormément de temps et m'a appris tellement de choses. À l'époque, je me battais contre Unity pour apprendre littéralement tout à partir de zéro. Malgré cela, c'était un projet super fun à réaliser !"
+      },
+      "conclusion-text-2": {
+        "en": "Thanks for reading!",
+        "fr": "Merci d'avoir lu !"
+      }
+    },
+    "alt": {
+      "gameplay-1": {
+        "en": "HAW gameplay screenshot 1",
+        "fr": "Capture d'écran de gameplay de HAW 1"
+      },
+      "multiplayer-screenshot": {
+        "en": "HAW multiplayer screenshot",
+        "fr": "Capture d'écran multijoueur de HAW"
+      },
+      "character-customization": {
+        "en": "HAW character customization",
+        "fr": "Personnalisation des personnages de HAW"
+      },
+      "character-current": {
+        "en": "HAW main character current version",
+        "fr": "Version actuelle du personnage principal de HAW"
+      },
+      "character-previous": {
+        "en": "HAW main character previous version",
+        "fr": "Version précédente du personnage principal de HAW"
+      },
+      "character-first": {
+        "en": "HAW main character first version",
+        "fr": "Première version du personnage principal de HAW"
+      },
+      "character-other-game": {
+        "en": "HAW character in another game",
+        "fr": "Personnage de HAW dans un autre jeu"
+      },
+      "character-recent": {
+        "en": "HAW character in recent game",
+        "fr": "Personnage de HAW dans un jeu récent"
+      },
+      "city-version-1": {
+        "en": "HAW city version 1",
+        "fr": "Version 1 de la ville de HAW"
+      },
+      "city-version-2": {
+        "en": "HAW city version 2",
+        "fr": "Version 2 de la ville de HAW"
+      },
+      "appliances-screenshot": {
+        "en": "HAW home appliances",
+        "fr": "Électroménagers de HAW"
+      },
+      "appliance-gameplay": {
+        "en": "HAW appliance gameplay",
+        "fr": "Gameplay avec électroménagers de HAW"
+      },
+      "wind-appliances": {
+        "en": "HAW wind-based appliances",
+        "fr": "Électroménagers à base de vent de HAW"
+      },
+      "glider-gameplay": {
+        "en": "HAW glider gameplay",
+        "fr": "Gameplay avec planeur de HAW"
+      },
+      "animation-system": {
+        "en": "HAW animation system",
+        "fr": "Système d'animation de HAW"
+      },
+      "sound-design": {
+        "en": "HAW sound design",
+        "fr": "Sound design de HAW"
+      }
+    }
+  }
+} 

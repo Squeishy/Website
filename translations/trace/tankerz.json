@@ -1,0 +1,144 @@
+{
+  "translations": {
+    "text": {
+      "title": {
+        "en": "Tankerz | Unity | Personal",
+        "fr": "Tankerz | Unity | Perso"
+      },
+      "context-label": {
+        "en": "Context:",
+        "fr": "Contexte :"
+      },
+      "context-value": {
+        "en": "Personal Project, solo",
+        "fr": "Projet Personnel, en solo"
+      },
+      "link": {
+        "en": "https://lusinecanard.fr/tankerz-page.html",
+        "fr": "https://lusinecanard.fr/tankerz-page.html"
+      },
+      "presentation-title": {
+        "en": "Presentation",
+        "fr": "Présentation"
+      },
+      "presentation-text-1": {
+        "en": "The second game I created for the arcade machine, Tankerz is a game playable by 1 to 2 players locally. Players each control a tank that must shoot all enemies and score as many points as possible before dying. They can raise and lower their cannon and move with their joystick. The B1 button allows them to shoot.",
+        "fr": "Deuxième jeu que j'ai réalisé pour la borne d'arcade, Tankerz est un jeu jouable de 1 à 2 joueurs en local. Les joueurs contrôlent chacun un tank qui doit tirer sur tous les ennemis et marquer le plus de points possible avant de mourir. Ils peuvent lever et abaisser leur canon et se déplacer avec leur joystick. Le bouton B1 leur permet de tirer."
+      },
+      "presentation-text-2": {
+        "en": "The enemies are quite varied: drones, helicopters, soldiers (two types) and explosive barrels.",
+        "fr": "Les ennemis sont assez variés : drones, hélicoptères, soldats (deux types) et tonneaux explosifs."
+      },
+      "learning-title": {
+        "en": "What This Game Taught Me",
+        "fr": "Ce que ce jeu m'a apporté"
+      },
+      "learning-text-1": {
+        "en": "Each level is randomly generated from prefabricated terrain parts, and the same goes for enemy spawning. Thus, each game is different, and this mechanic taught me how to implement this type of procedural generation, a simple but essential skill in game dev!",
+        "fr": "Chaque niveau est généré aléatoirement à partir de parties de terrain préfabriquées, et il en va de même pour le spawn (l'apparition) des ennemis. Ainsi, chaque partie est différente, et cette mécanique m'a permis d'apprendre à implémenter ce type de génération procédurale, une compétence simple mais essentielle dans le game dev !"
+      },
+      "learning-text-2": {
+        "en": "But THE main skill this game taught me was inheritance in programming. In other words, we can create a base script that shares its code with child scripts. This not only optimizes code lines by avoiding redundancies, but also allows us to manipulate different types of objects generically.",
+        "fr": "Mais LA compétence principale que ce jeu m'a enseignée, c'est l'héritage en programmation. En d'autres termes, on peut créer un script de base qui partage son code avec des scripts enfants. Cela permet non seulement d'optimiser les lignes de code en évitant les redondances, mais aussi de manipuler différents types d'objets de manière générique."
+      },
+      "learning-text-3": {
+        "en": "For example, all destructible elements in the game have their own script (like Helicopter.cs or Soldier.cs), but these scripts derive from a parent script named Destructible.cs. This script contains common properties like health points, explosion prefabs, etc. Thus, each game element can have a health bar and a specific type of destruction while maintaining its unique characteristics (for example, the helicopter flies and the soldier shoots).",
+        "fr": "Par exemple, tous les éléments destructibles du jeu ont un script propre (comme Helicopter.cs ou Soldier.cs), mais ces scripts dérivent d'un script parent nommé Destructible.cs. Ce script contient des propriétés communes comme des points de vie, des prefabs d'explosions, etc. Ainsi, chaque élément du jeu peut avoir une barre de vie et un type de destruction spécifique tout en conservant ses particularités (par exemple, l'hélicoptère vole et le soldat tire)."
+      },
+      "learning-text-4": {
+        "en": "This inheritance principle will be heavily reused in my game Dashing Krew, which I'll present in another post!",
+        "fr": "Ce principe d'héritage sera beaucoup réutilisé dans mon jeu Dashing Krew, que je présenterai dans un autre post !"
+      },
+      "fun-stuff-title": {
+        "en": "The Fun Stuff",
+        "fr": "Les trucs rigolos"
+      },
+      "fun-stuff-text-1": {
+        "en": "I love adding easter eggs (hidden or secret elements) to my games. Here are two examples:",
+        "fr": "J'adore ajouter des easter eggs (éléments cachés ou secrets) dans mes jeux. En voici deux exemples :"
+      },
+      "fun-stuff-text-2": {
+        "en": "The soldiers: Their heads have a... particular design. That's normal, because their face texture is me! I also asked a friend if they wanted to participate, and they accepted. The result is just too good!",
+        "fr": "Les soldats : Leur tête a un design... particulier. C'est normal, car leur texture de visage, c'est moi ! J'ai aussi demandé à un ami s'il voulait participer, et il a accepté. Le résultat est juste trop bien !"
+      },
+      "fun-stuff-text-3": {
+        "en": "The main menu music: If you listen carefully, you'll hear music coming from a radio. If it sounds familiar, it's a melody that the internet took years to find... but I won't say more. Those who know, know.",
+        "fr": "La musique du menu principal : Si vous tendez bien l'oreille, vous entendrez une musique qui sort d'une radio. Si elle vous semble familière, c'est une mélodie qu'internet a mis des années à retrouver… mais je ne vais pas en dire plus. Ceux qui savent, savent."
+      },
+      "collaboration-title": {
+        "en": "Working with Others",
+        "fr": "Travailler avec les autres"
+      },
+      "collaboration-text-1": {
+        "en": "Since Tankerz is designed for an arcade machine, we had to implement a highscore system and specific inputs for the machine's buttons. Unlike classic controls (keyboard or analog joystick), arcade machines use special buttons. For this, our teacher, Jules, created a package called Anatidae, which handles these inputs and the highscore system. This package, available on GitHub, had to be read, understood, and integrated into my project to get the final game.",
+        "fr": "Étant donné que Tankerz est conçu pour une borne d'arcade, il fallait implémenter un système de highscore et d'inputs spécifiques aux boutons de la borne. Contrairement aux contrôles classiques (clavier ou joystick analogique), les bornes utilisent des boutons particuliers. Pour cela, notre professeur, Jules, a créé un package appelé Anatidae, qui gère ces inputs et le système de highscore. Ce package, disponible sur GitHub, a dû être lu, compris, et intégré à mon projet pour obtenir le jeu final."
+      },
+      "collaboration-text-2": {
+        "en": "The biggest difficulty was related to the highscore system: on the arcade machine, scores are stored on the school's internet network. However, during development, I had to configure a mini-local server on my computer, a task that Jordan Septier from 8 months ago had no idea how to do. But in the end, I managed!",
+        "fr": "La plus grande difficulté était liée au système de highscore : sur la borne d'arcade, les scores sont stockés sur le réseau internet du lycée. Mais, pendant le développement, j'ai dû configurer un mini-serveur local sur mon ordinateur, une tâche que le Jordan Septier d'il y a 8 mois ne savait pas du tout faire. Mais au final, je m'en suis sorti !"
+      },
+      "tools-3d-title": {
+        "en": "Blender & Mixamo",
+        "fr": "Blender & Mixamo"
+      },
+      "tools-3d-text-1": {
+        "en": "3D game means 3D models, and 3D models means Blender (or Maya, if you have 2000€ to waste). All 3D models in the game were created by me in Blender. I won't hide that I'm terrible at art: I master Blender very well, but as soon as we talk about artistic aspects, I'm lost.",
+        "fr": "Qui dit jeu 3D, dit modèles 3D, et qui dit modèles 3D, dit Blender (ou Maya, si vous avez 2000€ à perdre). Tous les modèles 3D du jeu ont été réalisés par moi-même sur Blender. Je ne vous cache pas que je suis une quiche en art : je maîtrise très bien Blender, mais dès qu'on parle d'aspects artistiques, je suis largué."
+      },
+      "tools-3d-text-2": {
+        "en": "From images found online, I designed the tank, helicopters, drones (from my game Home Appliance War), etc. Everything was made in a low poly style (with few polygons), to keep it simple and efficient.",
+        "fr": "À partir d'images trouvées en ligne, j'ai conçu le tank, les hélicoptères, les drones (issus de mon jeu Home Appliance War), etc. Tout a été réalisé dans un style low poly (avec peu de polygones), pour rester simple et efficace."
+      },
+      "tools-3d-text-3": {
+        "en": "The tank and helicopter animations were made by me, but for the soldiers, I used Mixamo, an online tool from Adobe. Mixamo offers a large library of ready-to-use animations that can be imported directly onto our models. We can also upload custom models for amazing results, even for beginners!",
+        "fr": "Les animations des tanks et des hélicoptères ont été faites par moi, mais pour les soldats, j'ai utilisé Mixamo, un outil en ligne d'Adobe. Mixamo propose une large bibliothèque d'animations prêtes à l'emploi, qu'il suffit d'importer directement sur nos modèles. On peut également y uploader des modèles custom pour des résultats incroyables, même pour des débutants !"
+      },
+      "play-title": {
+        "en": "And if I want to play it?",
+        "fr": "Et si moi, je veux y jouer ?"
+      },
+      "play-text-1": {
+        "en": "Well, it's available at this address:",
+        "fr": "Eh bien figurez vous qu'il est disponible à cette adresse :"
+      },
+      "play-text-2": {
+        "en": "https://lusinecanard.fr/tankerz-page.html",
+        "fr": "https://lusinecanard.fr/tankerz-page.html"
+      },
+      "play-text-3": {
+        "en": "Thanks for reading!",
+        "fr": "Merci d'avoir lu !"
+      }
+    },
+    "alt": {
+      "thumbnail": {
+        "en": "Tankerz thumbnail",
+        "fr": "Miniature de Tankerz"
+      },
+      "gameplay-1": {
+        "en": "Tankerz gameplay screenshot 1",
+        "fr": "Capture d'écran de gameplay de Tankerz 1"
+      },
+      "code-example": {
+        "en": "Tankerz code example",
+        "fr": "Exemple de code de Tankerz"
+      },
+      "soldier-faces": {
+        "en": "Tankerz soldier faces",
+        "fr": "Visages des soldats de Tankerz"
+      },
+      "soldier-faces-2": {
+        "en": "Tankerz soldier faces 2",
+        "fr": "Visages des soldats de Tankerz 2"
+      },
+      "models": {
+        "en": "Tankerz 3D models",
+        "fr": "Modèles 3D de Tankerz"
+      },
+      "animations": {
+        "en": "Tankerz animations",
+        "fr": "Animations de Tankerz"
+      }
+    }
+  }
+} 

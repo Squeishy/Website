@@ -1,0 +1,258 @@
+{
+    "translations": {
+        "text": {
+            "context-label": {
+                "en": "Context:",
+                "fr": "Contexte :"
+            },
+            "context-value": {
+                "en": "SAE, solo",
+                "fr": "SAE, en solo"
+            },
+            "presentation-text": {
+                "en": "During <strong>SAE 105</strong>, we were asked to design and create a website on a free topic, which had to use <strong><code>JSON</code> files to store values</strong> and <strong><code>PHP</code> files to retrieve them</strong>. Everything was organized on 6 pages that we'll look at, as they all have something special. Especially the \"secret page\"...",
+                "fr": "Lors de la <strong>SAE 105</strong>, il nous était demandé de concevoir et de créer un site web sur un sujet libre, qui devait utiliser <strong>des fichiers <code>JSON</code> pour stocker des valeurs</strong> et des<strong> fichiers <code>PHP</code> pour les reprendre</strong>. Le tout était organisé sur 6 pages que nous allons voir, car elles ont toutes quelque chose de spécial. Surtout la \"page secrète\"…"
+            },
+            "index-text-1": {
+                "en": "The <strong>index</strong> page has nothing special: it's a page that <strong>serves as a hub</strong> and redirects to all other pages. The only interesting thing we can notice on this one is a <strong>3D plastic duck that can be rotated</strong>. But how did I do that? Well, with the <code>Three.js</code> module! Once imported into the site files, it's just a matter of modifying the code a bit so that the part that displays the image takes the shape we want. Once that's done, everything is good and ready to use!",
+                "fr": "La page <strong>index</strong> n'a rien de spécial : c'est une page qui <strong>sert de hub</strong> et qui redirige vers toutes les autres pages. La seule chose intéressante que l'on peut remarquer sur cette dernière, c'est un <strong>canard en plastique en 3D que l'on peut faire tourner</strong>. Mais comment ai-je donc fait ça ? Eh bien, avec le module <code>Three.js</code> ! Une fois importé dans les fichiers du site, il suffit de modifier un peu le code pour que la partie qui affiche l'image prenne la forme que l'on souhaite. Une fois cela fait, tout est bon et prêt à être utilisé !"
+            },
+            "index-text-2": {
+                "en": "However, something important is missing... The 3D model of the duck. Yes! I downloaded a model from <em>Sketchfab</em>, then converted it to the <code>.gltf</code> format, which is the type of model supported by <em>Three.js</em>.",
+                "fr": "Il manque néanmoins quelque chose d'important… Le modèle 3D du canard. Et oui ! J'ai donc téléchargé un modèle sur <em>Sketchfab</em>, puis je l'ai converti au format <code>.gltf,</code> qui est le type de modèle pris en charge par<em> Three.js</em>."
+            },
+            "index-text-3": {
+                "en": "Once my duck was imported, I just had to code 2 or 3 additional lines to prevent the duck from moving, and that was it! <strong>I had a super cool 3D duck! ☺️</strong>",
+                "fr": "Une fois mon canard importé, il ne me restait plus qu'à coder 2 ou 3 lignes supplémentaires pour empêcher le canard de bouger, et c'était tout bon ! <strong>J'avais un canard en 3D super cool ! ☺️</strong>"
+            },
+            "data-text": {
+                "en": "The <strong>data</strong> page had to contain a table of values to be retrieved from a <code>JSON</code> file using the <em>dataTables</em> module. Since I had already used <code>JSON</code> in my games and on my personal website to manage translations, this was child's play here. It was just a matter of reading a bit of the <em>dataTables</em> documentation and the table was ready to use. I don't have much more to say about this, as it was, in reality, quite simple.",
+                "fr": "La page <strong>données</strong> devait contenir un tableau de valeurs à récupérer à partir d'un fichier <code>JSON</code> en utilisant le module <em>dataTables</em>. Comme j'avais déjà utilisé du <code>JSON</code> dans mes jeux et dans mon site web personnel pour gérer les traductions, c'était ici un jeu d'enfant. Il suffisait de lire un peu la documentation de <em>dataTables</em> et le tableau était prêt à être utilisé. Je n'ai pas grand-chose de plus à dire à ce sujet, car c'était, en réalité, assez simple."
+            },
+            "gallery-text-1": {
+                "en": "In the <strong>gallery</strong> page, we were asked to design a system that would take images and then integrate them into the site. Only conditions: <strong>they had to be in <code>.jpeg</code> format and not exceed 200 ko</strong>.",
+                "fr": "Dans la page <strong>galerie</strong>, il nous était demandé de concevoir un système qui prendrait des images, puis les intégrerait sur le site. Seules conditions : <strong>elles devaient être au format <code>.jpeg</code> et ne pas dépasser 200 ko</strong>."
+            },
+            "gallery-text-2": {
+                "en": "Many people simply modified the image size via <em>Gimp</em> or <em>Photoshop</em>, or even using a website. But I find this approach long and boring, especially when we have the possibility to code a solution!",
+                "fr": "Beaucoup de personnes ont tout simplement modifié la taille des images via<em> Gimp </em>ou <em>Photoshop</em>, voire en utilisant un site web. Mais je trouve cette démarche longue et ennuyeuse, surtout quand on a la possibilité de coder une solution !"
+            },
+            "gallery-text-3": {
+                "en": "That's exactly what I did. First, we had to <strong>take the image and convert it to <code>JPEG</code> format</strong>, which is easily done with the line of code:",
+                "fr": "C'est donc exactement ce que j'ai fait. Tout d'abord, il fallait <strong>prendre l'image et la convertir au format <code>JPEG</code></strong>, ce qui se fait facilement avec la ligne de code :"
+            },
+            "gallery-code": {
+                "en": "<code>imagecreatefromjpeg($img);</code>",
+                "fr": "<code>imagecreatefromjpeg($img);</code>"
+            },
+            "gallery-text-4": {
+                "en": "Once the image was converted, it was just a matter of <strong>putting it in a loop to reduce its size until it weighed less than 200 ko</strong>!",
+                "fr": "Une fois l'image convertie, il suffisait de<strong> la passer dans une boucle pour réduire sa taille jusqu'à ce qu'elle pèse moins de 200 ko</strong> !"
+            },
+            "gallery-text-5": {
+                "en": "For uploading the image, we just had to follow the course instructions, which was done without any problems! (It was just a matter of saving it in the site files.)",
+                "fr": "Pour la mise en ligne de l'image, il fallait simplement suivre les instructions du cours, ce qui s'est fait sans aucun problème ! (Il suffisait de l'enregistrer dans les fichiers du site.)"
+            },
+            "contact-text-1": {
+                "en": "The <strong>contact</strong> page honestly has nothing special. Again, it was just a matter of following the course and <strong>using the <code>mail()</code> function to send an email by retrieving form data</strong>. I'll go over it quickly, as I didn't do anything particularly original, just following what was asked of me.",
+                "fr": "La page <strong>contact</strong> n'a honnêtement rien de bien spécial. Encore une fois, il s'agissait simplement de suivre le cours et d'<strong>utiliser la fonction <code>mail()</code> pour envoyer un mail en récupérant les données d'un formulaire</strong>. Je passe assez rapidement dessus, car je n'ai rien fait de particulièrement original, si ce n'est suivre ce qui m'était demandé."
+            },
+            "contact-text-2": {
+                "en": "I also take this opportunity to mention that I created a <code>JavaScript</code> file that makes small plastic ducks fall in the background, which <strong>makes the background a bit less empty</strong>!",
+                "fr": "J'en profite d'ailleurs pour mentionner que j'ai créé un fichier <code>JavaScript</code> qui fait tomber des petits canards en plastique dans le fond, ce qui<strong> rend le background un peu moins vide</strong> !"
+            },
+            "partners-text-1": {
+                "en": "This page was also meant to be used to <strong>display the partners of our fictional company created in another SAE</strong>. It's therefore simply a page with our first and last names, and not much more, apart from a few texts.",
+                "fr": "Cette page devait également être utilisée pour <strong>afficher les partenaires de notre entreprise fictive créée dans une autre SAE</strong>. Il s'agit donc simplement d'une page avec nos noms et prénoms, et pas grand-chose de plus, à part quelques textes."
+            },
+            "partners-text-2": {
+                "en": "However, I still took the liberty of adding a fun feature: when you hover over one of our heads, the image flips to display a \"funny\" photo of us. I don't know why, but I always love making improbable faces in my photos... It's probably going to cost me my future job one of these days.",
+                "fr": "Cependant, j'ai tout de même pris la liberté d'ajouter une petite fonctionnalité amusante : lorsqu'on passe la souris sur une de nos têtes, l'image se retourne pour afficher une photo \"marrante\" de nous. Je ne sais pas pourquoi, mais j'adore toujours faire des têtes improbables sur mes photos… Ça va sûrement me coûter mon futur métier un de ces jours."
+            },
+            "credits-text": {
+                "en": "The <strong>credits</strong> page, which was requested, groups all the links to the resources I used, such as fonts, images, and 3D models. It remains very simple.",
+                "fr": "La page <strong>crédits</strong>, qui nous était demandée, regroupe tous les liens vers les ressources que j'ai utilisées, comme les polices, les images et les modèles 3D. Cela reste très simple."
+            },
+            "secret-text-1": {
+                "en": "<sub>...</sub>",
+                "fr": "<sub>...</sub>"
+            },
+            "secret-text-2": {
+                "en": "<sub>Should I talk about it?</sub>",
+                "fr": "<sub>Est-ce que j'en parle ?</sub>"
+            },
+            "secret-text-3": {
+                "en": "<sub>...</sub>",
+                "fr": "<sub>...</sub>"
+            },
+            "secret-text-4": {
+                "en": "<sub>That would be quite bold, especially on a portfolio...</sub>",
+                "fr": "<sub>Ça serait quand même osé, surtout sur un portfolio…</sub>"
+            },
+            "secret-text-5": {
+                "en": "<sub>But on the other hand, there's a sector analysis effort...</sub>",
+                "fr": "<sub>Mais d'un autre côté, il y a un effort d'analyse sectorielle…</sub>"
+            },
+            "secret-text-6": {
+                "en": "<sub>But, on this kind of site...</sub>",
+                "fr": "<sub>Mais, sur ce genre de site…</sub>"
+            },
+            "secret-text-7": {
+                "en": "<sub>...</sub>",
+                "fr": "<sub>...</sub>"
+            },
+            "secret-text-8": {
+                "en": "<strong>Alright!</strong> Well, let's talk about the other page!",
+                "fr": "<strong>Bon !</strong> Eh bien, on va parler de l'autre page !"
+            },
+            "secret-text-9": {
+                "en": "One of our professors told us that \"<em>it was okay to put a fun little easter egg.</em>\" So, being the smart guy I am, I decided to really take this suggestion at face value and add \"<em>a fun little easter egg</em>\" to my website.",
+                "fr": "Un de nos professeurs nous a dit que \"<em>c'était ok de mettre un petit easter egg amusant.</em>\" Alors, gros malin que je suis, j'ai décidé de vraiment prendre cette suggestion au pied de la lettre et d'ajouter \"<em>un petit easter egg amusant\"</em> à mon site web."
+            },
+            "secret-text-10": {
+                "en": "Here's how it works: when you reload or change pages three times, a popup appears with the following message:<br><strong>\"Hot ducks in your area\"</strong>, accompanied by a <strong>\"sign up\"</strong> button.",
+                "fr": "Voici comment ça fonctionne : lorsqu'on recharge ou change de page trois fois, un popup apparaît avec le message suivant :<br><strong>\"Des canes chaudes dans votre région\"</strong>, accompagné d'un bouton <strong>\"s'inscrire\"</strong>."
+            },
+            "secret-text-11": {
+                "en": "You're probably starting to guess where this joke is going to take us...",
+                "fr": "Vous commencez sans doute à deviner où cette blague va nous mener…"
+            },
+            "secret-text-12": {
+                "en": "By clicking the button, you're redirected to another page. And there, I hope for you that it's not familiar. No need to draw a picture: it's a parody of <em>\"that famous website\"</em>.",
+                "fr": "En cliquant sur le bouton, on est redirigé vers une autre page. Et là, j'espère pour vous qu'elle ne vous est pas familière. Pas besoin de faire un dessin : c'est une parodie de <em>\"ce fameux site web\"</em>."
+            },
+            "secret-text-13": {
+                "en": "By clicking the \"I am a duck - Enter\" button, you'll have access to a whole bunch of duck videos! And I even took the time to make all the thumbnails, it was quite fun to do!",
+                "fr": "En cliquant sur le bouton \"I am a duck - Enter\", vous aurez accès à tout un tas de vidéos canardesque ! Et j'ai d'ailleurs prit le temps de faire toutes les miniatures, c'était assez marrant à faire !"
+            },
+            "secret-text-14": {
+                "en": "To go even further in my silliness, I created a fake advertisement for a pill \"<em>that could make your duck grow about 20 times bigger.</em>\" I even used <em>Photoshop</em> <strong>to remove the original duck from a photo and paste another one on top</strong>. Well, I must admit that it's a bit noticeable, especially because of the grass in the background that moves.",
+                "fr": "Pour aller encore plus loin dans ma bêtise, j'ai créé une fausse publicité pour une pilule \"<em>qui pourrait faire grandir votre canard environ 20 fois plus gros.</em>\" J'ai même utilisé <em>Photoshop</em> <strong>pour supprimer le canard original sur une photo et en coller un autre par-dessus</strong>. Bon, je dois avouer que ça se remarque un peu, notamment à cause de l'herbe en arrière-plan qui bouge."
+            },
+            "secret-text-15": {
+                "en": "This fake advertisement was so well done that it was being blocked by my own ad blocker! I had to be clever and change its name in the HTML file so it would display correctly (yes, we're at that point).",
+                "fr": "Cette fausse publicité était tellement bien faite qu'elle se faisait bloquer par mon propre bloqueur de publicités ! J'ai dû ruser et changer son nom dans le fichier HTML pour qu'elle s'affiche correctement (oui, on en est là)."
+            },
+            "secret-text-16": {
+                "en": "You're probably wondering: \"But how did he manage to have a website that looks so much like the original?\" Well, believe it or not, I managed to find an image where all the explicit content of the site had been replaced by cute ones... Yes, the little \"<em>yellow TicTacs</em>\" from <em>Despicable Me</em>. Even the texts had been adapted, which was perfect for me. I just had to copy everything.",
+                "fr": "Vous vous demandez sûrement : \"Mais comment a-t-il fait pour avoir un site web qui ressemble autant à l'original ?\" Eh bien, croyez-le ou non, j'ai réussi à trouver une image où tous les contenus explicites du site avaient été remplacés par des mignons… Oui, les petits \"<em>TicTac jaunes</em>\" de <em>Moi, Moche et Méchant</em>. Même les textes avaient été adaptés, ce qui était parfait pour moi. Je n'avais plus qu'à tout recopier."
+            },
+            "secret-text-17": {
+                "en": "Finally, to top it all off, when you click on a video, the user is <strong>redirected to a video I had made myself</strong>. In this video, I directly address our professor telling him that <em>\"it's not good to go on sites like that while grading papers\"</em>.",
+                "fr": "Enfin, pour couronner le tout, lorsqu'on clique sur une vidéo, l'utilisateur est <strong>redirigé vers une vidéo que j'avais réalisée moi-même</strong>. Dans cette vidéo, je m'adresse directement à notre professeur en lui disant que <em>\"ce n'est pas bien d'aller sur des sites comme ça pendant qu'il corrige des copies\"</em>."
+            },
+            "secret-text-18": {
+                "en": "It could have stopped there... But no! This joke went in front of the entire amphitheater, with its <span style=\"font-size: 36pt;\"><strong>150</strong></span> students!",
+                "fr": "Ça aurait pu s'arrêter là… Mais non ! Cette blague est passée devant tout l'amphithéâtre, avec ses quelques <span style=\"font-size: 36pt;\"><strong>150</strong></span> étudiants !"
+            },
+            "secret-text-19": {
+                "en": "I've never been so scared in my life, but everyone burst out laughing. It's a golden memory that I'll keep precious until my grave!",
+                "fr": "Je n'ai jamais eu aussi peur de ma vie, mais tout le monde a éclaté de rire. C'est un souvenir en or que je garderai précieusement jusqu'à ma tombe !"
+            },
+            "secret-text-20": {
+                "en": "...",
+                "fr": "..."
+            },
+            "conclusion": {
+                "en": "Sorry, and thanks for reading! 😭",
+                "fr": "Désolé, et merci d'avoir lu ! 😭"
+            }
+        },
+        "alt": {
+            "index-duck": {
+                "en": "3D duck on the index page",
+                "fr": "Canard 3D sur la page d'index"
+            },
+            "data-table": {
+                "en": "Data table page",
+                "fr": "Page du tableau de données"
+            },
+            "gallery-page": {
+                "en": "Gallery page",
+                "fr": "Page galerie"
+            },
+            "contact-page": {
+                "en": "Contact page",
+                "fr": "Page contact"
+            },
+            "falling-ducks": {
+                "en": "Falling ducks background",
+                "fr": "Arrière-plan avec des canards qui tombent"
+            },
+            "partners-page": {
+                "en": "Partners page",
+                "fr": "Page partenaires"
+            },
+            "flipping-photos": {
+                "en": "Flipping partner photos",
+                "fr": "Photos des partenaires qui se retournent"
+            },
+            "credits-page": {
+                "en": "Credits page",
+                "fr": "Page crédits"
+            },
+            "easter-popup": {
+                "en": "Easter egg popup",
+                "fr": "Popup de l'easter egg"
+            },
+            "parody-site": {
+                "en": "Parody website",
+                "fr": "Site web parodique"
+            },
+            "duck-thumbnails": {
+                "en": "Duck video thumbnails",
+                "fr": "Miniatures des vidéos de canards"
+            },
+            "duck-pill": {
+                "en": "Fake duck pill advertisement",
+                "fr": "Fausse publicité pour une pilule de canard"
+            },
+            "professor-message": {
+                "en": "Professor message video",
+                "fr": "Vidéo du message au professeur"
+            },
+            "amphitheater": {
+                "en": "Amphitheater presentation",
+                "fr": "Présentation en amphithéâtre"
+            }
+        },
+        "title": {
+            "title": {
+                "en": "SAE105 - Website about plastic ducks | HTML / CSS / JS / JSON / PHP | Univ",
+                "fr": "SAE105 - Site Web sur les canards en plastique | HTML / CSS / JS / JSON / PHP | Univ"
+            },
+            "presentation-title": {
+                "en": "Presentation",
+                "fr": "Présentation"
+            },
+            "index-title": {
+                "en": "The index page",
+                "fr": "La page index"
+            },
+            "data-title": {
+                "en": "The data page",
+                "fr": "La page données"
+            },
+            "gallery-title": {
+                "en": "The gallery page",
+                "fr": "La page galerie"
+            },
+            "contact-title": {
+                "en": "The contact page",
+                "fr": "La page contact"
+            },
+            "partners-title": {
+                "en": "The partners page",
+                "fr": "La page partenaires"
+            },
+            "credits-title": {
+                "en": "The credits page",
+                "fr": "La page crédit"
+            },
+            "secret-title": {
+                "en": "\"The other page\"",
+                "fr": "\"L'autre page\""
+            }
+        }
+    }
+} 

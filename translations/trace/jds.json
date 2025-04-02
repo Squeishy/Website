@@ -1,0 +1,190 @@
+{
+    "translations": {
+        "text": {
+            "context-label": {
+                "en": "Context:",
+                "fr": "Contexte :"
+            },
+            "context-value": {
+                "en": "solo, personal project",
+                "fr": "en solo, projet personnel"
+            },
+            "presentation-text": {
+                "en": "Well, good evening and welcome to this new trace where we'll discover my YouTube channel, Joueur du Soir, which talks <strong>about video games of all kinds</strong>!",
+                "fr": "Eh bien, bonsoir bonsoir et bienvenue sur cette nouvelle trace où on va découvrir ma chaîne YouTube, Joueur du Soir, qui parle <strong>de jeux vidéo en tout genre</strong> !"
+            },
+            "videos-intro": {
+                "en": "On my YouTube channel, I have <strong>three main types of videos</strong>, which are:",
+                "fr": "Sur ma chaîne YouTube, j'ai<strong> trois types de vidéos principales</strong>, que voici :"
+            },
+            "corruption-videos": {
+                "en": "Corruption videos<br>This is, I would say, <strong>75% of my channel</strong>. The goal of corruption is to modify a game's values to make it have a kind of heart attack. This creates completely random and crazy effects that I enjoy presenting to the world! I corrupt all types of games: 3DS, Wii, PS1, but also GameCube games!",
+                "fr": "Les vidéos de corruption<br>C'est, je dirais, <strong>75 % de ma chaîne</strong>. Le but de la corruption est de modifier les valeurs d'un jeu pour lui faire faire une sorte de crise cardiaque. Cela donne des effets totalement aléatoires et loufoques que je m'amuse à présenter au monde entier ! Je corromps tout type de jeu : des jeux 3DS, Wii, PS1, mais aussi GameCube !"
+            },
+            "presentation-videos": {
+                "en": "Presentation videos<br>These are videos where I present <strong>either game secrets or the game itself</strong>. It's super fun to make and much easier to produce than corruption videos.",
+                "fr": "Les vidéos de présentation<br>Ce sont des vidéos où je présente <strong>soit les secrets d'un jeu, soit le jeu lui-même</strong>. C'est super marrant à faire et bien plus facile à réaliser que les vidéos de corruption."
+            },
+            "original-concepts": {
+                "en": "Original concepts<br>For example, in my latest video, <strong>I talked about how video games are represented in TV media</strong>. They often get it completely wrong when trying to create fake video games. It's my favorite one so far!",
+                "fr": "Des concepts originaux<br>Par exemple, dans ma toute dernière vidéo,<strong> je parlais de la représentation des jeux vidéo dans les médias télévisés</strong>. Ces derniers se trompent souvent totalement lorsqu'ils essaient de créer de faux jeux vidéo. C'est ma préférée jusqu'à présent !"
+            },
+            "behind-scenes-intro": {
+                "en": "Creating videos is far from simple. Here's how it works for me when I make videos!",
+                "fr": "Créer des vidéos, c'est loin d'être simple. Voici comment ça se passe pour moi lorsque je fais des vidéos !"
+            },
+            "corruption-process-title": {
+                "en": "<strong>For corruption videos:</strong>",
+                "fr": "<strong>Pour les vidéos de corruption :</strong>"
+            },
+            "corruption-step-1": {
+                "en": "1. The corruption<br>I start by downloading the game I want to corrupt. Then, <strong>I record the corruption effects on video</strong>.",
+                "fr": "1. La corruption<br>Je commence par télécharger le jeu que je veux corrompre. Ensuite,<strong> j'enregistre les effets de la corruption en vidéo</strong>."
+            },
+            "corruption-step-2": {
+                "en": "2. Writing<br>I <strong>write a script based on the effects obtained</strong>. This is also the stage where I decide what stays and what isn't interesting.",
+                "fr": "2. L'écriture<br>Je <strong>rédige un script en fonction des effets obtenus</strong>. C'est également à cette étape que je décide ce qui reste et ce qui n'est pas intéressant."
+            },
+            "corruption-step-3": {
+                "en": "3. Recording",
+                "fr": "3. L'enregistrement"
+            },
+            "recording-setup": {
+                "en": "At the beginning of each video, I speak in front of the camera in a set that needs to be prepared. This includes setting up my camera, lights and rendering, but also putting sheets everywhere in my room to avoid sound reverberation.",
+                "fr": "Au début de chaque vidéo, je parle devant la caméra dans un décor qu'il faut mettre en place. Cela inclut régler ma caméra, les lumières et le rendu, mais aussi mettre des draps partout dans ma chambre pour éviter la réverbération du son."
+            },
+            "recording-process": {
+                "en": "Then, I do takes for an hour or two, which I'll later integrate into the video.",
+                "fr": "Ensuite, je fais des prises pendant une heure ou deux, que je vais ensuite intégrer à la vidéo."
+            },
+            "script-recording": {
+                "en": "After that, I record my entire script orally. It's simpler, but it takes more time. On one hand, I can read my notes (unlike when I speak to camera), but I also have more things to read and say!",
+                "fr": "Après cela, j'enregistre tout mon script à l'oral. C'est plus simple, mais cela prend plus de temps. D'un côté, je peux lire mes notes (contrairement aux moments où je parle face caméra), mais j'ai aussi plus de choses à lire et à dire !"
+            },
+            "corruption-step-4": {
+                "en": "4. Editing<br>Once all that is done, I move on to editing. This takes me between two and three days.",
+                "fr": "4. Le montage<br>Une fois tout cela fait, je passe au montage. Cela me prend entre deux et trois jours."
+            },
+            "corruption-step-5": {
+                "en": "5. The thumbnail<br>Finally, all that's left is to create the thumbnail, my favorite moment!",
+                "fr": "5. La miniature<br>Enfin, il ne me reste plus qu'à créer la miniature, mon moment préféré !"
+            },
+            "other-videos-process": {
+                "en": "<strong>For other videos:</strong>",
+                "fr": "<strong>Pour les autres vidéos :</strong>"
+            },
+            "other-videos-description": {
+                "en": "The process is similar, except that I write my script before recording what I need in-game.",
+                "fr": "Le procédé est similaire, sauf que j'écris mon script avant d'enregistrer ce qu'il me faut en jeu."
+            },
+            "memes-intro": {
+                "en": "A YouTube channel without memes isn't a good YouTube channel! Imagine Squeezie without his \"<em>Yo everyone it's Squeezie</em>\", Laupok's \"<em>and take care</em>\", or Leo Tech Maker's \"<em>never stop learning</em>\"... You see where I'm going!",
+                "fr": "Une chaîne YouTube sans délire n'est pas une bonne chaîne YouTube ! Imaginez Squeezie sans son \"<em>Yo tout l'monde c'est Squeezie</em>\", le \"<em>et portez-vous bien</em>\" de Laupok, ou encore le \"<em>n'arrêtez jamais d'apprendre</em>\" de Léo Tech Maker… Vous voyez où je veux en venir !"
+            },
+            "memes-description": {
+                "en": "On my channel, I have many memes that help me connect with my audience:",
+                "fr": "Sur ma chaîne, j'ai beaucoup de délires qui me permettent de me rapprocher un peu de mon audience :"
+            },
+            "spyro-meme": {
+                "en": "The <strong>two Spyro plushies</strong> that I own and often make fun of.",
+                "fr": "Les<strong> deux peluches de Spyro</strong> que je possède et que je vanne souvent."
+            },
+            "tibo-meme": {
+                "en": "I regularly make fun of <strong>Tibo InShape</strong>, a character I don't particularly like.",
+                "fr": "Je rigole régulièrement de <strong>Tibo InShape</strong>, un personnage que je n'apprécie pas des masses."
+            },
+            "evolution-text": {
+                "en": "If you watch my latest and first video, you'll see that in just six months, I've improved enormously! The audio is now more consistent, the image is better, and the writing too. In short, I've learned a lot in between, especially the importance of keeping my microphone close to me, which was essential for good sound!",
+                "fr": "Si vous regardez ma dernière et ma première vidéo, vous verrez qu'en seulement six mois, je me suis énormément amélioré ! L'audio est maintenant plus constant, l'image est meilleure, et l'écriture aussi. En bref, j'ai beaucoup appris entre-temps, surtout l'importance de garder mon micro près de moi, ce qui était essentiel pour un bon son !"
+            },
+            "tools-intro": {
+                "en": "To carry out my projects, I use different tools depending on my needs:",
+                "fr": "Pour mener à bien mes projets, j'utilise différents outils selon mes besoins :"
+            },
+            "tool-obs": {
+                "en": "<em>OBS Studio</em>: perfect for <strong>recording videos</strong>, whether it's capturing gameplay or the part where I speak to the camera.",
+                "fr": "<em>OBS Studio </em>: idéal pour <strong>enregistrer des vidéos</strong>, que ce soit pour capturer du gameplay ou pour capturer la partie où je parle à la caméra."
+            },
+            "tool-audacity": {
+                "en": "<em>Audacity</em>: which allows me to <strong>record and edit my voice</strong>.",
+                "fr": "<em>Audacity</em> : qui me permet d'<strong>enregistrer et éditer ma voix</strong>."
+            },
+            "tool-paint": {
+                "en": "<em>Paint 3D / Figma</em>: perfect for <strong>creating thumbnails</strong>.",
+                "fr": "<em>Paint 3D / Figma</em> : parfait pour <strong>créer des miniatures</strong>."
+            },
+            "tool-olive": {
+                "en": "<em>Olive</em>: my <strong>video editing</strong> software.",
+                "fr": "<em>Olive</em> : mon logiciel de<strong> montage vidéo</strong>."
+            },
+            "conclusion-text": {
+                "en": "My Joueur du Soir channel is much more than just entertainment for me. It allows me to <strong>share my passion for video games while working on my own video projects</strong>!",
+                "fr": "Ma chaine joueur du soir est bien plus qu'un simple divertissement pour moi. Cela me permet de<strong> partager ma passion pour les jeux vidéo tout en travaillant sur mes propres projets vidéos</strong> !"
+            },
+            "conclusion-thanks": {
+                "en": "Thanks for reading! 😀",
+                "fr": "Merci d'avoir lu! 😀"
+            }
+        },
+        "alt": {
+            "corruption-setup": {
+                "en": "Corruption recording setup",
+                "fr": "Configuration d'enregistrement de corruption"
+            },
+            "recording-setup-image": {
+                "en": "Recording setup",
+                "fr": "Configuration d'enregistrement"
+            },
+            "editing-process": {
+                "en": "Editing process",
+                "fr": "Processus de montage"
+            },
+            "thumbnail-1": {
+                "en": "Thumbnail creation 1",
+                "fr": "Création de miniature 1"
+            },
+            "thumbnail-2": {
+                "en": "Thumbnail creation 2",
+                "fr": "Création de miniature 2"
+            },
+            "thumbnail-3": {
+                "en": "Thumbnail creation 3",
+                "fr": "Création de miniature 3"
+            }
+        },
+        "title": {
+            "title": {
+                "en": "Joueur Du Soir | Youtube | Personal",
+                "fr": "Joueur Du Soir | Youtube | Perso"
+            },
+            "presentation-title": {
+                "en": "Presentation",
+                "fr": "Présentation"
+            },
+            "videos-title": {
+                "en": "Videos for all tastes!",
+                "fr": "Des vidéos pour tous les goûts !"
+            },
+            "behind-scenes-title": {
+                "en": "Come discover behind the scenes!",
+                "fr": "Venez découvrir les coulisses !"
+            },
+            "channel-memes-title": {
+                "en": "Channel Memes",
+                "fr": "Les délires de la chaîne"
+            },
+            "evolution-title": {
+                "en": "The Evolution",
+                "fr": "Les évolutions"
+            },
+            "tools-title": {
+                "en": "My Tools",
+                "fr": "Mes outils"
+            },
+            "conclusion-title": {
+                "en": "Conclusion",
+                "fr": "Conclusion"
+            }
+        }
+    }
+} 

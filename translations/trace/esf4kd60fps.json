@@ -1,0 +1,244 @@
+{
+  "translations": {
+    "text": {
+      "title": {
+        "en": "EPIC SNOW FIGHTER 4K DELUXE 60FPS! | Unity | Personal",
+        "fr": "EPIC SNOW FIGHTER 4K DELUXE 60FPS! | Unity | Perso"
+      },
+      "context-label": {
+        "en": "Context:",
+        "fr": "Contexte :"
+      },
+      "context-value": {
+        "en": "Personal Project, solo",
+        "fr": "projet personnel, en solo"
+      },
+      "presentation-title": {
+        "en": "Presentation",
+        "fr": "Présentation"
+      },
+      "presentation-text": {
+        "en": "I know this game name might make you smile, and that's the point! \"EPIC SNOW FIGHTER 4K DELUXE 60FPS!\" is my very first arcade machine game. Before Tankerz and XARIUS, it taught me the basics of arcade games!",
+        "fr": "Je sais que ce nom de jeu peut faire sourire, et c'est le but ! \"EPIC SNOW FIGHTER 4K DELUXE 60FPS!\" est mon tout premier jeu de borne d'arcade. Avant Tankerz et XARIUS, c'est lui qui m'a appris les bases des jeux sur borne !"
+      },
+      "frozen-game-title": {
+        "en": "A Frozen Game!",
+        "fr": "Un jeu… givré !"
+      },
+      "frozen-game-text": {
+        "en": "In this game, 2 players must fight each other by throwing snowballs. They each have 3 lives and can fall into water, which will kill them instantly.",
+        "fr": "Dans ce jeu, 2 joueurs doivent s'entre-tuer en se lançant des boules de neige. Ils ont chacun 3 vies et peuvent tomber dans l'eau, ce qui les tuera immédiatement."
+      },
+      "maps-text": {
+        "en": "These players can fight on 4 different maps: Boxify, ChillMakers, Granity and Shiva.",
+        "fr": "Ces joueurs peuvent se combattre sur 4 maps différentes : Boxify, ChillMakers, Granity et Shiva."
+      },
+      "maps-gallery-title": {
+        "en": "Maps Gallery",
+        "fr": "Galerie des Maps"
+      },
+      "powerups-intro": {
+        "en": "During the game, mystery boxes may appear. By collecting them, players will receive a random power-up, including:",
+        "fr": "Durant le jeu, des boîtes mystères peuvent apparaître. En les ramassant, les joueurs recevront un power-up aléatoire, incluant :"
+      },
+      "powerup-gigantism": {
+        "en": "Gigantism, which doubles the player's damage and makes them invincible.",
+        "fr": "Le gigantisme, qui double les dégâts du joueur et le rend invincible."
+      },
+      "powerup-regeneration": {
+        "en": "Regeneration, which heals the player.",
+        "fr": "La régénération, qui guérit le joueur."
+      },
+      "powerup-shield": {
+        "en": "Shield, which protects the player and hurts the opponent if they get too close.",
+        "fr": "Le bouclier, qui protège le joueur et blesse l'adversaire s'il s'approche trop."
+      },
+      "powerup-spiky-balls": {
+        "en": "Spiky balls, which deal double damage to the opponent.",
+        "fr": "Les boules piquantes, qui infligent le double des dégâts à l'adversaire."
+      },
+      "illusion-title": {
+        "en": "An Illusion Before Your Eyes",
+        "fr": "Un trompe l'oeil sous vos yeux"
+      },
+      "illusion-text-1": {
+        "en": "You've probably noticed that as a player, you see your character's hand, while you see the other player's complete body. Well, in reality, it's quite simple (even though I managed to get confused while writing it 😅). Basically, what happens is that the players' cameras can't see the character they control. Instead, they only display the player's arm, as well as the other player's body, but without showing the other arm of the controlled player. And vice versa, of course. Otherwise, it would look like this:",
+        "fr": "Vous avez sans doute remarqué qu'en tant que joueur, on voit la main de notre personnage, tandis qu'on voit le corps complet de l'autre joueur. Eh bien, en réalité, c'est tout simple (même si j'ai réussi à m'embrouiller en l'écrivant 😅). En gros, ce qui se passe, c'est que les caméras des joueurs ne peuvent pas voir le personnage qu'elles contrôlent. À la place, elles affichent uniquement le bras du joueur, ainsi que le corps de l'autre joueur, mais sans montrer l'autre bras du joueur contrôlé. Et inversement, évidemment. Sinon, ça ressemblerait à ça :"
+      },
+      "illusion-text-2": {
+        "en": "Do you understand better now? For the player's camera, the character is hidden and only their arm is visible. While for the other player's camera, it's the opposite: the arm is hidden, but the character is fully visible!",
+        "fr": "Vous comprenez mieux maintenant ? Pour la caméra du joueur, le personnage est caché et on ne voit que son bras. Tandis que pour la caméra de l'autre joueur, c'est l'inverse : le bras est caché, mais on voit le personnage en entier !"
+      },
+      "illusion-text-3": {
+        "en": "Honestly, it might seem complicated to explain, but that's how it works in all multiplayer games. So it's a great thing to know!",
+        "fr": "Franchement, ça peut paraître compliqué à expliquer, mais c'est comme ça dans tous les jeux multijoueurs. C'est donc un super atout à connaître !"
+      },
+      "adaptive-music-title": {
+        "en": "Adaptive Music!",
+        "fr": "Des musiques adaptatives !"
+      },
+      "adaptive-music-text-1": {
+        "en": "I thought it would be fun to make music that adapts to the game, and that's exactly what I did!",
+        "fr": "Je me suis dit qu'il serait marrant de faire des musiques qui s'adaptent au jeu, et c'est exactement ce que j'ai fait !"
+      },
+      "adaptive-music-text-2": {
+        "en": "Each music has 3 \"layers\":",
+        "fr": "Chaque musique a 3 \"couches\" :"
+      },
+      "music-layer-1": {
+        "en": "The base layer: a melody without anything special.",
+        "fr": "La couche de base : une mélodie sans rien de bien particulier."
+      },
+      "music-layer-2": {
+        "en": "The second layer: all the \"kicks\" and \"claps\" (in short, the percussion).",
+        "fr": "La seconde couche : tous les \"kicks\" et \"claps\" (en bref, les percussions)."
+      },
+      "music-layer-3": {
+        "en": "The third layer: an additional bass line.",
+        "fr": "La troisième couche : une ligne de basse supplémentaire."
+      },
+      "music-explanation-1": {
+        "en": "By default, layers 1 and 2 play together, meaning the melody and percussion. If a player dies, the percussion stops, leaving only the base music, then it comes back when they respawn. The third layer, on the other hand, only plays when one of the players has a power-up.",
+        "fr": "Par défaut, la couche 1 et 2 se jouent ensemble, c'est-à-dire la mélodie et les percussions. Si un joueur meurt, les percussions s'arrêtent, ne laissant que la musique de base, puis elles reviennent quand il réapparaît. La troisième couche, quant à elle, ne se joue que lorsqu'un des joueurs a un power-up."
+      },
+      "music-explanation-2": {
+        "en": "In total, there are four maps, so four different music tracks (nothing too complicated, it's still made in FL Studio).",
+        "fr": "En tout, il y a quatre maps, donc quatre musiques différentes (rien de bien compliqué, ça reste fait sous FL Studio)."
+      },
+      "tiny-details-title": {
+        "en": "The Tiny Details",
+        "fr": "Les détails riquiquis"
+      },
+      "tiny-details-intro": {
+        "en": "Something I like to do in my video games (and you already know this with Tankerz) is to hide small details or Easter Eggs. Here, there are only details, but they're worth mentioning!",
+        "fr": "Un truc que j'aime bien faire dans mes jeux vidéo (et ça, vous le savez déjà avec Tankerz), c'est de cacher des petits détails ou Easter Eggs. Ici, il n'y a que des détails, mais ça vaut le coup d'en parler !"
+      },
+      "detail-pupils": {
+        "en": "First: The characters' pupils move based on where they're looking. It's simple, but it uses blend-keys in Blender, which allow us to modify the position of vertices in a 3D model. The result is super cool!",
+        "fr": "Premièrement : Les pupilles des personnages bougent en fonction de là où ils se dirigent. C'est tout bête, mais ça utilise les blend-keys de Blender, qui permettent de modifier la position des vertex d'un modèle 3D. Le résultat est super sympa !"
+      },
+      "detail-spectators": {
+        "en": "Second: You can notice small characters everywhere on the maps if you pay attention. And the best part is that they applaud when a player dies!",
+        "fr": "Deuxièmement : On peut remarquer des petits personnages un peu partout sur les maps si on y prête attention. Et le meilleur, c'est qu'ils applaudissent lorsqu'un joueur meurt !"
+      },
+      "detail-brands": {
+        "en": "Finally: In Mario Kart 8, each character has a fake brand or company (for example: \"BowserOIL\", \"MARIO MOTORS\", \"Lemmy's Tire Service\", etc.). Why am I talking about this? I warn you I'm not a \"Nintendo fanboy\" (maybe a little), but I love these kinds of details that give characters their own life. In the same way, I've integrated fake brands in this game, and each character color in the selection menu has its own personality.",
+        "fr": "Enfin : Dans Mario Kart 8, chaque personnage a une fausse marque ou entreprise (par exemple : \"BowserOIL\", \"MARIO MOTORS\", \"Lemmy's Tire Service\", etc.). Pourquoi je parle de ça ? Je vous préviens je ne suis pas un \"fanboy de Nintendo\" (peut être un peu), mais j'adore ce genre de détails qui donne une vie propre aux personnages. De la même manière, j'ai intégré des fausses marques dans ce jeu, et chaque couleur de personnage dans le menu de sélection a sa propre personnalité."
+      },
+      "recycling-title": {
+        "en": "Recycle to Win!",
+        "fr": "Recycler, c'est gagner !"
+      },
+      "recycling-text": {
+        "en": "Another thing I love to do is recycle my own creations. For example, Shiva, one of the game's maps, is entirely copied from HAW (Home Appliance War). The boats, the logo, the name, even the character in the sweatshirt come from HAW! If only the world could recycle as much as I recycle my games, we'd have reasons to say global warming doesn't exist.",
+        "fr": "Un autre truc que j'adore faire, c'est recycler mes propres créations. Par exemple, Shiva, l'une des maps du jeu, est entièrement pompée de HAW (Home Appliance War). Les bateaux, le logo, le nom, même le personnage en sweat viennent de HAW ! Si seulement le monde pouvait recycler autant que je recycle mes jeux, on aurait des raisons de dire que le réchauffement climatique n'existe pas."
+      },
+      "problems-title": {
+        "en": "Nothing But Problems",
+        "fr": "Que des problèmes"
+      },
+      "problems-text-1": {
+        "en": "Compared to XARIUS and Tankerz, this game was much harder to set up. In fact, it was developed before the start of the school year. I was told that my profile interested the university (thanks again for everything, Mr. Meuzeret, that made my vacation), and they wanted me to create a game for an arcade machine.",
+        "fr": "Comparé à XARIUS et Tankerz, ce jeu a été beaucoup plus difficile à mettre en place. En fait, il a été développé avant le début de l'année scolaire. On m'avait dit que mon profil intéressait l'université (merci encore pour tout, Mr. Meuzeret, ça m'avait refait mes vacances), et ils voulaient que je crée un jeu pour une borne d'arcade."
+      },
+      "problems-text-2": {
+        "en": "The issue? I had no idea what the arcade machine looked like. For me, an arcade machine was like the demo screens at Micromania: a TV and two Xbox or PS4 controllers (what an idea, where did I get that from 😭). Anyway, I started with a 3D game with two joysticks per player.",
+        "fr": "Le souci ? Je n'avais aucune idée de ce à quoi ressemblait la borne. Pour moi, une borne d'arcade, c'était comme les écrans de démo à Micromania : une télé et deux manettes Xbox ou PS4 (quelle idée aussi où est-ce que j'ai été trouvé ça 😭). Bref, j'étais parti sur un jeu en 3D avec deux joysticks par joueur."
+      },
+      "problems-text-3": {
+        "en": "What a surprise when I was told there was only one joystick per player! Not very practical for a 3D environment... But I fought back: I made the left/right joystick rotate the camera and the up/down joystick move the player forward. It's less maneuverable, but at least it worked!",
+        "fr": "Quelle surprise quand on m'a dit qu'il n'y avait qu'un joystick par joueur ! Pas très pratique pour un environnement en 3D... Mais j'ai riposté : j'ai fait en sorte que le joystick gauche/droite fasse tourner la caméra et que haut/bas fasse avancer le joueur. C'est moins maniable, mais au moins, ça fonctionnait !"
+      },
+      "problems-text-4": {
+        "en": "Another problem: I made the game TOO FAST. Development was finished before the arcade machine was configured. Result: at first, everything worked well, but after a machine update, the inputs completely bugged. My characters were spinning in place. Tankerz had a similar problem: the cannons pointed upward even when not touching the joysticks.",
+        "fr": "Un autre problème : j'ai fait le jeu TROP VITE. Le développement a été terminé avant que la borne soit configurée. Résultat : au début, tout marchait bien, mais après une mise à jour de la borne, les inputs ont complètement buggé. Mes personnages tournaient sur eux-mêmes. Tankerz a eu un problème similaire : les canons pointaient vers le haut même si on ne touchait pas aux joysticks."
+      },
+      "conclusion-title": {
+        "en": "In the End",
+        "fr": "En fin de compte"
+      },
+      "conclusion-text-1": {
+        "en": "eps4kd60fps (yes, no courage to rewrite everything 😅) was a great project to cut my teeth on an arcade machine. It allowed me to understand the basics of what works (or doesn't). In hindsight, this game isn't really suitable for an arcade machine, too bad!",
+        "fr": "eps4kd60fps (oui, pas le courage de tout réécrire 😅) a été un super projet pour me faire les dents sur une borne d'arcade. Il m'a permis de comprendre les bases de ce qui fonctionne (ou pas). Avec le recul, ce jeu n'est vraiment pas adapté à une borne d'arcade, dommage !"
+      },
+      "conclusion-text-2": {
+        "en": "Thanks for reading! 😁",
+        "fr": "Merci d'avoir lu ! 😁"
+      }
+    },
+    "alt": {
+      "gameplay-1": {
+        "en": "ESF4KD60FPS gameplay screenshot 1",
+        "fr": "Capture d'écran de gameplay d'ESF4KD60FPS 1"
+      },
+      "gameplay-2": {
+        "en": "ESF4KD60FPS gameplay screenshot 2",
+        "fr": "Capture d'écran de gameplay d'ESF4KD60FPS 2"
+      },
+      "map-boxify": {
+        "en": "ESF4KD60FPS map Boxify",
+        "fr": "Map Boxify d'ESF4KD60FPS"
+      },
+      "map-chillmakers": {
+        "en": "ESF4KD60FPS map ChillMakers",
+        "fr": "Map ChillMakers d'ESF4KD60FPS"
+      },
+      "map-granity": {
+        "en": "ESF4KD60FPS map Granity",
+        "fr": "Map Granity d'ESF4KD60FPS"
+      },
+      "map-shiva": {
+        "en": "ESF4KD60FPS map Shiva",
+        "fr": "Map Shiva d'ESF4KD60FPS"
+      },
+      "powerup-gameplay-1": {
+        "en": "ESF4KD60FPS power-up gameplay 1",
+        "fr": "Gameplay avec power-up d'ESF4KD60FPS 1"
+      },
+      "powerup-gameplay-2": {
+        "en": "ESF4KD60FPS power-up gameplay 2",
+        "fr": "Gameplay avec power-up d'ESF4KD60FPS 2"
+      },
+      "powerup-gameplay-3": {
+        "en": "ESF4KD60FPS power-up gameplay 3",
+        "fr": "Gameplay avec power-up d'ESF4KD60FPS 3"
+      },
+      "powerup-gameplay-4": {
+        "en": "ESF4KD60FPS power-up gameplay 4",
+        "fr": "Gameplay avec power-up d'ESF4KD60FPS 4"
+      },
+      "camera-comparison": {
+        "en": "ESF4KD60FPS camera comparison",
+        "fr": "Comparaison des caméras d'ESF4KD60FPS"
+      },
+      "music-layers": {
+        "en": "ESF4KD60FPS music layers",
+        "fr": "Couches de musique d'ESF4KD60FPS"
+      },
+      "character-pupils": {
+        "en": "ESF4KD60FPS character pupils",
+        "fr": "Pupilles des personnages d'ESF4KD60FPS"
+      },
+      "map-spectators": {
+        "en": "ESF4KD60FPS map spectators",
+        "fr": "Spectateurs sur la map d'ESF4KD60FPS"
+      },
+      "character-brands-1": {
+        "en": "ESF4KD60FPS character brands 1",
+        "fr": "Marques des personnages d'ESF4KD60FPS 1"
+      },
+      "character-brands-2": {
+        "en": "ESF4KD60FPS character brands 2",
+        "fr": "Marques des personnages d'ESF4KD60FPS 2"
+      },
+      "recycling-comparison-1": {
+        "en": "ESF4KD60FPS recycling comparison 1",
+        "fr": "Comparaison du recyclage d'ESF4KD60FPS 1"
+      },
+      "recycling-comparison-2": {
+        "en": "ESF4KD60FPS recycling comparison 2",
+        "fr": "Comparaison du recyclage d'ESF4KD60FPS 2"
+      }
+    }
+  }
+} 

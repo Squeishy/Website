@@ -6,7 +6,7 @@
       "welcome-catch-text": { "en": "You want to learn more about...", "fr": "Vous voulez en savoir plus sur..." },
       "welcome-section-my-games-link": { "en": "My games", "fr": "Mes jeux" },
       "welcome-section-whats-next-link": { "en": "What's next", "fr": "Quoi de neuf" },
-      "welcome-section-myself-link": { "en": "Myself", "fr": "Moi-même" },
+      "welcome-section-portfolio-link": { "en": "Portfolio", "fr": "Portfolio" },
       "welcome-section-contact-me-link": { "en": "Contact me", "fr": "Contactez-moi" },
       "my-games-title": { "en": "My games", "fr": "Mes jeux" },
       "my-games-description": { 
@@ -20,12 +20,12 @@
         "fr": "Vous avez aimé mes jeux et vous en voulez plus ? Cliquez sur le lien ci-dessous pour avoir un aperçu de mes prochaines créations, amusez-vous bien !" 
       },
       "whats-next-button": { "en": "Take a look !", "fr": "Jetez un œil !" },
-      "myself-title": { "en": "Myself", "fr": "À propos de moi" },
-      "myself-description": { 
-        "en": "Hi ! I'm Jordan ! Since I was 14, my main hobby was to create games, and guess what ! It still is ! The only difference now is that YOU, the user, get the chance to play them ! But this is not about my games, this is about me, so click on the link down below if you'd like to see how did I got here, and what to do if, like me, you love creating games !", 
-        "fr": "Salut ! Je suis Jordan ! Depuis mes 14 ans, mon passe-temps principal est de créer des jeux, et devinez quoi ? Ça l'est toujours ! La seule différence maintenant, c'est que VOUS, l'utilisateur, avez la chance d'y jouer ! Mais on est pas là pour parlez de mes jeux, alors cliquez sur le lien ci-dessous si vous voulez en savoir plus sur comment j'en suis arrivé à là et quoi faire si, comme moi, vous aimez créer des jeux !" 
+      "portfolio-title": { "en": "My portfolio", "fr": "Mon portfolio" },
+      "portfolio-description": { 
+        "en": "Hi ! I'm Jordan ! Since I was 14, my main hobby was to create games, but not only ! Click on the link down below to learn more about me !", 
+        "fr": "Salut ! Je suis Jordan ! Depuis mes 14 ans, mon passe-temps principal est de créer des jeux, mais pas que ! Cliquez sur le lien ci-dessous pour en savoir plus sur moi !"
       },
-      "myself-button": { "en": "Learn more about me !", "fr": "En savoir plus sur moi !" },
+      "portfolio-button": { "en": "Learn more about me !", "fr": "En savoir plus sur moi !" },
       "contact-me-title": { "en": "Contact me", "fr": "Contactez-moi" },
       "contact-me-description": { 
         "en": "Do you want to share some of your ideas, or report a bug, or just give me suggestions or ask me questions ? you can do that by clicking the link down below !", 
@@ -47,7 +47,7 @@
     "title": {
       "my-games-button": { "en": "Discover my games", "fr": "Découvrez mes jeux" },
       "whats-next-button": { "en": "Discover what's next", "fr": "Découvrez ce qui arrive" },
-      "myself-button": { "en": "Learn more about me !", "fr": "En savoir plus sur moi" },
+      "portfolio-button": { "en": "Learn more about me !", "fr": "En savoir plus sur moi" },
       "contact-me-button": { "en": "Contact me !", "fr": "Contactez-moi" }
     }
   }

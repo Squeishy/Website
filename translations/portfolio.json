@@ -144,6 +144,114 @@
       "link-this-website": {
         "en": "View Project",
         "fr": "Voir le projet"
+      },
+      "title-ducky-tales": {
+        "en": "Ducky Tales",
+        "fr": "Ducky Tales"
+      },
+      "desc-ducky-tales": {
+        "en": "An adventure game featuring a cute duck!",
+        "fr": "Un jeu d'aventure avec un mignon canard !"
+      },
+      "title-esf4kd60fps": {
+        "en": "ESF4KD60FPS",
+        "fr": "ESF4KD60FPS"
+      },
+      "desc-esf4kd60fps": {
+        "en": "A high-performance video renderer project",
+        "fr": "Un projet de rendu vidéo haute performance"
+      },
+      "title-haw": {
+        "en": "HAW",
+        "fr": "HAW"
+      },
+      "desc-haw": {
+        "en": "A flight simulation game with a twist!",
+        "fr": "Un jeu de simulation de vol avec une touche particulière !"
+      },
+      "title-utopia": {
+        "en": "Project utopia",
+        "fr": "Projet utopia"
+      },
+      "desc-utopia": {
+        "en": "A cinema's redesign",
+        "fr": "Une refonte de cinéma"
+      },
+      "title-interview": {
+        "en": "Interview",
+        "fr": "Interview"
+      },
+      "desc-interview": {
+        "en": "A job interview simulation tool",
+        "fr": "Un outil de simulation d'entretien d'embauche"
+      },
+      "title-jds": {
+        "en": "JDS",
+        "fr": "JDS"
+      },
+      "desc-jds": {
+        "en": "A personal project management tool",
+        "fr": "Un outil de gestion de projet personnel"
+      },
+      "title-sae105": {
+        "en": "Rubber Ducky Website",
+        "fr": "Site web Canard en caoutchouc"
+      },
+      "desc-sae105": {
+        "en": "A project for school about rubber ducks",
+        "fr": "Un projet scolaire sur les canards en caoutchouc"
+      },
+      "title-affiche-saint-andre": {
+        "en": "Affiche Saint André",
+        "fr": "Affiche Saint André"
+      },
+      "desc-affiche-saint-andre": {
+        "en": "A project dedicated to Saint André's event posters",
+        "fr": "Un projet dédié aux affiches d'événements de Saint André"
+      },
+      "link-ducky-tales": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-esf4kd60fps": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-haw": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-utopia": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-interview": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-jds": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-sae105": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-affiche-saint-andre": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "cv-title": {
+        "en": "CV",
+        "fr": "CV"
+      },
+      "cv-description": {
+        "en": "I'm making my CV available to you, for any collaboration or internship requests, don't hesitate to contact me!",
+        "fr": "Je met à votre disposition mon CV, pour toute demande de collaboration ou de stage, n'hésitez pas à me contacter !"
+      },
+      "cv-download-button": {
+        "en": "Download my CV",
+        "fr": "Télécharger mon cv"
       }
     },
     "alt": {
@@ -174,6 +282,38 @@
         "fr": "Voir le projet"
       },
       "link-this-website": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-ducky-tales": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-esf4kd60fps": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-haw": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-utopia": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-interview": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-jds": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-sae105": {
+        "en": "View Project",
+        "fr": "Voir le projet"
+      },
+      "link-affiche-saint-andre": {
         "en": "View Project",
         "fr": "Voir le projet"
       }

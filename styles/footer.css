@@ -7,9 +7,13 @@ footer {
     color: white;
     display: flex;
     flex-direction: column;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
     transform: translateY(100%);
     z-index: 50;
+}
+
+body:has(iframe.fullscreen) footer {
+    z-index: 0;
 }
 
 footer.hidden {

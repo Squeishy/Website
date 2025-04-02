@@ -1,0 +1,164 @@
+{
+  "translations": {
+    "text": {
+      "title": {
+        "en": "Xarius | Unity | Personal",
+        "fr": "Xarius | Unity | Perso"
+      },
+      "context-label": {
+        "en": "Context:",
+        "fr": "Contexte :"
+      },
+      "context-value": {
+        "en": "solo",
+        "fr": "en solo"
+      },
+      "link": {
+        "en": "https://lusinecanard.fr/xarius-page.html",
+        "fr": "https://lusinecanard.fr/xarius-page.html"
+      },
+      "presentation-title": {
+        "en": "Presentation",
+        "fr": "Présentation"
+      },
+      "presentation-text": {
+        "en": "The third game I created for the arcade machine, Xarius is a game playable by 1 to 4 players locally. Players participate in a space race in ships and must reach the finish line first. I'm particularly proud of this project because of the time it took me to create it: only 5 days to create all the models, music, sounds, code, the two levels and additional content (miniatures, etc.).",
+        "fr": "Troisième jeu que j'ai réalisé pour la borne d'arcade, Xarius est un jeu jouable de 1 à 4 joueurs en local. Les joueurs participent à une course spatiale dans des vaisseaux et doivent atteindre la ligne d'arrivée en premier. Je suis particulièrement fier de ce projet en raison du temps qu'il m'a fallu pour le réaliser : seulement 5 jours pour créer tous les modèles, les musiques, les sons, le code, les deux niveaux et les contenus additionnels (miniatures, etc.)."
+      },
+      "problem-title": {
+        "en": "Problem",
+        "fr": "Problème"
+      },
+      "problem-text-1": {
+        "en": "If you've seen the arcade machine at school, you've probably noticed that it only has two joysticks and buttons. So, how did I manage to make a game playable by four players locally on this machine that seems limited to two simultaneous players?",
+        "fr": "Si vous avez vu la borne d'arcade à l'école, vous avez probablement remarqué qu'elle ne possède que deux joysticks et des boutons. Alors, comment ai-je réussi à faire un jeu jouable à quatre en local sur cette machine qui semble limitée à deux joueurs simultanément ?"
+      },
+      "problem-text-2": {
+        "en": "I significantly reduced the controls of each ship by only allowing them to move up and down and left and right. With so few controls, it's possible to assign joysticks to players 1 and 3 and buttons to players 2 and 4. Thus, Xarius became the first game to offer a 4-player mode on this machine!",
+        "fr": "J'ai considérablement réduit les contrôles de chaque vaisseau en leur permettant uniquement de bouger de haut en bas et de gauche à droite. Avec si peu de commandes, il est possible d'assigner les joysticks aux joueurs 1 et 3 et les boutons aux joueurs 2 et 4. Ainsi, Xarius est devenu le premier jeu à proposer un mode 4 joueurs sur cette borne !"
+      },
+      "how-it-works-title": {
+        "en": "How does it work?",
+        "fr": "Comment ça marche ?"
+      },
+      "how-it-works-text-1": {
+        "en": "In the game, each player follows a line that traces the level. They can't move away from it, but can move up and down and left and right along it. The game automatically advances players along this line.",
+        "fr": "Dans le jeu, chaque joueur suit une ligne qui trace le niveau. Ils ne peuvent pas s'en éloigner, mais peuvent se déplacer de haut en bas et de gauche à droite le long de celle-ci. Le jeu avance automatiquement les joueurs sur cette ligne."
+      },
+      "how-it-works-text-2": {
+        "en": "Thanks to these super simple controls, I was able to make a 4-player local experience possible. In-game, players can use speed tunnels to accelerate, but they must also avoid obstacles in their path. At the risk of losing all their speed and having to regain it gradually.",
+        "fr": "Grâce à ces contrôles hyper simples, j'ai pu rendre possible une expérience à 4 joueurs en local. En jeu, les joueurs peuvent emprunter des tunnels de vitesse pour accélérer, mais ils doivent aussi éviter les obstacles sur leur chemin. Au risque de perdent toute leur vitesse et de devoir la regagner progressivement."
+      },
+      "technical-text-1": {
+        "en": "Honestly, there isn't much complexity in this game in terms of code. However, the most technical part remains the level editor.",
+        "fr": "Honnêtement, il n'y a pas grand-chose de complexe dans ce jeu en termes de code. Cependant, la partie la plus technique reste l'éditeur de niveaux."
+      },
+      "technical-text-2": {
+        "en": "I developed a script that takes a series of points and traces a level by connecting them. It's possible to add or remove these points, and players automatically follow this path. This allows for quick and efficient level creation. Here are the two levels I created: Earth and Tankerz (a reference to my other game of the same name).",
+        "fr": "J'ai développé un script qui prend une série de points et trace un niveau en les reliant. Il est possible d'ajouter ou de supprimer ces points, et les joueurs suivent automatiquement ce chemin. Cela permet de créer des niveaux rapidement et efficacement. Voici les deux niveaux que j'ai créés : Earth et Tankerz (une référence à mon autre jeu du même nom)."
+      },
+      "level-choice-text": {
+        "en": "I chose to integrate a map inspired by Tankerz to save time: I already had most of the assets and a musical base. I just had to make some modifications.",
+        "fr": "J'ai choisi d'intégrer une map inspirée de Tankerz pour gagner du temps : j'avais déjà la plupart des assets et une base musicale. Il ne me restait plus qu'à apporter quelques modifications."
+      },
+      "biggest-challenge-title": {
+        "en": "The Biggest Challenge",
+        "fr": "Le plus grand défi"
+      },
+      "challenge-text-1": {
+        "en": "Xarius, 4 players, in space... it's super cool, but try running that on the arcade machine's (desktop) computer! It had to handle 4 cameras and perform separate calculations for each player simultaneously. Result? The poor thing was crying, barely displaying 20 FPS.",
+        "fr": "Xarius, 4 joueurs, dans l'espace... c'est super cool, mais essayez donc de faire tourner ça sur l'ordinateur (de bureau) de la borne d'arcade ! Il devait gérer 4 caméras et faire des calculs distincts pour chaque joueur simultanément. Résultat ? Le pauvre était en pleurs, affichant péniblement 20 FPS."
+      },
+      "challenge-text-2": {
+        "en": "What to do? My game was finished, but unplayable due to lack of optimization. So I completely rethought it!",
+        "fr": "Que faire ? Mon jeu était fini, mais injouable à cause du manque d'optimisation. J'ai donc tout repensé !"
+      },
+      "challenge-text-3": {
+        "en": "For example, the 3D model of the asteroids contained a huge number of polygons, which was too resource-intensive. I simplified their geometry as well as that of the ships and other game objects. Going from 7,500,000 to 250,000 polygons for 4 players.",
+        "fr": "Par exemple, le modèle 3D des astéroïdes contenait énormément de polygones, ce qui était trop coûteux en ressources. J'ai simplifié leur géométrie ainsi que celle des vaisseaux et des autres objets du jeu. En passant de 7 500 000 à 250 000 polygones à 4 joueurs."
+      },
+      "optimization-text-1": {
+        "en": "But that wasn't enough. I also optimized the materials: removed reflections, metallic effects and shadows, and enabled \"GPU Instancing\" so all objects share the same material rather than having individual ones.",
+        "fr": "Mais ce n'était pas suffisant. J'ai aussi optimisé les matériaux : suppression des reflets, des effets métalliques et des ombres, et activation du \"GPU Instancing\" pour que tous les objets partagent le même matériau plutôt que d'en avoir un individuel."
+      },
+      "optimization-text-2": {
+        "en": "The result? We go from 20 FPS to a comfortable 60 FPS!",
+        "fr": "Le résultat ? On passe de 20 FPS à un confortable 60 FPS !"
+      },
+      "music-title": {
+        "en": "The Music (The Best Part)",
+        "fr": "Les musiques (la meilleure partie)"
+      },
+      "music-text-1": {
+        "en": "Space means grand music. But Jordan Septier means budding composer... or torture for the ears! I had some music skills, but not enough to compose a good soundtrack.",
+        "fr": "Qui dit espace dit musique grandiose. Mais qui dit Jordan Septier dit compositeur en herbe... ou supplice pour les oreilles ! J'avais quelques compétences en musique, mais pas assez pour composer une bonne bande-son."
+      },
+      "music-text-2": {
+        "en": "While trying to create the music for Earth, I found a superb bass line and a space piano, but I was stuck. How to continue? I called on a friend, Lauren Lamoureux (thank you a thousand times again!). After four hours on Discord voice chat composing together, I had my best music to date!",
+        "fr": "En essayant de créer la musique pour Earth, j'ai trouvé une superbe ligne de basse et un piano spatial, mais j'étais bloqué. Comment continuer ? J'ai fait appel à une amie, Lauren Lamoureux (merci encore mille fois !). Après quatre heures en vocal sur Discord à composer ensemble, j'avais ma meilleure musique à ce jour !"
+      },
+      "music-text-3": {
+        "en": "For Tankerz, I took the original game's music and remixed it by adapting the instruments. The result made me very proud, especially after applying all of Lauren's advice.",
+        "fr": "Pour Tankerz, j'ai pris la musique originale du jeu et l'ai remixée en adaptant les instruments. Le résultat m'a rendu très fier, surtout après avoir appliqué tous les conseils de Lauren."
+      },
+      "music-text-4": {
+        "en": "She taught me to create smooth transitions, use an appropriate musical style and choose my instruments well. A huge thank you to her!",
+        "fr": "Elle m'a appris à réaliser des transitions fluides, à utiliser un style musical adapté et à bien choisir mes instruments. Un immense merci à elle !"
+      },
+      "music-link": {
+        "en": "(You can find the music here: https://drive.google.com/drive/folders/1EOx_vFhWaLanuS5AQbU-sd5QzjCVJNBs)",
+        "fr": "(Vous pouvez trouver les musiques ici : https://drive.google.com/drive/folders/1EOx_vFhWaLanuS5AQbU-sd5QzjCVJNBs)"
+      },
+      "anecdotes-title": {
+        "en": "Anecdotes",
+        "fr": "Anecdotes"
+      },
+      "anecdote-1": {
+        "en": "If you're wondering why I named my game Xarius, it's in homage to one of my teachers, who uses this nickname on Discord. He's the one who coded the game upload system for the arcade machine!",
+        "fr": "Si vous vous demandez pourquoi j'ai nommé mon jeu Xarius, c'est en hommage à un de mes professeurs, qui utilise ce pseudo sur Discord. C'est lui qui a codé le système de mise en ligne des jeux sur la borne !"
+      },
+      "anecdote-2": {
+        "en": "The game is also very inspired by StarFox, I probably listened to the SNES version of Corneria on loop during the entire game creation!",
+        "fr": "Le jeu est aussi très inspiré de StarFox, j'ai probablement écouté la version SNES de Corneria en boucle pendant toute la création du jeu !"
+      }
+    },
+    "alt": {
+      "thumbnail": {
+        "en": "Xarius thumbnail",
+        "fr": "Miniature de Xarius"
+      },
+      "gameplay-1": {
+        "en": "Xarius gameplay with 4 players",
+        "fr": "Gameplay de Xarius avec 4 joueurs"
+      },
+      "gameplay-2": {
+        "en": "Xarius gameplay screenshot 2",
+        "fr": "Capture d'écran de gameplay de Xarius 2"
+      },
+      "gameplay-3": {
+        "en": "Xarius gameplay screenshot 3",
+        "fr": "Capture d'écran de gameplay de Xarius 3"
+      },
+      "level-earth": {
+        "en": "Xarius level Earth",
+        "fr": "Niveau Earth de Xarius"
+      },
+      "level-tankerz": {
+        "en": "Xarius level Tankerz",
+        "fr": "Niveau Tankerz de Xarius"
+      },
+      "level-design": {
+        "en": "Xarius level design",
+        "fr": "Design de niveau de Xarius"
+      },
+      "optimization": {
+        "en": "Xarius optimization comparison",
+        "fr": "Comparaison d'optimisation de Xarius"
+      },
+      "final-screenshot": {
+        "en": "Xarius final screenshot",
+        "fr": "Capture d'écran finale de Xarius"
+      }
+    }
+  }
+} 
