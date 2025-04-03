@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.body;
-    const tileSize = 50;
+    const tileSize = window.innerWidth / 30;
     let numTilesX = Math.ceil(window.innerWidth / tileSize);
     let numTilesY = Math.ceil(window.innerHeight / tileSize);
     let tiles = [];
@@ -124,6 +124,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial grid creation
     createGridTiles();
 
+    // Add resize event listener
+    let resizeTimeout;
+    window.addEventListener('resize', () => {
+        // Clear the previous timeout
+        clearTimeout(resizeTimeout);
+        
+        // Set a new timeout to avoid too many updates during resize
+        resizeTimeout = setTimeout(() => {
+            createGridTiles();
+        }, 250); // Wait 250ms after the last resize event
+    });
+
     // Function to get tiles within radius
     function getTilesInRadius(centerX, centerY) {
         const tilesByDistance = [];
@@ -173,17 +185,5 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             }, distance * rippleDelay);
         });
-    });
-
-    // Handle window resize
-    let resizeTimeout;
-    window.addEventListener('resize', () => {
-        // Clear the previous timeout
-        clearTimeout(resizeTimeout);
-        
-        // Set a new timeout to avoid too many updates during resize
-        resizeTimeout = setTimeout(() => {
-            createGridTiles();
-        }, 250); // Wait 250ms after the last resize event before updating
     });
 }); 
