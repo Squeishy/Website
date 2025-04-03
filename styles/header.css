@@ -13,11 +13,6 @@ header {
     align-items: center;
     padding: 0 1em;
     box-sizing: border-box;
-    transition: z-index 0.3s ease-in-out;
-}
-
-body:has(iframe.fullscreen) header {
-    z-index: 0;
 }
 
 header.expand {
@@ -192,7 +187,7 @@ header nav #header-navigation-links a.active:hover {
         display: flex;
     }
 
-    header:has(nav.active) #mobile-button-container {
+    header nav.active + #mobile-button-container {
         background-color: black;
     }
 
