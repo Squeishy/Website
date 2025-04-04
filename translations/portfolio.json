@@ -45,9 +45,57 @@
         "en": "JavaScript",
         "fr": "JavaScript"
       },
+      "skill-php": {
+        "en": "PHP",
+        "fr": "PHP"
+      },
+      "design-tools-title": {
+        "en": "Game Design",
+        "fr": "Conception de jeux"
+      },
+      "skill-blender": {
+        "en": "Blender",
+        "fr": "Blender"
+      },
+      "skill-design-tools": {
+        "en": "Figma / Adobe Illustrator / Adobe Photoshop",
+        "fr": "Figma / Adobe Illustrator / Adobe Photoshop"
+      },
+      "audio-title": {
+        "en": "Audio",
+        "fr": "Audio"
+      },
+      "skill-audacity": {
+        "en": "Audacity",
+        "fr": "Audacity"
+      },
+      "skill-fl-studio": {
+        "en": "FL Studio",
+        "fr": "FL Studio"
+      },
+      "video-title": {
+        "en": "Video",
+        "fr": "Vidéo"
+      },
+      "skill-obs": {
+        "en": "OBS Studio",
+        "fr": "OBS Studio"
+      },
+      "skill-video-editors": {
+        "en": "Olive / Adobe Premiere Pro / Filmora",
+        "fr": "Olive / Adobe Premiere Pro / Filmora"
+      },
+      "other-languages-title": {
+        "en": "Other Languages",
+        "fr": "Autres langages"
+      },
       "skill-python": {
         "en": "Python",
         "fr": "Python"
+      },
+      "skill-nodejs": {
+        "en": "Node.js",
+        "fr": "Node.js"
       },
       "featured-projects-title": {
         "en": "Featured Projects",
@@ -62,7 +110,7 @@
         "fr": "Créez une spirale en utilisant Spiral Maker !"
       },
       "title-phasmophobia": {
-        "en": "Site web Phasmophobia",
+        "en": "Phasmophobia Website",
         "fr": "Site web Phasmophobia"
       },
       "desc-phasmophobia": {
@@ -246,7 +294,7 @@
         "fr": "CV"
       },
       "cv-description": {
-        "en": "I'm making my CV available to you, for any collaboration or internship requests, don't hesitate to contact me!",
+        "en": "I'm making my CV available to you, for any collaboration or internship requests, don't hesitate to contact me !",
         "fr": "Je met à votre disposition mon CV, pour toute demande de collaboration ou de stage, n'hésitez pas à me contacter !"
       },
       "cv-download-button": {

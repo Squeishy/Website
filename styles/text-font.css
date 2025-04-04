@@ -61,3 +61,26 @@ body.dyslexia-font span {
     overflow-wrap: break-word;
     white-space: normal;
 }
+
+.portfolio-link {
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.portfolio-link span {
+    text-align: right;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+.portfolio-link img {
+    width: auto !important;
+    padding: 10px;
+    box-shadow: unset !important;
+}
