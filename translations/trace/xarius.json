@@ -14,8 +14,8 @@
         "fr": "en solo"
       },
       "link": {
-        "en": "https://lusinecanard.fr/xarius-page.html",
-        "fr": "https://lusinecanard.fr/xarius-page.html"
+        "en": "Try Xarius here !",
+        "fr": "Essayer Xarius ici !"
       },
       "presentation-title": {
         "en": "Presentation",
@@ -54,7 +54,7 @@
         "fr": "Honnêtement, il n'y a pas grand-chose de complexe dans ce jeu en termes de code. Cependant, la partie la plus technique reste l'éditeur de niveaux."
       },
       "technical-text-2": {
-        "en": "I developed a script that takes a series of points and traces a level by connecting them. It's possible to add or remove these points, and players automatically follow this path. This allows for quick and efficient level creation. Here are the two levels I created: Earth and Tankerz (a reference to my other game of the same name).",
+        "en": "I developed a script that takes a series of points and traces a level by connecting them. It's possible to add or remove these points, and players automatically follow this path. This allows for quick and efficient level creation. Here are the two levels I created: Earth and Xarius (a reference to my other game of the same name).",
         "fr": "J'ai développé un script qui prend une série de points et trace un niveau en les reliant. Il est possible d'ajouter ou de supprimer ces points, et les joueurs suivent automatiquement ce chemin. Cela permet de créer des niveaux rapidement et efficacement. Voici les deux niveaux que j'ai créés : Earth et Tankerz (une référence à mon autre jeu du même nom)."
       },
       "level-choice-text": {
@@ -158,6 +158,12 @@
       "final-screenshot": {
         "en": "Xarius final screenshot",
         "fr": "Capture d'écran finale de Xarius"
+      }
+    },
+    "title" :{
+      "link": {
+        "en": "Try Xarius here !",
+        "fr": "Essayer Xarius ici !"
       }
     }
   }

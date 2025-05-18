@@ -2,8 +2,8 @@
     "translations": {
         "text": {
             "title": {
-                "en": "SAE103 - Utopia Project | Adobe Illustrator | Univ",
-                "fr": "SAE103 - Projet Utopia | Adobe Illustrator | Univ"
+                "en": "School Project - Utopia Project | Adobe Illustrator | University",
+                "fr": "Projet scolaire - Projet Utopia | Adobe Illustrator | Université"
             },
             "context-label": {
                 "en": "Context:",
@@ -146,18 +146,18 @@
                 "fr": "L'objectif de ces petits secrets n'est pas d'être moqueur, <strong>mais plutôt d'apporter une touche de fun à mon travail, rendant l'examen plus agréable pour le professeur.</strong> Cela transforme la correction en une sorte de chasse aux œufs de Pâques !"
             },
             "conclusion": {
-                "en": "Thanks for reading! 🚀",
-                "fr": "Merci d'avoir lu ! 🚀"
+                "en": "Thanks for reading !",
+                "fr": "Merci d'avoir lu !"
             }
         },
         "alt": {
             "website-screenshot-1": {
-                "en": "Utopia website screenshot 1",
-                "fr": "Capture d'écran du site web d'Utopia 1"
+                "en": "Utopia's Logo",
+                "fr": "Logo d'Utopia"
             },
             "website-screenshot-2": {
-                "en": "Utopia website screenshot 2",
-                "fr": "Capture d'écran du site web d'Utopia 2"
+                "en": "Utopia website screenshot",
+                "fr": "Capture d'écran du site web d'Utopia"
             },
             "moodboard": {
                 "en": "Utopia moodboard",

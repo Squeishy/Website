@@ -1,6 +1,14 @@
 {
     "translations": {
         "text": {
+            "title": {
+                "en": "Joueur Du Soir | Youtube | Personal",
+                "fr": "Joueur Du Soir | Youtube | Perso"
+            },
+            "video-link-text": {
+                "en": "Check the channel",
+                "fr": "Voir la chaîne"
+            },
             "context-label": {
                 "en": "Context:",
                 "fr": "Contexte :"
@@ -128,35 +136,31 @@
         },
         "alt": {
             "corruption-setup": {
-                "en": "Corruption recording setup",
-                "fr": "Configuration d'enregistrement de corruption"
+                "en": "Image showing the corruption on The Legend of Zelda, The Wind Waker",
+                "fr": "Image montrant la corruption sur The Legend of Zelda, The Wind Waker"
             },
             "recording-setup-image": {
-                "en": "Recording setup",
-                "fr": "Configuration d'enregistrement"
+                "en": "Image showing my room, covered in sheets to avoid sound reverberation",
+                "fr": "Image montrant ma chambre, couverte de draps pour éviter la réverbération du son"
             },
             "editing-process": {
-                "en": "Editing process",
-                "fr": "Processus de montage"
+                "en": "Editing process with Olive",
+                "fr": "Processus de montage avec Olive"
             },
             "thumbnail-1": {
-                "en": "Thumbnail creation 1",
-                "fr": "Création de miniature 1"
+                "en": "Thumbnail for Rayman Origins, showing the character Rayman corrupted",
+                "fr": "Miniature pour Rayman Origins, montrant le personnage Rayman corrompu"
             },
             "thumbnail-2": {
-                "en": "Thumbnail creation 2",
-                "fr": "Création de miniature 2"
+                "en": "Thumbnail for Luigi's Mansion 2, showing the character Luigi corrupted",
+                "fr": "Miniature pour Luigi's Mansion 2, montrant le personnage Luigi corrompu"
             },
             "thumbnail-3": {
-                "en": "Thumbnail creation 3",
-                "fr": "Création de miniature 3"
+                "en": "Thumbnail for The Legend of Zelda, The Wind Waker, showing the character Link corrupted",
+                "fr": "Miniature pour The Legend of Zelda, The Wind Waker, montrant le personnage Link corrompu"
             }
         },
         "title": {
-            "title": {
-                "en": "Joueur Du Soir | Youtube | Personal",
-                "fr": "Joueur Du Soir | Youtube | Perso"
-            },
             "presentation-title": {
                 "en": "Presentation",
                 "fr": "Présentation"
@@ -184,6 +188,10 @@
             "conclusion-title": {
                 "en": "Conclusion",
                 "fr": "Conclusion"
+            },
+            "video-link": {
+                "en": "Check the channel",
+                "fr": "Voir la chaîne"
             }
         }
     }

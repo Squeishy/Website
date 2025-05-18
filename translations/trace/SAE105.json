@@ -1,6 +1,14 @@
 {
     "translations": {
         "text": {
+            "title": {
+                "en": "School Project - Website about rubber duckies | HTML / CSS / JS / JSON / PHP | University",
+                "fr": "Projet d'école - Site Web sur les canards en plastique | HTML / CSS / JS / JSON / PHP | Université"
+            },
+            "view-website-link-text": {
+                "en": "View the website",
+                "fr": "Voir le site web"
+            },
             "context-label": {
                 "en": "Context:",
                 "fr": "Contexte :"
@@ -73,17 +81,9 @@
                 "en": "The <strong>credits</strong> page, which was requested, groups all the links to the resources I used, such as fonts, images, and 3D models. It remains very simple.",
                 "fr": "La page <strong>crédits</strong>, qui nous était demandée, regroupe tous les liens vers les ressources que j'ai utilisées, comme les polices, les images et les modèles 3D. Cela reste très simple."
             },
-            "secret-text-1": {
-                "en": "<sub>...</sub>",
-                "fr": "<sub>...</sub>"
-            },
             "secret-text-2": {
                 "en": "<sub>Should I talk about it?</sub>",
                 "fr": "<sub>Est-ce que j'en parle ?</sub>"
-            },
-            "secret-text-3": {
-                "en": "<sub>...</sub>",
-                "fr": "<sub>...</sub>"
             },
             "secret-text-4": {
                 "en": "<sub>That would be quite bold, especially on a portfolio...</sub>",
@@ -96,10 +96,6 @@
             "secret-text-6": {
                 "en": "<sub>But, on this kind of site...</sub>",
                 "fr": "<sub>Mais, sur ce genre de site…</sub>"
-            },
-            "secret-text-7": {
-                "en": "<sub>...</sub>",
-                "fr": "<sub>...</sub>"
             },
             "secret-text-8": {
                 "en": "<strong>Alright!</strong> Well, let's talk about the other page!",
@@ -217,10 +213,6 @@
             }
         },
         "title": {
-            "title": {
-                "en": "SAE105 - Website about plastic ducks | HTML / CSS / JS / JSON / PHP | Univ",
-                "fr": "SAE105 - Site Web sur les canards en plastique | HTML / CSS / JS / JSON / PHP | Univ"
-            },
             "presentation-title": {
                 "en": "Presentation",
                 "fr": "Présentation"
@@ -252,6 +244,10 @@
             "secret-title": {
                 "en": "\"The other page\"",
                 "fr": "\"L'autre page\""
+            },
+            "view-website-link": {
+                "en": "View the website",
+                "fr": "Voir le site web"
             }
         }
     }

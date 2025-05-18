@@ -13,6 +13,11 @@
         "en": "Personal Project",
         "fr": "Projet Personnel"
       },
+      "view-website-link-text":
+      {
+        "en": "View the website",
+        "fr": "Voir le site"
+      },
       "main-title": {
         "en": "What would launch me into the most beautiful years of my life...",
         "fr": "Ce qui me lancera dans les plus belles années de ma vie..."
@@ -38,6 +43,13 @@
       "spiral-maker-image-2": {
         "en": "A spiral generated with Spiral Maker",
         "fr": "Une spirale générée avec Spiral Maker"
+      }
+    },
+    "title": {
+      "view-website-link":
+      {
+        "en": "View the website",
+        "fr": "Voir le site"
       }
     }
   }

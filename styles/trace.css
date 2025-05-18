@@ -130,9 +130,7 @@ code .operator { color: #d4d4d4; }
 
 #trace-background button {
     font-size: 1.2rem;
-    padding: 15px 20px;
     display: block;
-    width: 90%;
     margin: 50px auto;
     border-radius: 25px;
     background: rgba(255, 255, 255, 0.8);
@@ -145,9 +143,12 @@ code .operator { color: #d4d4d4; }
 
 #trace-background button a {
     color: black;
+    padding: 15px 20px;
+    width: 100%;
+    padding: none;
     text-decoration: none;
 }
-    
+
 #trace-background button:hover {
     background: #141414;
     color: #ffffff;
@@ -159,8 +160,16 @@ code .operator { color: #d4d4d4; }
     color: white;
 }
 
+#trace-background button img {
+    transition: all 0.3s ease;
+}
+
+#trace-background button:hover img {
+    filter: invert(1);
+}
+
 /* Paragraphs and lists */
-p, ul, ol {
+p, ul, ol, span {
     padding: 15px 0;
     line-height: 1.6;
 }

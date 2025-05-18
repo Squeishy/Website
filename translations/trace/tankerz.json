@@ -14,8 +14,8 @@
         "fr": "Projet Personnel, en solo"
       },
       "link": {
-        "en": "https://lusinecanard.fr/tankerz-page.html",
-        "fr": "https://lusinecanard.fr/tankerz-page.html"
+        "en": "Try Tankerz here !",
+        "fr": "Essayer Tankerz ici !"
       },
       "presentation-title": {
         "en": "Presentation",
@@ -93,18 +93,6 @@
         "en": "The tank and helicopter animations were made by me, but for the soldiers, I used Mixamo, an online tool from Adobe. Mixamo offers a large library of ready-to-use animations that can be imported directly onto our models. We can also upload custom models for amazing results, even for beginners!",
         "fr": "Les animations des tanks et des hélicoptères ont été faites par moi, mais pour les soldats, j'ai utilisé Mixamo, un outil en ligne d'Adobe. Mixamo propose une large bibliothèque d'animations prêtes à l'emploi, qu'il suffit d'importer directement sur nos modèles. On peut également y uploader des modèles custom pour des résultats incroyables, même pour des débutants !"
       },
-      "play-title": {
-        "en": "And if I want to play it?",
-        "fr": "Et si moi, je veux y jouer ?"
-      },
-      "play-text-1": {
-        "en": "Well, it's available at this address:",
-        "fr": "Eh bien figurez vous qu'il est disponible à cette adresse :"
-      },
-      "play-text-2": {
-        "en": "https://lusinecanard.fr/tankerz-page.html",
-        "fr": "https://lusinecanard.fr/tankerz-page.html"
-      },
       "play-text-3": {
         "en": "Thanks for reading!",
         "fr": "Merci d'avoir lu !"
@@ -116,28 +104,34 @@
         "fr": "Miniature de Tankerz"
       },
       "gameplay-1": {
-        "en": "Tankerz gameplay screenshot 1",
-        "fr": "Capture d'écran de gameplay de Tankerz 1"
+        "en": "Screenshot of Tankerz in the unity editor, with a portion of the ground removed",
+        "fr": "Capture d'écran de Tankerz dans l'éditeur Unity, avec une partie du sol retirée"
       },
       "code-example": {
         "en": "Tankerz code example",
         "fr": "Exemple de code de Tankerz"
       },
       "soldier-faces": {
-        "en": "Tankerz soldier faces",
-        "fr": "Visages des soldats de Tankerz"
+        "en": "Soldier with our faces",
+        "fr": "Soldat avec nos visages"
       },
       "soldier-faces-2": {
-        "en": "Tankerz soldier faces 2",
-        "fr": "Visages des soldats de Tankerz 2"
+        "en": "Tankerz soldier faces' material, showing the head of my friend and I",
+        "fr": "Matériau des visages des soldats de Tankerz, montrant la tête de mon ami et moi"
       },
       "models": {
-        "en": "Tankerz 3D models",
-        "fr": "Modèles 3D de Tankerz"
+        "en": "Tankerz 3D models, showing an helicopter and a drone",
+        "fr": "Modèles 3D de Tankerz, montrant un hélicoptère et un drone"
       },
       "animations": {
-        "en": "Tankerz animations",
-        "fr": "Animations de Tankerz"
+        "en": "Screenshot of Mixamo",
+        "fr": "Capture d'écran de Mixamo"
+      }
+    },
+    "title": {
+      "link": {
+        "en": "Try Tankerz here !",
+        "fr": "Essayer Tankerz ici !"
       }
     }
   }

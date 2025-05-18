@@ -93,9 +93,9 @@
                 "en": "Despite technical constraints and tight timing, we managed to produce a three-minute video effectively summarizing our work. This experience allowed us to explore all stages of video production, from preparation to distribution, while providing us with valuable multimedia project management skills.",
                 "fr": "Malgré les contraintes techniques et un timing serré, nous avons réussi à produire une vidéo d'environ trois minutes résumant efficacement notre travail. Cette expérience nous a permis d'explorer toutes les étapes de la réalisation d'une vidéo, de la préparation à la diffusion, tout en nous apportant de précieuses compétences en gestion de projet multimédia."
             },
-            "video-link": {
-                "en": "If you'd like to watch the video, it's available here",
-                "fr": "Si vous souhaitez visionner la vidéo, elle est disponible ici :"
+            "video-link-text": {
+                "en": "Watch the video",
+                "fr": "Regarder la vidéo"
             }
         },
         "alt": {

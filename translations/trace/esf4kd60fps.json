@@ -168,76 +168,76 @@
     },
     "alt": {
       "gameplay-1": {
-        "en": "ESF4KD60FPS gameplay screenshot 1",
-        "fr": "Capture d'écran de gameplay d'ESF4KD60FPS 1"
+        "en": "Thumbnail of the game, showing two players",
+        "fr": "Miniature du jeu, montrant deux joueurs"
       },
       "gameplay-2": {
-        "en": "ESF4KD60FPS gameplay screenshot 2",
-        "fr": "Capture d'écran de gameplay d'ESF4KD60FPS 2"
+        "en": "Screenshot of the game's gameplay",
+        "fr": "Capture d'écran du gameplay du jeu"
       },
       "map-boxify": {
-        "en": "ESF4KD60FPS map Boxify",
-        "fr": "Map Boxify d'ESF4KD60FPS"
+        "en": "Screenshot of Boxify, a map where players play on a port",
+        "fr": "Capture d'écran de Boxify, une map où les joueurs jouent sur un port"
       },
       "map-chillmakers": {
-        "en": "ESF4KD60FPS map ChillMakers",
-        "fr": "Map ChillMakers d'ESF4KD60FPS"
+        "en": "Screenshot of ChillMakers, a map where players play on an ice island",
+        "fr": "Capture d'écran de ChillMakers, une map où les joueurs jouent sur une île de glace"
       },
       "map-granity": {
-        "en": "ESF4KD60FPS map Granity",
-        "fr": "Map Granity d'ESF4KD60FPS"
+        "en": "Screenshot of Granity, a map where players play on a snowy fight area",
+        "fr": "Capture d'écran de Granity, une map où les joueurs jouent sur une zone de combat enneigée"
       },
       "map-shiva": {
-        "en": "ESF4KD60FPS map Shiva",
-        "fr": "Map Shiva d'ESF4KD60FPS"
+        "en": "Screenshot of Shiva, a map where players play on a snowy mountain like place",
+        "fr": "Capture d'écran de Shiva, une map où les joueurs jouent sur un endroit enneigé comme une montagne"
       },
       "powerup-gameplay-1": {
-        "en": "ESF4KD60FPS power-up gameplay 1",
-        "fr": "Gameplay avec power-up d'ESF4KD60FPS 1"
+        "en": "Screenshot showing a player using the gigantism power-up, making them larger and invincible",
+        "fr": "Capture d'écran montrant un joueur utilisant le power-up de gigantisme, le rendant plus grand et invincible"
       },
       "powerup-gameplay-2": {
-        "en": "ESF4KD60FPS power-up gameplay 2",
-        "fr": "Gameplay avec power-up d'ESF4KD60FPS 2"
+        "en": "Screenshot showing a player using the regeneration power-up, healing their health over time", 
+        "fr": "Capture d'écran montrant un joueur utilisant le power-up de régénération, restaurant sa santé progressivement"
       },
       "powerup-gameplay-3": {
-        "en": "ESF4KD60FPS power-up gameplay 3",
-        "fr": "Gameplay avec power-up d'ESF4KD60FPS 3"
+        "en": "Screenshot showing a player with an active shield power-up that protects them and damages nearby opponents",
+        "fr": "Capture d'écran montrant un joueur avec un power-up de bouclier actif qui le protège et blesse les adversaires proches"
       },
       "powerup-gameplay-4": {
-        "en": "ESF4KD60FPS power-up gameplay 4",
-        "fr": "Gameplay avec power-up d'ESF4KD60FPS 4"
+        "en": "Screenshot showing a player throwing spiky snowballs that deal double damage",
+        "fr": "Capture d'écran montrant un joueur lançant des boules de neige piquantes qui infligent des dégâts doubles"
       },
       "camera-comparison": {
-        "en": "ESF4KD60FPS camera comparison",
-        "fr": "Comparaison des caméras d'ESF4KD60FPS"
+        "en": "Screenshot showing the camera comparison system",
+        "fr": "Capture d'écran montrant le système de comparaison des caméras"
       },
       "music-layers": {
-        "en": "ESF4KD60FPS music layers",
-        "fr": "Couches de musique d'ESF4KD60FPS"
+        "en": "Screenshot showing the different music layers",
+        "fr": "Capture d'écran montrant les différentes couches de musique"
       },
       "character-pupils": {
-        "en": "ESF4KD60FPS character pupils",
-        "fr": "Pupilles des personnages d'ESF4KD60FPS"
+        "en": "Screenshot showing the character pupils animation",
+        "fr": "Capture d'écran montrant l'animation des pupilles des personnages"
       },
       "map-spectators": {
-        "en": "ESF4KD60FPS map spectators",
-        "fr": "Spectateurs sur la map d'ESF4KD60FPS"
+        "en": "Screenshot showing the map spectators",
+        "fr": "Capture d'écran montrant les spectateurs sur la map"
       },
       "character-brands-1": {
-        "en": "ESF4KD60FPS character brands 1",
-        "fr": "Marques des personnages d'ESF4KD60FPS 1"
+        "en": "Screenshot showing the character brands, part 1",
+        "fr": "Capture d'écran montrant les marques des personnages, partie 1"
       },
       "character-brands-2": {
-        "en": "ESF4KD60FPS character brands 2",
-        "fr": "Marques des personnages d'ESF4KD60FPS 2"
+        "en": "Screenshot showing the character brands, part 2",
+        "fr": "Capture d'écran montrant les marques des personnages, partie 2"
       },
       "recycling-comparison-1": {
-        "en": "ESF4KD60FPS recycling comparison 1",
-        "fr": "Comparaison du recyclage d'ESF4KD60FPS 1"
+        "en": "Screenshot showing the recycling comparison, part 1",
+        "fr": "Capture d'écran montrant la comparaison du recyclage, partie 1"
       },
       "recycling-comparison-2": {
-        "en": "ESF4KD60FPS recycling comparison 2",
-        "fr": "Comparaison du recyclage d'ESF4KD60FPS 2"
+        "en": "Screenshot showing the recycling comparison, part 2",
+        "fr": "Capture d'écran montrant la comparaison du recyclage, partie 2"
       }
     }
   }

@@ -4,7 +4,7 @@
       "trace-title": { "en": "Ducky Tales | Unity | Personal & Pro", "fr": "Ducky Tales | Unity | Perso & Pro" },
       "context-label": { "en": "Context: ", "fr": "Contexte : " },
       "context-value": { "en": "solo, professional project", "fr": "en solo, projet profesionel" },
-      "store-link": { "en": "https://play.google.com/store/apps/details?id=com.LUsineCanard.DuckyTales", "fr": "https://play.google.com/store/apps/details?id=com.LUsineCanard.DuckyTales" },
+      "store-link-text": { "en": "Download the game", "fr": "Télécharger le jeu" },
       "presentation-title": { "en": "Presentation", "fr": "Présentation" },
       "presentation-intro": { "en": "<em>Ducky Tales</em> is my <strong>first truly commercialized game</strong>, it must be the 15th or 20th project I've created, and by far <strong>the one that went the furthest, as it's even available on the Play Store today!</strong>", "fr": "<em>Ducky Tales</em> est mon <strong>tout premier jeu vraiment commercialisé</strong>, il doit être le 15ᵉ ou 20ᵉ projet que j'ai créé, et c'est de loin <strong>celui qui est allé le plus loin, puisqu'il est même aujourd'hui disponible sur le Play Store !</strong>" },
       "presentation-description": { "en": "In <em>Ducky Tales</em>, you play as a <strong>cute little plastic duck</strong> who has only one goal in life: <strong>reach its bathtub</strong>, which marks the end of the level. You'll have to avoid the abysses of your bathroom (the floor) <strong>by doing</strong> <strong>parkour on bathroom elements</strong>, like bottles, bubbles, washing machines, and more.", "fr": "Dans <em>Ducky Tales</em>, vous incarnez un <strong>petit canard en plastique tout mignon</strong> qui n'a qu'un seul but dans la vie : <strong>rejoindre sa baignoire</strong>, qui marque la fin du niveau. Vous devrez donc éviter les abysses de votre salle de bain (le sol) <strong>en faisant</strong> <strong>du parcours sur les éléments de la salle de bain</strong>, comme des bouteilles, des bulles, des machines à laver, et j'en passe." },
@@ -79,26 +79,29 @@
       "conclusion": { "en": "Thank you for reading! 🦆", "fr": "Merci d'avoir lu ! 🦆" }
     },
     "alt": {
-      "ducky-tales-1": { "en": "Screenshot of Ducky Tales gameplay", "fr": "ducky-tales-1" },
-      "ducky-tales-2": { "en": "Screenshot of Ducky Tales gameplay", "fr": "ducky-tales-2" },
-      "ducky-tales-3": { "en": "Screenshot of normal level gameplay", "fr": "ducky-tales-3" },
-      "ducky-tales-4": { "en": "Screenshot of challenge level gameplay", "fr": "ducky-tales-4" },
-      "ducky-tales-5": { "en": "Screenshot of challenge level gameplay", "fr": "ducky-tales-5" },
-      "ducky-tales-6": { "en": "Screenshot of expert level gameplay", "fr": "ducky-tales-6" },
-      "ducky-tales-7": { "en": "Screenshot of boat gameplay", "fr": "ducky-tales-7" },
-      "ducky-tales-8": { "en": "Screenshot of ball transformation gameplay", "fr": "ducky-tales-8" },
-      "ducky-tales-9": { "en": "Screenshot of secret options menu", "fr": "ducky-tales-9" },
-      "ducky-tales-10": { "en": "Screenshot of green glasses gameplay", "fr": "" },
-      "ducky-tales-11": { "en": "Screenshot of green glasses gameplay", "fr": "" },
-      "ducky-tales-12": { "en": "Screenshot of green glasses gameplay", "fr": "" },
-      "ducky-tales-13": { "en": "Screenshot of Figma workspace", "fr": "" },
-      "ducky-tales-14": { "en": "Screenshot of art style example", "fr": "" },
-      "ducky-tales-15": { "en": "Screenshot of ad system implementation", "fr": "" },
-      "ducky-tales-16": { "en": "Screenshot of Google Play message", "fr": "" },
-      "ducky-tales-17": { "en": "Screenshot of IronSource dashboard", "fr": "" },
-      "ducky-tales-18": { "en": "Screenshot of game earnings", "fr": "" },
-      "ducky-tales-19": { "en": "Screenshot of promotion strategy", "fr": "" },
-      "ducky-tales-20": { "en": "Final screenshot of Ducky Tales", "fr": "ducky-tales-15" }
+      "ducky-tales-1": { "en": "Screenshot of Ducky Tales gameplay", "fr": "Capture d'écran du gameplay de Ducky Tales" },
+      "ducky-tales-2": { "en": "Screenshot of Ducky Tales gameplay", "fr": "Capture d'écran du gameplay de Ducky Tales" },
+      "ducky-tales-3": { "en": "Screenshot of normal level gameplay", "fr": "Capture d'écran du gameplay d'un niveau normal" },
+      "ducky-tales-4": { "en": "Screenshot of challenge level gameplay", "fr": "Capture d'écran du gameplay d'un niveau défi" },
+      "ducky-tales-5": { "en": "Screenshot of challenge level gameplay", "fr": "Capture d'écran du gameplay d'un niveau défi" },
+      "ducky-tales-6": { "en": "Screenshot of expert level gameplay", "fr": "Capture d'écran du gameplay d'un niveau expert" },
+      "ducky-tales-7": { "en": "Screenshot of boat gameplay", "fr": "Capture d'écran du gameplay en bateau" },
+      "ducky-tales-8": { "en": "Screenshot of ball transformation gameplay", "fr": "Capture d'écran du gameplay de transformation en balle" },
+      "ducky-tales-9": { "en": "Screenshot of secret options menu", "fr": "Capture d'écran du menu d'options secrètes" },
+      "ducky-tales-10": { "en": "Screenshot of green glasses gameplay", "fr": "Capture d'écran du gameplay avec les lunettes vertes" },
+      "ducky-tales-11": { "en": "Screenshot of green glasses gameplay", "fr": "Capture d'écran du gameplay avec les lunettes vertes" },
+      "ducky-tales-12": { "en": "Screenshot of green glasses gameplay", "fr": "Capture d'écran du gameplay avec les lunettes vertes" },
+      "ducky-tales-13": { "en": "Screenshot of Figma workspace", "fr": "Capture d'écran de l'espace de travail Figma" },
+      "ducky-tales-14": { "en": "Screenshot of art style example", "fr": "Capture d'écran d'exemple de style artistique" },
+      "ducky-tales-15": { "en": "Screenshot of ad system implementation", "fr": "Capture d'écran de l'implémentation du système publicitaire" },
+      "ducky-tales-16": { "en": "Screenshot of Google Play message", "fr": "Capture d'écran du message de Google Play" },
+      "ducky-tales-17": { "en": "Screenshot of IronSource dashboard", "fr": "Capture d'écran du tableau de bord IronSource" },
+      "ducky-tales-18": { "en": "Screenshot of game earnings", "fr": "Capture d'écran des revenus du jeu" },
+      "ducky-tales-19": { "en": "Screenshot of promotion strategy", "fr": "Capture d'écran de la stratégie promotionnelle" },
+      "ducky-tales-20": { "en": "Final screenshot of Ducky Tales", "fr": "Capture d'écran finale de Ducky Tales" }
+    },
+    "title": {
+      "store-link": { "en": "Download the game", "fr": "Télécharger le jeu" }
     }
   }
 } 
