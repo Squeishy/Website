@@ -8,6 +8,8 @@
       "tankerz-button-text": { "en": "I wanna play !", "fr": "Je veux jouer !" },
       "xarius-description": { "en": "Challenge your friends in a galactic high speed race ! For free, right now !", "fr": "Défiez vos amis dans une course spatiale endiablée, dès maintenant et gratuitement !" },
       "xarius-button-text": { "en": "I wanna play !", "fr": "Je veux jouer !" },
+      "crazy-cabs-description": { "en": "Bring students to school, with up to 3 friends at a time !", "fr": "Amenez des élèves à l'école, avec jusqu'à 3 amis en même temps !" },
+      "crazy-cabs-button-text": { "en": "I wanna play !", "fr": "Je veux jouer !" },
       "spiral-maker-description": { "en": "Make nice-looking spirals for fun in your browser.", "fr": "Créez de belles spirales directement sur votre navigateur." },
       "spiral-maker-button-text": { "en": "Get creative !", "fr": "Créer la votre !" }
     },
@@ -15,12 +17,14 @@
       "ducky-tales-image": { "en": "Screenshot of Ducky Tales, showing a rubber ducky in a bathroom environment", "fr": "Capture d'écran de Ducky Tales, montrant un canard en plastique dans un environnement de salle de bain" },
       "tankerz-image": { "en": "Screenshot of Tankerz, showing a Tank passing in front of some soldiers, including one lifting weights", "fr": "Capture d'écran de Tankerz, montrant un tank passant devant des soldats, dont un qui soulève des poids" },
       "xarius-image": { "en": "Screenshot of Xarius, showing 4 spaceships flying in space", "fr": "Capture d'écran de Xarius, montrant 4 vaiseaux spatiaux dans l'espace" },
+      "crazy-cabs-image": { "en": "Screenshot of Crazy Cabs, showing a taxi, an explosion, and the letters of the title", "fr": "Capture d'écran de Crazy Cabs, montrant un taxi, une explosion et les lettres du titre" },
       "spiral-maker-image": { "en": "Screenshot of Spiral Maker, showing a colorful Spiral made with spiral maker", "fr": "Capture d'écran de Spiral Maker, montrant une spirale colorée créée avec Spiral Maker" }
     },
     "title": {
       "ducky-tales-button": { "en": "Go to Ducky Tales on the Play Store", "fr": "Accéder à Ducky Tales sur le Play Store" },
       "tankerz-button": { "en": "Opens Tankerz page", "fr": "Ouvre la page Tankerz" },
       "xarius-button": { "en": "Opens Xarius page", "fr": "Ouvre la page Xarius" },
+      "crazy-cabs-button": { "en": "Opens Crazy Cabs page", "fr": "Ouvre la page Crazy Cabs" },
       "spiral-maker-button": { "en": "Go to Spiral Maker", "fr": "Accéder à Spiral Maker" }
     }
   }

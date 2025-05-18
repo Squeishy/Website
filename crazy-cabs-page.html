@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Website</title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="images/icon/logo.ico">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/pastel-background.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/game-iframe.css">
+    <link rel="stylesheet" href="styles/text-font.css">
+
+    <!-- Accessibility -->
+    <link rel="stylesheet" href="styles/accessibility/inputs.css">
+    <link rel="stylesheet" id="disable-animations-stylesheet" href="styles/accessibility/disable-animations.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=DynaPuff:wght@400..700&family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div data-json="translations/crazy-cabs.json"></div>
+    <section>
+        <img id="game-title" src="images/images/crazy-cabs-title.webp" alt="Render of Crazy Cabs' title">
+        <div id="game-presentation">
+            <div id="game-container"></div>
+            <ul>
+                <li>
+                    <button onclick="toggleFullscreen()">
+                        <img id="expand-icon" src="images/icon/expand.svg" alt="Expand">
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div id="phone-message">
+            <p id="sorry-text">Sorry, phone user ! You need to be on a PC to play this game.</p>
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="scripts/fullscreen.js"></script>
+    <script src="scripts/toggle-header.js"></script>
+    <script src="scripts/hide-iframe-for-phone-user.js"></script>
+
+    <script src="scripts/load-header.js"></script>
+    <script src="scripts/load-footer.js"></script>
+    <script src="scripts/load-after-elements.js"></script>
+
+    <script src="scripts/grid.js"></script>
+</body>
+</html>
